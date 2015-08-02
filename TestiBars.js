@@ -1,4 +1,4 @@
-<script language='javascript'>
+
   (function (window) {
 
        var searchBar=  function (social) {
@@ -39,4 +39,4 @@
       window.languageLink=languageLink;
 
     })(window);
-</script>
+
