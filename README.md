@@ -1,1 +1,3 @@
-a
+Questo repository contiene le librerie javascript che uso nei miei programmi.  
+Le prime pubblicate aggiungono contenuto ad un testo che generalmente descrive un luogo, un percorso, un viaggio, una visita. I testi sono nati per illustrare album di fotografie, alcuni sono stati pubblicati su blogspot.it.  
+Gli script creano la barra di ricerca sui social, il collegamento ad un'altra lingua, la barra ai miei album di foto.
