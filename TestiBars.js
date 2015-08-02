@@ -1,5 +1,4 @@
-
-  (function (window) {
+(function (window) {
 
        var searchBar=  function (social) {
                           var keyword=window.keyword;
@@ -38,5 +37,4 @@
       window.searchBar=searchBar;
       window.languageLink=languageLink;
 
-    })(window);
-
+})(window);
