@@ -44,7 +44,7 @@
                              div.append($('<a href="https://www.flickr.com/photos/95893200@N07/sets/72157644979637808">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" />' + '</a>' ));
                              div.append(' ')
                            };
-                           if (social.flickrGal) {
+                           if (social.flickr-Gal) {
                              div.append($('<a href="https://www.flickr.com/photos/95893200@N07/galleries/72157654006193363">' + 'Gal' + '</a>'));
                              div.append(' ')
                            };
