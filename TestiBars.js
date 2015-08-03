@@ -37,7 +37,7 @@
                           var keyword=window.keyword;
                           var div= $('<div id="albumBar" style="background-color:#E0E0E0"></div>');                       
                            if (social.google) {
-                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873"' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" />' + '</a>'));
+                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" />' + '</a>'));
                              div.append(' ')
                            };
                            if (social.flickr) {
