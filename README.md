@@ -1,3 +1,6 @@
 Questo repository contiene le librerie javascript che uso nei miei programmi.  
-Le prime pubblicate aggiungono contenuto ad un testo che generalmente descrive un luogo, un percorso, un viaggio, una visita. I testi sono nati per illustrare album di fotografie, alcuni sono stati pubblicati su blogspot.it.  
-Gli script creano la barra di ricerca sui social, il collegamento ad un'altra lingua, la barra ai miei album di foto.
+Le prime che ho pubblicato aggiungono dei contenuti ad un testo che generalmente descrive un luogo, un percorso, un viaggio, una visita, un evento. I testi sono nati per illustrare album di fotografie e alcuni sono stati pubblicati su blogspot.it.  
+I miei testi si trovano nella cartelli Testi 2014+.  
+
+I contenuti aggiunti sono un collegamento ai social network, album di foto o luogo, o una ricerca su internet. I siti sono google, facebook, flickr, instagram.     
+Gli script creano la barra di ricerca ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto.
