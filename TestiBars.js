@@ -37,8 +37,7 @@
                           var keyword=window.keyword;
                           var div= $('<div id="albumBar" class="post" style="background-color:#E0E0E0; font-size: 100%; line-height: 1;"></div>');                       
                            if (social.google) {
-                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding: 0px; background: #ffffff; border: 0px; -moz-box-shadow: 0px; -webkit-box-shadow: 0px;
-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);" />' + '</a>'));
+                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding: 0px; background: #ffffff; border: 0px;" />' + '</a>'));
                              div.append(' ')
                            };
                            if (social.flickr) {
