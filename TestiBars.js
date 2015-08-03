@@ -35,7 +35,7 @@
                         
        var albumBar=  function (social) {
                           var keyword=window.keyword;
-                          var div= $('<div id="searchBar" style="background-color:#E0E0E0"></div>');                       
+                          var div= $('<div id="albumBar" style="background-color:#E0E0E0"></div>');                       
                            if (social.google) {
                              div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873"' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" />' + '</a>'));
                              div.append(' ')
@@ -44,7 +44,7 @@
                              div.append($('<a href="https://www.flickr.com/photos/95893200@N07/sets/72157644979637808">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" />' + '</a>' ));
                              div.append(' ')
                            };
-                           if (social.flickr-Gal) {
+                           if (social.flickrGal) {
                              div.append($('<a href="https://www.flickr.com/photos/95893200@N07/galleries/72157654006193363">' + 'Gal' + '</a>'));
                              div.append(' ')
                            };
