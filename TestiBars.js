@@ -28,7 +28,7 @@
                                 var language;
                                 if (lang=='it') {language="Italiano"};
                                 if (lang=='en') {language="English"};
-                                return $('<a style="float:right;" href="' + blog + keyword +'.html">' + language + '</a>')
+                                return $('<a style="float:right;" href="' + blog + keyword.toLowerCase() +'.html">' + language + '</a>')
                              }
                              else return;
                         };
