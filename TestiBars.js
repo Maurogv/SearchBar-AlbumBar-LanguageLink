@@ -5,7 +5,7 @@
                           var div= $('<div id="searchBar" style="background-color:#E0E0E0"></div>');                       
                            if (social.google) {
                              div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + keyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
-                              div.append(' ')
+                             div.append(' ')
                            };
                            if (social.facebook) {
                              div.append($('<a href="https://www.facebook.com/search/str/' + keyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
@@ -13,7 +13,7 @@
                            };
                            if (social.instagram) {
                              div.append($('<a href="https://instagram.com/explore/tags/' + keyword + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
-                              div.append(' ')
+                             div.append(' ')
                            };
                            if (social.flickr) {
                              div.append($('<a href="https://www.flickr.com/search/?text=' + keyword +'">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" />' + '</a>' ));
@@ -32,9 +32,29 @@
                              }
                              else return;
                         };
+                        
+       var albumBar=  function (social) {
+                          var keyword=window.keyword;
+                          var div= $('<div id="searchBar" style="background-color:#E0E0E0"></div>');                       
+                           if (social.google+) {
+                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873"' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" />' + '</a>'));
+                             div.append(' ')
+                           };
+                           if (social.flickr) {
+                             div.append($('<a href="https://www.flickr.com/photos/95893200@N07/sets/72157644979637808">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" />' + '</a>' ));
+                             div.append(' ')
+                           };
+                           if (social.flickr-Gal) {
+                             div.append($('<a href="https://www.flickr.com/photos/95893200@N07/galleries/72157654006193363">' + 'Gal' + '</a>'));
+                             div.append(' ')
+                           };
+                           
+                           return div
+                   };                
                           
       
       window.searchBar=searchBar;
       window.languageLink=languageLink;
+      window.albumhBar=albumBar;
 
 })(window);
