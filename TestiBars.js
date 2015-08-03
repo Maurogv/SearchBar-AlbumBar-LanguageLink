@@ -2,7 +2,7 @@
 
        var searchBar=  function (social) {
                           var keyword=window.keyword;
-                          var div= $('<div id="searchBar" style="background-color:#A9A9A9"></div>');                       
+                          var div= $('<div id="searchBar" style="background-color:#C3C3C3"></div>');                       
                            if (social.facebook) {
                              div.append($('<a href="https://www.facebook.com/search/str/' + keyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                              div.append(' ')
