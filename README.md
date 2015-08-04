@@ -4,3 +4,5 @@ I miei testi si trovano nella cartella Testi 2014+.
 
 I contenuti aggiunti sono un collegamento ai social network, luogo o tag, o una ricerca su internet. I siti sono google, facebook, flickr, instagram.     
 Gli script creano la barra di ricerca ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto.
+[TestiBar](https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js)
+[TestiBar](https://rawgit.com/Maurogv/Javascript/master/TestiBars.js)
