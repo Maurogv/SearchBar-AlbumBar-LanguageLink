@@ -35,7 +35,7 @@
                         
        var albumBar=  function (social) {
                           var keyword=window.keyword;
-                          var div= $('<div id="albumBar" style="background-color:#E0E0E0; font-size: 100%; line-height: 1;"></div>');                       
+                          var div= $('<div id="albumBar" style="background-color:#E0E0E0; font-size: 100%; line-height: 1.0;"></div>');                       
                            if (social.google) {
                              div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" />' + '</a>'));
                              div.append(' ')
