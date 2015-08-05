@@ -41,6 +41,10 @@
                              div.append($('<a href="' + social.google + '">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding:0px;" />' + '</a>'));
                              div.append(' ')
                           };
+                          if (social.flickr) {
+                             div.append($('<a href="' + social.flickr + '">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" style="padding:0px;" />' + '</a>' ));
+                             div.append(' ')
+                           };
                            
                            return div
                    };         
