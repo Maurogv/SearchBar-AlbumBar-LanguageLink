@@ -2,8 +2,9 @@
 
        var searchBar=  function (social) {
                           var keyword=window.keyword;
-                          var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');                       
-                           if (social.google) {
+                          var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
+                          if (!social) return div;
+                          if (social.google) {
                              div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + keyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                              div.append(' ')
                            };
