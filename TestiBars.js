@@ -38,15 +38,15 @@
                           var keyword=window.keyword;
                           var div= $('<div id="albumBar" style="background-color:#E0E0E0; font-size: 100%; line-height: 1.1;"></div>');                       
                            if (social.google) {
-                             div.append($('<a href="https://plus.google.com/u/0/photos/113727750810625155496/albums/6029519885522985873">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding:0px;" />' + '</a>'));
+                             div.append($('<a href="' + social.google + '">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding:0px;" />' + '</a>'));
                              div.append(' ')
                            };
                            if (social.flickr) {
-                             div.append($('<a href="https://www.flickr.com/photos/95893200@N07/sets/72157644979637808">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" style="padding:0px;" />' + '</a>' ));
+                             div.append($('<a href="' + social.flickr + '">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" style="padding:0px;" />' + '</a>' ));
                              div.append(' ')
                            };
                            if (social.flickrGal) {
-                             div.append($('<a href="https://www.flickr.com/photos/95893200@N07/galleries/72157654006193363">' + 'Gal' + '</a>'));
+                             div.append($('<a href="' + social.flickrGal + '">'' + 'Gal' + '</a>'));
                              div.append(' ')
                            };
                            
