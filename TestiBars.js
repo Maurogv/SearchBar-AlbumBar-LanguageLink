@@ -55,5 +55,6 @@
       
       window.searchBar=searchBar;
       window.languageLink=languageLink;
+      window.albumBar=albumBar;
 
 })(window);
