@@ -4,7 +4,7 @@
                           var keyword=window.keyword;
                           var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
                           if (!social) { 
-                                 div.append($('<a href="">&thinsp;</a>'));
+                                 div.append($('<a href="" style="color:#E0E0E0;">&bnsp;</a>'));
                                  return div;
                           }
                           if (social.google) {
