@@ -38,7 +38,7 @@
                       }
                       else return;
                  }, 
-           albumBar=  function (social) {
+            albumBar=  function (social) {
                           // var keyword=window.keyword;
                           // to override .post-body in blogspot
                           var div= $('<div id="albumBar" style="background-color:' + this.color + '; font-size: 100%; line-height: 1.1;"></div>');                       
@@ -58,14 +58,14 @@
                           return div
                    };      
                    
-      var testiBars= {keyword : keyword,
+      var testoBars= {keyword : keyword,
                       color : color, 
                       searchBar:searchBar,
                       languageLink:languageLink,
                       albumBar:albumBar
       }
       
-      window.testiBars=testiBars;
+      window.testoBars=testoBars;
      // window.searchBar=searchBar;
      // window.languageLink=languageLink;
      //  window.albumBar=albumBar;
