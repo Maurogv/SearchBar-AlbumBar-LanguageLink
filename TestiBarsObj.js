@@ -1,7 +1,7 @@
 (function (window) {
        
        var keyword,
-           color: "#E0E0E0",
+           color= "#E0E0E0",
            searchBar=  function (social) {
                           //var keyword=window.keyword;
                           var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
