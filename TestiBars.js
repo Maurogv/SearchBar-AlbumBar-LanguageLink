@@ -21,11 +21,20 @@
                            };
                            return div
                    };
-
-     
-                          
+                   
+       var languageLink=  function (blog, lang, post) { 
+                     var keyword=window.keyword;
+                      if (lang) {
+                         var language;
+                         if (lang=='it') {language="Italiano"};
+                         if (lang=='en') {language="English"};
+                         var endDomain= post ? post :  keyword.toLowerCase();
+                         return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
+                      }
+                      else return;
+                 }; 
       
       window.searchBar=searchBar;
-      
+      window.languageLink=languageLink;
 
 })(window);
