@@ -22,40 +22,10 @@
                            return div
                    };
 
-       var languageLink=  function (blog, lang, post) { 
-                            var keyword=window.keyword;
-                             if (lang) {
-                                var language;
-                                if (lang=='it') {language="Italiano"};
-                                if (lang=='en') {language="English"};
-                                var endDomain= post ? post :  keyword.toLowerCase();
-                                return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
-                             }
-                             else return;
-                        };
-                        
-       var albumBar=  function (social) {
-                          var keyword=window.keyword;
-                          var div= $('<div id="albumBar" style="background-color:#E0E0E0; font-size: 100%; line-height: 1.1;"></div>');                       
-                           if (social.google) {
-                             div.append($('<a href="' + social.google + '">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding:0px;" />' + '</a>'));
-                             div.append(' ')
-                           };
-                           if (social.flickr) {
-                             div.append($('<a href="' + social.flickr + '">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" style="padding:0px;" />' + '</a>' ));
-                             div.append(' ')
-                           };
-                           if (social.flickrGal) {
-                             div.append($('<a href="' + social.flickrGal + '">'' + 'Gal' + '</a>'));
-                             div.append(' ')
-                           };
-                           
-                           return div
-                   };                
+     
                           
       
       window.searchBar=searchBar;
-      window.languageLink=languageLink;
-      window.albumBar=albumBar;
+      
 
 })(window);
