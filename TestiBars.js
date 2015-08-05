@@ -22,13 +22,14 @@
                            return div
                    };
 
-       var languageLink=  function (blog,lang) { 
+       var languageLink=  function (blog, lang, post) { 
                             var keyword=window.keyword;
                              if (lang) {
                                 var language;
                                 if (lang=='it') {language="Italiano"};
                                 if (lang=='en') {language="English"};
-                                return $('<a style="float:right;" href="' + blog + keyword.toLowerCase() +'.html">' + language + '</a>')
+                                var endDomain= post ? post :  keyword.toLowerCase();
+                                return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
                              }
                              else return;
                         };
