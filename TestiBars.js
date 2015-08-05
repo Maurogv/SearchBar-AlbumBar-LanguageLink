@@ -45,10 +45,7 @@
                              div.append($('<a href="' + social.flickr + '">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" style="padding:0px;" />' + '</a>' ));
                              div.append(' ')
                           };
-                          if (social.flickrGal) {
-                             div.append($('<a href="' + social.flickrGal + '">'' + 'Gal' + '</a>'));
-                             div.append(' ')
-                          };
+                          
                            
                           return div
                    };         
