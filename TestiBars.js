@@ -3,7 +3,7 @@
        var searchBar=  function (social) {
                           var keyword=window.keyword;
                           var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
-                          if (!social.google) { 
+                          if (!social) { 
                                   div.append(' ');
                                  return div;
                           }
