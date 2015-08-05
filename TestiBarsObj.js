@@ -60,10 +60,9 @@
                    
       var testiBars= {keyword : keyword,
                       color : color, 
-                      searchBar=searchBar;
-                      languageLink=languageLink;
-                      albumBar=albumBar;
-             
+                      searchBar=searchBar,
+                      languageLink=languageLink,
+                      albumBar=albumBar
       }
       
       window.testiBars=testiBars;
