@@ -4,9 +4,9 @@
            color= "#E0E0E0",
            searchBar=  function (social) {
                           //var keyword=window.keyword;
-                          var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
+                          var div= $('<div id="searchBar" style="background-color:' + this.color + '; margin-top:10px"></div>');
                           if (!social) { 
-                                 div.append($('<a href="" style="color:#E0E0E0;">&bnsp;</a>'));
+                                 div.append($('<a href="" style="color:' + this.color + ';">&bnsp;</a>'));
                                  return div;
                           }
                           if (social.google) {
@@ -41,7 +41,7 @@
            albumBar=  function (social) {
                           // var keyword=window.keyword;
                           // to override .post-body in blogspot
-                          var div= $('<div id="albumBar" style="background-color:#E0E0E0; font-size: 100%; line-height: 1.1;"></div>');                       
+                          var div= $('<div id="albumBar" style="background-color:' + this.color + '; font-size: 100%; line-height: 1.1;"></div>');                       
                           if (social.google) {
                              div.append($('<a href="' + social.google + '">' + '<img src="http://ssl.gstatic.com/images/icons/gplus-16.png" style="padding:0px;" />' + '</a>'));
                              div.append(' ')
