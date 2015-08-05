@@ -3,7 +3,7 @@
        var keyword,
            color: "#E0E0E0",
            searchBar=  function (social) {
-                          var keyword=window.keyword;
+                          //var keyword=window.keyword;
                           var div= $('<div id="searchBar" style="background-color:#E0E0E0; margin-top:10px"></div>');
                           if (!social) { 
                                  div.append($('<a href="" style="color:#E0E0E0;">&bnsp;</a>'));
