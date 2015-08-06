@@ -10,5 +10,5 @@ Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei a
 I miei album di fotografie in verità sono l'origine che mi ha spinto ha scrivere il testo volendo illustrarli. L'argomento è stato poi approfondito con le ricerche su intenet, quelle del primo tipo, cercando informazioni, fotografie e socialità.  
 Perchè le mie informazioni fossero corrette e per migliorare i miei album di fotografie aggiungendo anche fotografie mancanti sono spesso ritornato sui luoghi ripetendo percorsi che è il motivo principale che mi ha indotto a scrivere per viaggiare ancora, ricordare e sistemare quanto già visto, facendo diventare il mio viaggio cosa nuova.  
 
-Gli script quindi creano la barra di ricerca con il collegamento a Google e ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto e alle gallerie.  
-Il file raw per TestiBars è https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
+Lo script TestoBars quindi crea la barra di ricerca con il collegamento a Google e ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto e alle gallerie.  
+Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
