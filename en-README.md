@@ -8,7 +8,7 @@ The first type is a link to Google Italy for a search on the internet with its s
 A second type of content is a link to the page in another language from Italian into English or vice versa.  
 A third type of content that enriches the text is a link to my photos albums published on Google+ Photos, Flickr and Facebook, and galleries that I built on Flickr that lets you organize the photos posted by each user.
 
-My photo albums are indeed the source that encouraged me to write the text wanting to illustrate them. The subject was then deepened with search on intenet, those of the first type, looking for information, photographs and social.  
+My photo albums are indeed the source that encouraged me to write the text wanting to illustrate them. The subject was then deepened with search on intenet, those of the first type, looking for information, photographs among those shared on social networks.
 Because my information were correct and to improve my photo album adding missing photographs I'm often returned on places repeating paths that is the main reason that led me to write, to travel again, remember what has been seen and fix what photographed, making my journey new thing.  
 
 Therefore TestoBars script creates the search bar with the link to Google and socials, the link to another language, the bar to my photos albums and galleries.
