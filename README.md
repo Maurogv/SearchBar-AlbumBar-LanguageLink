@@ -9,7 +9,7 @@ Un secondo tipo di contenuto è un collegamento alla pagina da me scritta in una
 Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei album di fotografie pubblicate su Google+ Photos, Flickr e Facebook, e a gallerie che ho costruito su Flickr che permette di organizzare le foto condivise.
 
 In questi ultimi dieci anni ho spesso fotografato, da dilettante e perchè ho sentito di farlo, senza scopi artistici o uno studio sulla fotografia.  
-Le mie fotografie sono state organizzate in cartelle che dipendono dalla localizzazione.  
+Le mie fotografie sono organizzate in cartelle che dipendono dalla localizzazione.  
 Le fotografie si possono dividere in quattro sezioni.  
 Nella prima rientrano le fotografie che derivano dai miei giri nel mio quartiere, nella mia città, su colline, laghi e monti lombardi, eventualmente gite o brevi viaggi; nella seconda quelli della mia casa e il mio giardino con riferimento al luogo e alle cose. Un terzo tipo sono le fotografie di volti familiari e per le occasioni di incontro, in un quarto l'autoscatto e il selfie.  
 I miei album di fotografie sono per lo più album che si riferiscono ad un luogo o percorso preciso, contenendo foto per la maggior parte del primo tipo con qualche autoscatto.
