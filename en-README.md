@@ -1,5 +1,5 @@
 This repository contains some javascript libraries I use in my programs.  
-The first libraries I published add content to a text that generally describes a place, a path, a journey, a visit, an event. Some were published on blogspot.it.  
+The first libraries I published add content to a text that generally describes a place, a path, a journey, a visit, an event. Some text were published on blogspot.it.  
 My stories are in the folder Testi 2014+.
 
 The additional content refers to the title of the text or its minor changes and are of three types.
@@ -8,7 +8,7 @@ The first type of additional content is a link to Google Italy for a search on t
 A second type of content is a link to the page I had written in a second language, from Italian into English or vice versa.  
 A third type of content that enriches the text is a link to my photos albums published on Google+ Photos, Flickr and Facebook, and galleries that I built on Flickr that lets you organize the shared photos.
 
-In the last ten years I have often photographed, as amateur and because I felt to make it, without artistic purposes or any study on photography.  
+In the last ten years I have often photographed, as amateur and because I felt to do it, without artistic purposes or any study on photography.  
 The photographs can be divided into four sections.  
 The first consists of photographs come from my rides in my neighborhood, in my town, hills, lakes and mountains of Lombardy, some trips or short journey;
 
