@@ -1,4 +1,3 @@
-I miei testi generalmente descrivono un luogo, un percorso, un viaggio, una visita, un evento. I miei racconti si trovano nella cartella Testi 2014+. Alcuni testi sono stati pubblicati su blogspot.it.  
 Ho scritto del codice in javascript per aggiungere contenuto al mio testo nella forma di due barre, una in alto e una in basso.
   
 I contenuti aggiuntivi si riferiscono al titolo del testo o a sue piccole modifiche e sono di tre tipi.
@@ -7,7 +6,5 @@ Il primo tipo di contenuto aggiuntivo è un collegamento a Google Italia per una
 Un secondo tipo di contenuto è un collegamento alla pagina da me scritta in una seconda lingua, dall'italiano all'inglese o viceversa.  
 Il primo tipo è a sinistra della prima barra, il secondo alla sua estrema destra.  
 Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei album di fotografie pubblicate su Google+ Photos, Flickr e Facebook, e a gallerie che ho costruito su Flickr che permette di organizzare le foto condivise. Questa è la seconda barra.
-
-I testi che ho scritto sono nati come la descrizione dei miei album di fotografie in cui ho pubblicato le mie foto.
 
 Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
