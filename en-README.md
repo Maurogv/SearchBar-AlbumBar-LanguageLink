@@ -10,7 +10,7 @@ A third type of content that enriches the text is a link to my photos albums pub
 
 In the last ten years I have often photographed, as amateur and because I felt to do it, without artistic purposes or any study on photography.  
 The photographs can be divided into four sections.  
-The first consists of photographs come from my rides in my neighborhood, in my town, hills, lakes and mountains of Lombardy, some trips or short journey;
+The first consists of photographs come from my rides in my neighborhood, in my town, hills, lakes and mountains of Lombardy, some trips or short journey; the second those of my house and my garden with reference to the location and things. A third type are photographs of familiar faces and in meeting, in a fourth the self-timer and selfie.
 
 My photo albums are indeed the source that encouraged me to write the text wanting to illustrate them. The subject was then deepened with search on intenet, those of the first type, looking for information, photographs among those shared on social networks.  
 Because my information were correct and to improve my photo album adding missing photographs I'm often returned on places repeating paths that is the main reason that led me to write, to travel again, remember what has been seen and fix what photographed, making my journey new thing.  
