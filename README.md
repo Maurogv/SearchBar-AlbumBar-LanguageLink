@@ -1,4 +1,4 @@
-Ho scritto del codice in javascript per aggiungere contenuto al mio [testo](http://maurogv.github.io/two-bars-for-my-text/it/I miei testi.html) nella forma di due barre, una in alto e una in basso.
+Ho scritto del codice in javascript per aggiungere contenuto al mio [testo](http://maurogv.github.io/Two-bars-for-my-text/it/I miei testi.html) nella forma di due barre, una in alto e una in basso.
   
 I contenuti aggiuntivi si riferiscono al titolo del testo o a sue piccole modifiche e sono di tre tipi.
 
