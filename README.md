@@ -16,7 +16,7 @@ I miei album di fotografie sono per lo più album che si riferiscono ad un luogo
 
 I miei album di fotografie sono in verità l'origine che mi ha spinto ha scrivere il testo volendo illustrarli, il testo è infatti la descrizione dell'album.  
 L'argomento è stato poi approfondito con le ricerche su internet, quelle del primo tipo, cercando informazioni, fotografie anche tra quelle condivise sui social network.   
-Perchè le mie informazioni fossero corrette, per migliorare i miei album di fotografie e renderli più completi con fotografie mancanti con aderenza al testo già scritto sono spesso ritornato sui luoghi ripetendo percorsi. Nel nuovo viaggio ho visto e a volte fotografato nuovi particolari che richiedono quasi sempre una modifica dell stesura.  
+Perchè le mie informazioni fossero corrette, per migliorare i miei album di fotografie e renderli più completi con fotografie mancanti con aderenza al testo già scritto sono spesso ritornato sui luoghi ripetendo percorsi. Nel nuovo viaggio ho visto e a volte fotografato nuovi particolari che richiedono quasi sempre una modifica della prima stesura.  
 Il vero motivo principale che mi ha indotto a scrivere è camminare e viaggiare ancora, ritornare nei luoghi e cose diventare care e sistemare quello fotografato.  
 
 In definitiva lo script in javascript TestoBars crea la barra di ricerca con il collegamento a Google e ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto e alle gallerie.  
