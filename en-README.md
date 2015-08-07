@@ -1,5 +1,5 @@
 This repository contains the javascript libraries I use in my programs.  
-The first I published add content to a text that generally describes a place, a path, a journey, a visit, an event. Some were published on blogspot.it.  
+The first libraries I published add content to a text that generally describes a place, a path, a journey, a visit, an event. Some were published on blogspot.it.  
 My stories are in the folder Testi 2014+.
 
 The additional content refers to the title of the text or its minor changes and are of three types.
