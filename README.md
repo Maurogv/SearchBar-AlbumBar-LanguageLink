@@ -10,7 +10,7 @@ Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei a
 
 In questi ultimi dieci anni ho spesso fotografato, da dilettante e perchè ho sentito di farlo, senza scopi artistici o uno studio sulla fotografia.  
 Le fotografie si possono dividere in quattro sezioni.  
-Nella prima rientrano le fotografie che derivano dai miei giri nel mio quartiere, nella mia città, su colline, laghi e monti lombardi, eventualmente gite o brevi viaggi; nella seconda quelli della mia casa e il mio giardino con riferimento al luogo e alle cose. In un terzo tipo rientrano le fotografie di volti familiari e per le occasioni di incontro, in un quarto l'autoscatto e selfie.  
+Nella prima rientrano le fotografie che derivano dai miei giri nel mio quartiere, nella mia città, su colline, laghi e monti lombardi, eventualmente gite o brevi viaggi; nella seconda quelli della mia casa e il mio giardino con riferimento al luogo e alle cose. In un terzo tipo rientrano le fotografie di volti familiari e per le occasioni di incontro, in un quarto l'autoscatto e il selfie.  
 Le mie fotografie sono state organizzate in cartelle che dipendono dalla localizzazione.  
 I miei album di fotografie sono per lo più album che si riferiscono ad un luogo o percorso preciso, contenendo foto per la maggior parte del primo tipo con qualche autoscatto.
 
@@ -19,5 +19,5 @@ L'argomento è stato poi approfondito con le ricerche su internet, quelle del pr
 Perchè le mie informazioni fossero corrette, per migliorare i miei album di fotografie e renderli più completi con fotografie mancanti con aderenza al testo già scritto sono spesso ritornato sui luoghi ripetendo percorsi. Nel nuovo viaggio ho visto e a volte fotografato nuovi particolari che richiedono quasi sempre una modifica della prima stesura.  
 Il vero motivo principale che mi ha indotto a scrivere è camminare e viaggiare ancora, ritornare nei luoghi e cose diventare care e sistemare quello fotografato.  
 
-In definitiva lo script in javascript TestoBars crea la barra di ricerca con il collegamento a Google e ai social, il collegamento ad un'altra lingua, la barra ai miei album di foto e alle gallerie.  
+In definitiva lo script in javascript TestoBars crea la barra di ricerca con il collegamento a Google e ai social, il collegamento alla stessa pagina nell'altra lingua (italiano o inglese), la barra che punta ai miei album di foto e alle gallerie.  
 Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
