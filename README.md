@@ -19,5 +19,5 @@ L'argomento è stato poi approfondito con le ricerche su internet, quelle del pr
 Perchè le mie informazioni fossero corrette, per migliorare i miei album di fotografie e renderli più completi con fotografie mancanti con aderenza al testo già scritto sono spesso ritornato sui luoghi ripetendo percorsi. Nel nuovo viaggio ho visto e a volte fotografato nuovi particolari che richiedono quasi sempre una modifica della prima stesura.  
 Il vero motivo principale che mi ha indotto a scrivere è camminare e viaggiare ancora, ritornare nei luoghi e cose diventare care e sistemare quello fotografato.  
 
-In definitiva lo script in javascript TestoBars crea la barra di ricerca con il collegamento a Google e ai social, il collegamento alla stessa pagina nell'altra lingua (italiano o inglese), la barra che punta ai miei album di foto e alle gallerie.  
+In definitiva TestoBars in javascript crea la barra di ricerca con il collegamento a Google e ai social, il collegamento alla stessa pagina nell'altra lingua (italiano o inglese), la barra che punta ai miei album di foto e alle gallerie.  
 Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Javascript/master/TestiBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
