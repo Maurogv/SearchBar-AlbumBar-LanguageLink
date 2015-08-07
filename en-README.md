@@ -9,6 +9,7 @@ A second type of content is a link to the page I had written in a second languag
 A third type of content that enriches the text is a link to my photos albums published on Google+ Photos, Flickr and Facebook, and galleries that I built on Flickr that lets you organize the shared photos.
 
 In the last ten years I have often photographed, as amateur and because I felt to do it, without artistic purposes or any study on photography.  
+My photographs are arranged in folders depending on location.  
 The photographs can be divided into four sections.  
 The first consists of photographs come from my rides in my neighborhood, in my town, hills, lakes and mountains of Lombardy, some trips or short journey; the second those of my house and my garden with reference to the location and things. A third type are photographs of familiar faces and in meeting, in a fourth the self-timer and selfie.
 
