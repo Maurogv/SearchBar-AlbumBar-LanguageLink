@@ -9,9 +9,12 @@ Un secondo tipo di contenuto è un collegamento alla pagina da me scritta in un'
 Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei album di fotografie pubblicate su Google+ Photos, Flickr e Facebook, e a gallerie che ho costruito su Flickr che permette di organizzare le foto condivise.
 
 In questi ultimi dieci anni ho spesso fotografato, da dilettante e perchè ho sentito di farlo, senza scopi artistici o uno studio sulla fotografia.  
-I miei album di fotografie si possono dividere un tre sezioni.  
-Nella prima rientrano le fotografie che derivano dai miei giri nel mio quartiere, nella mia città, su colline, laghi e monti lombardi, eventualmente gite o brevi viaggi; nella seconda quelli della mia casa e il mio giardino con riferimento al luogo e alle cose.
-Un terzo tip, e quelli in cui si fotografano i volti familiari e per le occasioni di incontro, sono in verità l'origine che mi ha spinto ha scrivere il testo volendo illustrarli, il testo è infatti la descrizione dell'album.  
+Le fotografie si possono dividere in quattro sezioni.  
+Nella prima rientrano le fotografie che derivano dai miei giri nel mio quartiere, nella mia città, su colline, laghi e monti lombardi, eventualmente gite o brevi viaggi; nella seconda quelli della mia casa e il mio giardino con riferimento al luogo e alle cose. In un terzo tipo rientrano le fotografie di volti familiari e per le occasioni di incontro, in un quarto l'autoscatto e selfie.  
+Le mie fotografie sono state organizzate in cartelle che dipendono dalla localizzazione.  
+I miei album di fotografie sono per lo più album che si riferiscono ad un luogo o percorso preciso, contenendo foto per la maggior parte del primo tipo con qualche autoscatto.
+
+I miei album di fotografie sono in verità l'origine che mi ha spinto ha scrivere il testo volendo illustrarli, il testo è infatti la descrizione dell'album.  
 L'argomento è stato poi approfondito con le ricerche su internet, quelle del primo tipo, cercando informazioni, fotografie anche tra quelle condivise sui social network.   
 Perchè le mie informazioni fossero corrette, per migliorare i miei album di fotografie e renderli più completi con fotografie mancanti con aderenza al testo già scritto sono spesso ritornato sui luoghi ripetendo percorsi. Nel nuovo viaggio ho visto e a volte fotografato nuovi particolari che richiedono quasi sempre una modifica dell stesura.  
 Il vero motivo principale che mi ha indotto a scrivere è camminare e viaggiare ancora, ritornare nei luoghi e cose diventare care e sistemare quello fotografato.  
