@@ -1,5 +1,5 @@
 Questo repository contiene le librerie javascript che uso nei miei programmi.  
-Le prime che ho pubblicato aggiungono dei contenuti ad un testo che generalmente descrive un luogo, un percorso, un viaggio, una visita, un evento. Alcuni testi sono stati pubblicati su blogspot.it.  
+Le prime librerie che ho pubblicato aggiungono dei contenuti ad un testo che generalmente descrive un luogo, un percorso, un viaggio, una visita, un evento. Alcuni testi sono stati pubblicati su blogspot.it.  
 I miei racconti si trovano nella cartella Testi 2014+.  
 
 I contenuti aggiuntivi si riferiscono al titolo del testo o a sue piccole modifiche e sono di tre tipi.
