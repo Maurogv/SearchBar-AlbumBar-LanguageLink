@@ -7,4 +7,4 @@ Un secondo tipo di contenuto è un collegamento alla pagina da me scritta in una
 Il primo tipo è a sinistra della prima barra, il secondo alla sua estrema destra.  
 Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei album di fotografie pubblicate su Google+ Photos, Flickr e Facebook, e a gallerie che ho costruito su Flickr che permette di organizzare le foto condivise. Questa è la seconda barra.
 
-Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Two-bars-for-my-writing/master/TestoBars.js oppure https://rawgit.com/Maurogv/Javascript/master/TestiBars.js
+Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/Two-bars-for-my-writing/master/TestoBars.js oppure https://rawgit.com/Maurogv/Two-bars-for-my-writing/master/TestoBars.js
