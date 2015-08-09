@@ -58,11 +58,11 @@
                           return div
                    };      
                    
-      var testoBars= {keyword : keyword,
-                      color : color, 
-                      searchBar:searchBar,
-                      languageLink:languageLink,
-                      albumBar:albumBar
+      var testoBars= {keyword,
+                      color, 
+                      searchBar,
+                      languageLink,
+                      albumBar
       }
       
       window.testoBars=testoBars;
