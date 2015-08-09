@@ -1,4 +1,4 @@
-I wrote code in javascript to add content to my writings in the form of two bars, one at the top and one at the bottom.
+I wrote code in javascript to add content to my [writings](http://maurogv.github.io/Two-bars-for-my-writing/My writings.html) in the form of two bars, one at the top and one at the bottom.
 
 The additional content refers to the title of the text or its minor changes and are of three types.
 
