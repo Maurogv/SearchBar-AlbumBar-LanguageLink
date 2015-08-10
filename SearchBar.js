@@ -34,15 +34,15 @@
                    
       var searchBar= {keyword,
                       color, 
-                      bar,
-                      get : function (social) {
+                      bar
+                     /*, get : function (social) {
                              var div=this.bar();
                              var =this.elSearch(social);
                              for (var i = 0; i < elList.length; i++) {
                                  div.append(elList[i]);
                              }
                              return div;
-                      }
+                      } */
       }
       
       window.searchBar=searchBar;
