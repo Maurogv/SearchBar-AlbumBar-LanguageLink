@@ -34,6 +34,7 @@
                    
       var searchBar= {keyword,
                       color, 
+                      bar,
                       get : function (social) {
                              var div=this.bar();
                              var =this.elSearch(social);
