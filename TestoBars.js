@@ -59,7 +59,7 @@
                    };      
                    
       var testoBars= {keyword,
-                      //color : "#E0E0E0", 
+                      color, 
                       searchBar,
                       getSearchBar,
                       languageLink,
