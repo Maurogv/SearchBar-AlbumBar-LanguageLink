@@ -3,9 +3,9 @@
        var keyword,
            color= "#E0E0E0",
            bar = function () {
-                      var div= $('<div style="background-color:' + '#E0E0E0' + '; margin-top:10px"></div>');
+                      var div= $('<div style="background-color:' + this.color + '; margin-top:10px"></div>');
                       return div;
-                      },
+                      };  /*,
            elSearch=  function (social) {
                           var elList = [];
                           if (!social) { 
@@ -29,7 +29,7 @@
                              elList.push(' ')
                            };
                            return el
-                   };
+                   };*/
            
                    
       var searchBar= {keyword,
