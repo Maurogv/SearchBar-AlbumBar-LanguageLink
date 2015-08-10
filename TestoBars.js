@@ -26,6 +26,9 @@
                            };
                            return div
                    },
+            getSearchBar=  function () { 
+                      return $('#searchBar');
+                 },     
             languageLink=  function (blog, lang, post) { 
                       if (lang) {
                          var language;
@@ -58,6 +61,7 @@
       var testoBars= {keyword,
                       color, 
                       searchBar,
+                      getSearchBar,
                       languageLink,
                       albumBar
       }
