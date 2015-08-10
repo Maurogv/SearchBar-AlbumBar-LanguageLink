@@ -59,7 +59,7 @@
                    };      
                    
       var testoBars= {keyword,
-                      color, 
+                      //color, 
                       searchBar,
                       getSearchBar,
                       languageLink,
