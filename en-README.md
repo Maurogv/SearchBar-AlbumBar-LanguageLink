@@ -1,5 +1,4 @@
-I wrote code in javascript to add content to my [writings](http://maurogv.github.io/SearchBar-AlbumBar-LanguageLink
-/My writings.html) in two bars, two strips of the same color.
+I wrote code in javascript to add content to my [writings](http://maurogv.github.io/SearchBar-AlbumBar-LanguageLink/My writings.html) in two bars, two strips of the same color.
 
 The additional content refers to the title of the text or its minor changes and are of three types.
 
