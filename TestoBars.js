@@ -3,7 +3,6 @@
        var keyword,
            color= "#E0E0E0",
            searchBar=  function (social) {
-                          //var keyword=window.keyword;
                           var div= $('<div id="searchBar" style="background-color:' + this.color + '; margin-top:10px"></div>');
                           if (!social) { 
                                  div.append($('<a href="" style="color:' + this.color + ';">&bnsp;</a>'));
@@ -27,8 +26,10 @@
                            };
                            return div
                    },
+            getSearchBar=  function () { 
+                      return $('#searchBar');
+                 },     
             languageLink=  function (blog, lang, post) { 
-                     //var keyword=window.keyword;
                       if (lang) {
                          var language;
                          if (lang=='it') {language="Italiano"};
@@ -37,9 +38,8 @@
                          return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
                       }
                       else return;
-                 }, 
+                 },
             albumBar=  function (social) {
-                          // var keyword=window.keyword;
                           // to override .post-body in blogspot
                           var div= $('<div id="albumBar" style="background-color:' + this.color + '; font-size: 100%; line-height: 1.1;"></div>');                       
                           if (social.google) {
@@ -58,16 +58,15 @@
                           return div
                    };      
                    
-      var testoBars= {keyword : keyword,
-                      color : color, 
-                      searchBar:searchBar,
-                      languageLink:languageLink,
-                      albumBar:albumBar
+      var testoBars= {keyword,
+                      color, 
+                      searchBar,
+                      getSearchBar,
+                      languageLink,
+                      albumBar
       }
       
       window.testoBars=testoBars;
-     // window.searchBar=searchBar;
-     // window.languageLink=languageLink;
-     //  window.albumBar=albumBar;
+    
 
 })(window);
