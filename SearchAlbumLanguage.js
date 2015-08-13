@@ -8,13 +8,13 @@
 
 
        var searchBar= function (social) {
-                             this.color=color;
+                            // this.color=color;
                              this.id = 'searchBar';                   
        
                              var div= bar();
                              div.attr('id', this.id);
                              if (!social) { 
-                                    div.append($('<a href="" style="color:' + this.color + ';">&bnsp;</a>'));
+                                    div.append($('<a href="" style="color:' + color + ';">&bnsp;</a>'));
                                     return div;
                              }
                              if (social.google) {
@@ -38,7 +38,6 @@
                       
       
          var albumBar = function (social) {
-                             this.color=color;
                              var div= bar();
 
                              // to override .post-body in blogspot
