@@ -8,7 +8,6 @@
 
 
        var searchBar= function (social) {
-                            // this.color=color;
                              this.id = 'searchBar';                   
        
                              var div= bar();
