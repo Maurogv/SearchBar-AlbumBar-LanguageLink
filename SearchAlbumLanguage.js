@@ -67,7 +67,7 @@
                                  var language;
                                  if (lang=='it') {language="Italiano"};
                                  if (lang=='en') {language="English"};
-                                 var endDomain= post ? post :  window.keyword.toLowerCase();
+                                 var endDomain= post ? post :  window.keyword.replace(' ','-').toLowerCase();
                                  return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
                              }
                              else return;
