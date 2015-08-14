@@ -9,7 +9,7 @@
 
        var searchBar= function (social) {
                              this.id = 'searchBar';
-                             // var socialKeyword;
+                             var socialKeyword;
        
                              var div= bar();
                              div.attr('id', this.id);
@@ -18,7 +18,8 @@
                                     return div;
                              }
                              if (social.google) {
-                                div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + window.keyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
+                                socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google;
+                                div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.facebook) {
