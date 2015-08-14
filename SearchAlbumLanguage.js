@@ -28,9 +28,9 @@
                                 div.append(' ')
                               };
                               if (social.instagram_tags) {
-                                socialKeyword= keyword.instagram_tags===undefined ? window.keyword.toLowerCase() : keyword.instagram_tags;
+                               /* socialKeyword= keyword.instagram_tags===undefined ? window.keyword.toLowerCase() : keyword.instagram_tags;
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
-                                div.append(' ')
+                                div.append(' ') */
                               };
                               if (social.instagram_locations) {
                                 div.append($('<a href="https://instagram.com/explore/locations/' + keyword.instagram_locations + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
