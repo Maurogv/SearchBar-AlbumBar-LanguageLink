@@ -7,7 +7,7 @@
                  };
 
 
-       var searchBar= function (social, keyword=null) {
+       var searchBar= function (social, keyword={}) {
                              this.id = 'searchBar';
                              var socialKeyword;
        
