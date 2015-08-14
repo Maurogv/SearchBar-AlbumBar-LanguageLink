@@ -9,7 +9,7 @@
 
        var searchBar= function (social) {
                              this.id = 'searchBar';
-                             var socialKeyword;
+                             // var socialKeyword;
        
                              var div= bar();
                              div.attr('id', this.id);
