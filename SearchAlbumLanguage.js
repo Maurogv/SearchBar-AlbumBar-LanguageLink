@@ -24,7 +24,7 @@
                               };
                               if (social.facebook) {
                                 socialKeyword= keyword.facebook===undefined ? window.keyword : keyword.facebook;   
-                                div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
+                                div.append($('<a href="https://www.facebook.com/search/str/' + social.facebook +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                                 div.append(' ')
                               };
                               if (social.instagram_tags) {
