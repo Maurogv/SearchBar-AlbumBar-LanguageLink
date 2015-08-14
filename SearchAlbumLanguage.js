@@ -17,13 +17,13 @@
                                     div.append($('<a href="" style="color:' + color + ';">&bnsp;</a>'));
                                     return div;
                              }
-                             if (social.google!=undefined)
-                                socialKeyword= social.google ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google;
+                             if (social.google)
+                                socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google;
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
-                              if (social.facebook!=undefined) {
-                                socialKeyword= social.facebook ? window.keyword : social.facebook;   
+                              if (social.facebook) {
+                                socialKeyword= social.facebook==true ? window.keyword : social.facebook;   
                                 div.append($('<a href="https://www.facebook.com/search/str/' + social.facebook +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                                 div.append(' ')
                               };
