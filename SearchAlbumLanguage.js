@@ -18,12 +18,13 @@
                                     return div;
                              }
                              if (social.google) {
-                                socialKeyword= keyword.google===undefined ? window.keyword.replace(' ', '+') : keyword.google;
+                                socialKeyword= keyword.google===undefined ? window.keyword.replace(' ', '+').toLowerCase() : keyword.google;
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.facebook) {
-                                div.append($('<a href="https://www.facebook.com/search/str/' + window.keyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
+                                socialKeyword= keyword.facebook===undefined ? window.keyword : keyword.facebook;   
+                                div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                                 div.append(' ')
                               };
                               if (social.instagram) {
