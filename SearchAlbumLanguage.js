@@ -28,13 +28,13 @@
                                 div.append(' ')
                               };
                               if (social.instagram_tags) {
-                               /* socialKeyword= keyword.instagram_tags===undefined ? window.keyword.toLowerCase() : keyword.instagram_tags;
-                                div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
-                                div.append(' ') */
+                                // socialKeyword= keyword.instagram_tags===undefined ? window.keyword.toLowerCase() : keyword.instagram_tags;
+                                div.append($('<a href="https://instagram.com/explore/tags/' + window.keyword  + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
+                                div.append(' ') 
                               };
                               if (social.instagram_locations) {
-                               /*  div.append($('<a href="https://instagram.com/explore/locations/' + keyword.instagram_locations + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
-                                div.append(' ')*/
+                                div.append($('<a href="https://instagram.com/explore/locations/' + window.keyword  + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
+                                div.append(' ')
                               };
                               if (social.flickr) {
                                 div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src="http://static.viewbook.com/images/social_icons/flickr_16.png" />' + '</a>' ));
