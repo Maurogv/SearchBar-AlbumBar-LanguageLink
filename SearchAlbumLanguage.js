@@ -18,7 +18,7 @@
                                     return div;
                              }
                              if (social.google) {
-                                socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google;
+                                socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
@@ -27,17 +27,13 @@
                                 div.append($('<a href="https://www.facebook.com/search/str/' + window.keyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                                 div.append(' ')
                               };
-                              /*if (social.instagram) {
-                                div.append($('<a href="https://instagram.com/explore/tags/' + window.keyword + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
-                                div.append(' ')
-                              };*/
                               if (social.instagram_tags) {
-                                // socialKeyword= keyword.instagram_tags===undefined ? window.keyword.toLowerCase() : keyword.instagram_tags;
+                                socialKeyword= social.instagram_tags==true ? window.keyword.toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + window.keyword  + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
                                 div.append(' ') 
                               };
                               if (social.instagram_locations) {
-                                div.append($('<a href="https://instagram.com/explore/locations/' + window.keyword  + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
+                                div.append($('<a href="https://instagram.com/explore/locations/' + social.instagram_locations  + '/">' + '<img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.flickr) {
