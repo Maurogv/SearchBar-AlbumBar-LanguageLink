@@ -23,6 +23,7 @@
                                 div.append(' ')
                               };
                               if (social.facebook) {
+                                socialKeyword= social.facebook==true ? window.keyword : social.facebook; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + window.keyword +'/keywords_top">' + '<img src="http://static.viewbook.com/images/social_icons/facebook_16.png" />' + '</a>' ));
                                 div.append(' ')
                               };
