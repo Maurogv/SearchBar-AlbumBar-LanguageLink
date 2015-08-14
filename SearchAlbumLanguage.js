@@ -18,7 +18,7 @@
                                     return div;
                              }
                              if (social.google) {
-                                socialKeyword= !keyword.google ? window.keyword : keyword.google;
+                                socialKeyword= !keyword.google ? keyword.google : window.keyword;
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + keyword.google + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
