@@ -18,7 +18,7 @@
                                     return div;
                              }
                              if (social.google) {
-                                socialKeyword= keyword.google===undefined ? window.keyword.replace(' ', '+').toLowerCase() : keyword.google;
+                                socialKeyword= keyword.google===undefined ? window.keyword.replace(/\s/g, '+').toLowerCase() : keyword.google;
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png" />' + '</a>'));
                                 div.append(' ')
                               };
@@ -72,7 +72,7 @@
                                  var language;
                                  if (lang=='it') {language="Italiano"};
                                  if (lang=='en') {language="English"};
-                                 var endDomain= post ? post :  window.keyword.replace(' ','-').toLowerCase();
+                                 var endDomain= post ? post :  window.keyword.replace(/\s/g,'-').toLowerCase();
                                  return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
                              }
                              else return;
