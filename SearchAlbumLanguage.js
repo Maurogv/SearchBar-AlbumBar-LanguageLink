@@ -26,25 +26,25 @@
                              }
                              if (social.google) {
                                 socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
-                                div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src=' + icons.google + '/>' + '</a>'));
+                                div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="' + icons.google + '"/>' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.facebook) {
                                 socialKeyword= social.facebook==true ? window.keyword : social.facebook; 
-                                div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src=' + icons.facebook + '/>' + '</a>' ));
+                                div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                               };
                               if (social.instagram_tags) {
                                 socialKeyword= social.instagram_tags==true ? window.keyword.toLowerCase() : social.instagram_tags.toLowerCase();
-                                div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src=' + icons.instagram + '/>' + '</a>'));
+                                div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ') 
                               };
                               if (social.instagram_locations) {
-                                div.append($('<a href="https://instagram.com/explore/locations/' + social.instagram_locations  + '/">' + '<img src=' + icons.instagram + '/>' + '</a>'));
+                                div.append($('<a href="https://instagram.com/explore/locations/' + social.instagram_locations  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.flickr) {
-                                div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src=' + icons.flickr + '/>' + '</a>' ));
+                                div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
                                 div.append(' ')
                               };
                               return div
