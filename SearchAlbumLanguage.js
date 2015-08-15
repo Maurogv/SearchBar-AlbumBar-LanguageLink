@@ -34,6 +34,11 @@
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                               };
+                              if (social.facebook_pages) {
+                                socialKeyword= social.facebook==true ? window.keyword : social.facebook; 
+                                div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
+                                div.append(' ')
+                              };
                               if (social.instagram_tags) {
                                 socialKeyword= social.instagram_tags==true ? window.keyword.toLowerCase() : social.instagram_tags.replace(/\s/g, '').toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
