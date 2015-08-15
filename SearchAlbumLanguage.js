@@ -35,7 +35,7 @@
                                 div.append(' ')
                               };
                               if (social.facebook_pages) {
-                                socialKeyword= social.facebook==true ? window.keyword : social.facebook; 
+                                socialKeyword= social.facebook==true ? window.keyword : social.facebook_pages; 
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                               };
