@@ -7,9 +7,9 @@
                  };
                  
       var icons ={ facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
-                   flickr: 'http://static.viewbook.com/images/social_icons/flickr_16.png',
+                   flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png',
-                   googlePlus :'http://ssl.gstatic.com/images/icons/gplus-16.png',
+                   googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png'
       };
 
