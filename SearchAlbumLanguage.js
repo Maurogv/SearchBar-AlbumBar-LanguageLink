@@ -63,7 +63,7 @@
                                 div.append(' ')
                              };
                              if (social.flickr) {
-                                div.append($('<a href="' + social.flickr + '">' + '<img src="' + icons.flickr + " style="padding:0px;" />' + '</a>' ));
+                                div.append($('<a href="' + social.flickr + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.flickrGal) {
