@@ -40,7 +40,7 @@
                                 div.append(' ')
                               };
                               if (social.instagram_tags) {
-                                socialKeyword= social.instagram_tags==true ? window.keyword.toLowerCase() : social.instagram_tags.replace(/\s/g, '').toLowerCase();
+                                socialKeyword= social.instagram_tags==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ') 
                               };
