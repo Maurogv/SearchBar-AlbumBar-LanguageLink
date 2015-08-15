@@ -11,7 +11,7 @@
                    google : 'http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png',
                    googlePlus :'http://ssl.gstatic.com/images/icons/gplus-16.png',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png'
-      }
+      };
 
 
        var searchBar= function (social) {
