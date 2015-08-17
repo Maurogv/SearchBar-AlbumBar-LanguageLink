@@ -29,8 +29,8 @@
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="' + icons.google + '"/>' + '</a>'));
                                 div.append(' ')
                               };
-                              if (social.facebook) {
-                                socialKeyword= social.facebook==true ? window.keyword : social.facebook; 
+                              if (social.facebook_search) {
+                                socialKeyword= social.facebook_search==true ? window.keyword : social.facebook_search; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                               };
