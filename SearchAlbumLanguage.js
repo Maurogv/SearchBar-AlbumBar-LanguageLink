@@ -70,11 +70,11 @@
                                 div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                              };
-                             if (social.flickr) {
+                             if (social.flickr_set) {
                                 div.append($('<a href="' + flickr_set + social.flickr + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
                                 div.append(' ')
                              };
-                             if (social.flickrGal) {
+                             if (social.flickr_gallery) {
                                 div.append($('<a href="' + flickr_gallery + social.flickrGal + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
