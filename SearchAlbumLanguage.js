@@ -60,20 +60,22 @@
       
          var albumBar = function (social) {
                              var div= bar();
-
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
-                             div.attr('line-height', '1.1');                                                
+                             div.attr('line-height', '1.1'); 
+                             var google='https://plus.google.com/u/0/photos/113727750810625155496/albums/',
+                                 flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
+                                 flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/';
                              if (social.google) {
-                                div.append($('<a href="' + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
+                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.flickr) {
-                                div.append($('<a href="' + social.flickr + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
+                                div.append($('<a href="' + flickr_set + social.flickr + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.flickrGal) {
-                                div.append($('<a href="' + social.flickrGal + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>'));
+                                div.append($('<a href="' + flickr_gallery + social.flickrGal + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
                               
