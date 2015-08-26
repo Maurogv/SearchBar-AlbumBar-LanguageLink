@@ -63,7 +63,7 @@
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
                              div.attr('line-height', '1.1'); 
-                             var google='https://plus.google.com/u/0/albums/',
+                             var google='https://photos.google.com/u/0/album/',
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
                                  flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/';
                              if (social.google) {
