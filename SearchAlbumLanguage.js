@@ -10,6 +10,7 @@
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png',
                    googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
+                   googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png'
       };
 
@@ -27,6 +28,11 @@
                              if (social.google) {
                                 socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="' + icons.google + '"/>' + '</a>'));
+                                div.append(' ')
+                              };
+                              if (social.google_maps) {
+                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+'): social.google.replace(/\s/g, '+');
+                                div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.facebook_search) {
