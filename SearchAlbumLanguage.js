@@ -29,37 +29,37 @@
                                 socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="' + icons.google + '"/>' + '</a>'));
                                 div.append(' ')
-                              };
-                              if (social.google_maps) {
-                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+'): social.google.replace(/\s/g, '+');
+                             };
+                             if (social.google_maps) {
+                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+') : social.google.replace(/\s/g, '+');
                                 div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
-                              };
-                              if (social.facebook_search) {
+                             };
+                             if (social.facebook_search) {
                                 socialKeyword= social.facebook_search==true ? window.keyword : social.facebook_search; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
-                              };
-                              if (social.facebook_pages) {
+                             };
+                             if (social.facebook_pages) {
                                 socialKeyword= social.facebook==true ? window.keyword : social.facebook_pages; 
                                 socialKeyword+='?fref=ts';
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
-                              };
-                              if (social.instagram_tags) {
+                             };
+                             if (social.instagram_tags) {
                                 socialKeyword= social.instagram_tags==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ') 
-                              };
-                              if (social.instagram_locations) {
+                             };
+                             if (social.instagram_locations) {
                                 div.append($('<a href="https://instagram.com/explore/locations/' + social.instagram_locations  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ')
-                              };
-                              if (social.flickr) {
+                             };
+                             if (social.flickr) {
                                 div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
                                 div.append(' ')
-                              };
-                              return div
+                             };
+                             return div
        
                 };            
                       
