@@ -31,7 +31,7 @@
                                 div.append(' ')
                              };
                              if (social.google_maps) {
-                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+') : social.google.replace(/\s/g, '+');
+                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+') : social.google_maps.replace(/\s/g, '+');
                                 div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
                              };
