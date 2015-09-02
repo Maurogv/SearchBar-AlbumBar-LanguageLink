@@ -69,13 +69,16 @@
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
                              div.attr('line-height', '1.1'); 
-                             var google='https://photos.google.com/u/0/album/',
+                             var facebook='https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.',
+                                 facebook_end='.100000433081467&type=3',
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
-                                 flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/';
-                             if (social.google) {
-                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
+                                 flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
+                                 google='https://photos.google.com/u/0/album/';
+                                 
+                             if (social.facebook) {
+                                div.append($('<a href="' + facebook + social.facebook + facebook_end + '">' + '<img src="' + icons.facebook + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
-                             };
+                              };
                              if (social.flickr_sets) {
                                 div.append($('<a href="' + flickr_set + social.flickr_sets + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
                                 div.append(' ')
@@ -84,6 +87,10 @@
                                 div.append($('<a href="' + flickr_gallery + social.flickr_galleries + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
+                              if (social.google) {
+                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
+                                div.append(' ')
+                             };
                               
                              return div
               };
