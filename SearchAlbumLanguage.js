@@ -75,10 +75,10 @@
                                  flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
                                  google='https://photos.google.com/u/0/album/';
                                  
-                             if (social.facebook) {
-                                div.append($('<a href="' + facebook + social.facebook + facebook_end + '">' + '<img src="' + icons.facebook + '" style="padding:0px;" />' + '</a>'));
+                             if (social.google) {
+                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
-                              };
+                             };
                              if (social.flickr_sets) {
                                 div.append($('<a href="' + flickr_set + social.flickr_sets + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>' ));
                                 div.append(' ')
@@ -87,11 +87,11 @@
                                 div.append($('<a href="' + flickr_gallery + social.flickr_galleries + '">' + '<img src="' + icons.flickr + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
-                              if (social.google) {
-                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
+                              if (social.facebook) {
+                                div.append($('<a href="' + facebook + social.facebook + facebook_end + '">' + '<img src="' + icons.facebook + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
-                             };
-                              
+                              };
+                             
                              return div
               };
                   
