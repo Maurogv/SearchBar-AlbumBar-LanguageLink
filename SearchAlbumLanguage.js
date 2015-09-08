@@ -95,7 +95,7 @@
                                 div.append(' ')
                               };
                               if (social.onedrive) {
-                                div.append($('<a href="' + onedrive + social.facebook + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="padding:0px;" />' + '</a>'));
+                                div.append($('<a href="' + onedrive + social.onedrive + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
