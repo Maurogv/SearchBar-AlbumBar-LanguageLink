@@ -11,7 +11,8 @@
                    google : 'http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png',
                    googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
-                   instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png'
+                   instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
+                   onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png'
       };
 
 
@@ -73,7 +74,9 @@
                                  facebook_end='.100000433081467&type=3',
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
                                  flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
-                                 google='https://photos.google.com/u/0/album/';
+                                 google='https://photos.google.com/u/0/album/',
+                                 onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
+                                 onedrive_end='&cid=B65050E4B8CE1B76&group=0';
                                  
                              if (social.google) {
                                 div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="padding:0px;" />' + '</a>'));
@@ -89,6 +92,10 @@
                               };
                               if (social.facebook) {
                                 div.append($('<a href="' + facebook + social.facebook + facebook_end + '">' + '<img src="' + icons.facebook + '" style="padding:0px;" />' + '</a>'));
+                                div.append(' ')
+                              };
+                              if (social.onedrive) {
+                                div.append($('<a href="' + onedrive + social.facebook + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
