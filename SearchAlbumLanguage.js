@@ -8,7 +8,7 @@
                  
       var icons ={ facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
-                   google : 'http://icons.iconarchive.com/icons/danleech/simple/16/google-icon.png',
+                   google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
                    googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
