@@ -6,7 +6,7 @@
                     return div
                  };
                  
-      var icons ={ blogger : 'http://icons.iconarchive.com/icons/hopstarter/social-networking/16/Blogger-icon.png',
+      var icons ={ blogger : 'http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png',
                    facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
