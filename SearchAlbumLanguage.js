@@ -12,7 +12,8 @@
                    googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
-                   onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png'
+                   onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png',
+                   twitter : 'https://g.twimg.com/twitter-bird-16x16.png'
       };
 
 
@@ -58,6 +59,11 @@
                              };
                              if (social.flickr) {
                                 div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
+                                div.append(' ')
+                             };
+                             if (social.twitter) {
+                                socialKeyword= social.twitter==true ? window.keyword : social.twitter; 
+                                div.append($('<a href="https://twitter.com/=' + window.keyword +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              return div
