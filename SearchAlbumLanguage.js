@@ -106,7 +106,8 @@
                                 div.append(' ')
                               };
                               if (social.blogger) {
-                                div.append($('<a href="' + social.blogger + '">' + '<img src="' + icons.blogger + '" style="padding:0px;" />' + '</a>'));
+                                var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').toLowerCase();
+                                div.append($('<a href="' + social.domain + '.html">' + '<img src="' + icons.blogger + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
