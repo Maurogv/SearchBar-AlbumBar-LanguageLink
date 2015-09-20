@@ -6,7 +6,8 @@
                     return div
                  };
                  
-      var icons ={ facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
+      var icons ={ blogger : 'http://icons.iconarchive.com/icons/hopstarter/social-networking/16/Blogger-icon.png',
+                   facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
                    googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
@@ -102,6 +103,10 @@
                               };
                               if (social.onedrive) {
                                 div.append($('<a href="' + onedrive + social.onedrive + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="padding:0px;" />' + '</a>'));
+                                div.append(' ')
+                              };
+                              if (social.blogger) {
+                                div.append($('<a href="' + social.blogger + '">' + '<img src="' + icons.blogger + '" style="padding:0px;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
