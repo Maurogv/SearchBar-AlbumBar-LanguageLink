@@ -1,4 +1,4 @@
-I wrote code in javascript to add content to my [writings](http://maurogv.github.io/SearchBar-AlbumBar-LanguageLink/My writings.html) in the form of link in two bars, two strips of the same color.  
+I wrote code in javascript to add content to [my writings](http://maurogv.github.io/SearchBar-AlbumBar-LanguageLink/My writings.html) in the form of link in two bars, two strips of the same color.  
 The additional content refers to the title of the text or its minor changes and are of three types.
 
 The first type of additional content is a link to Google Italy for a search on the internet with its search engine, to Google Maps, to social networks, Facebook, Flickr, Instagram, Twitter by searching the keyword as a location or tag, sometimes both. This content, a part of it, is to the left of the first bar.   
