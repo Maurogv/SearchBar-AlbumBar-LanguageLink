@@ -7,4 +7,4 @@ Un terzo tipo di contenuto che arricchisce il testo è un collegamento ai miei a
 
 Nella disposizione della mia pagina metto la prima barra in alto e la seconda barra in basso.
 
-Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/SearchAlbumLanguage.js oppure https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/SearchAlbumLanguage.js
+Il file raw per TestoBars è https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js oppure https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js
