@@ -128,7 +128,7 @@
                     };
                   
         window.searchBar=searchBar;
-        window.albumBar=albumBar;
+        window.myContentBar=myContentBar;
         window.languageLink=languageLink;
     
 })(window);
