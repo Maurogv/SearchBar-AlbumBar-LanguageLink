@@ -72,7 +72,7 @@
                 };            
                       
       
-         var albumBar = function (social) {
+         var myContentBar = function (social) {
                              var div= bar();
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
