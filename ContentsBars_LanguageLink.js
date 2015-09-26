@@ -77,6 +77,7 @@
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
                              div.attr('line-height', '1.1'); 
+                             div.attr('overflow', 'auto'); 
                              var facebook='https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.',
                                  facebook_end='.100000433081467&type=3',
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
@@ -108,7 +109,7 @@
                               };
                               if (social.blogger) {
                                 var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
-                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right; overflow:hidden;" />' + '</a>'));
+                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
