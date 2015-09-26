@@ -108,7 +108,7 @@
                               };
                               if (social.blogger) {
                                 var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
-                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right; margin-right:10px;" />' + '</a>'));
+                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
