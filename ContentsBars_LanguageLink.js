@@ -77,7 +77,7 @@
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
                              div.attr('line-height', '1.1'); 
-                             div.attr('overflow', 'hidden'); 
+                             div.attr('min-height', '20px'); 
                              var facebook='https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.',
                                  facebook_end='.100000433081467&type=3',
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
