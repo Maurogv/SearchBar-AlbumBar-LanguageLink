@@ -106,6 +106,7 @@
                                 div.append($('<a href="' + onedrive + social.onedrive + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                               };
+                              // if div is empty float no space up then background no color
                               div.append($('<a href="" style="color:' + color + ';">&bnsp;</a>'));
                               if (social.blogger) {
                                 var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
