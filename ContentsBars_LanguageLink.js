@@ -116,7 +116,7 @@
                                 div.append(' ')
                               };
                               if (social.tumblr) {
-                                var domain= social.tumblr.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+                                var domain= toUrlFormat(social.tumblr);
                                 div.append($('<a href="' + tumblr + domain + '.html">' + '<img src="' + icons.tumblr + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
@@ -135,6 +135,10 @@
                              }
                              else return;
                     };
+                    
+        var toUrlFormat =function (fragment) {
+               return fragment.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+        };
                   
         window.searchBar=searchBar;
         window.myContentBar=myContentBar;
