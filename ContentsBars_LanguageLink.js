@@ -111,7 +111,7 @@
                               // if div is empty float no space up then background no color
                               div.append($('<a href="" style="color:' + color + ';">&bnsp;</a>'));
                               if (social.blogger) {
-                                var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+                                var domain= toUrlFormat(social.blogger);
                                 div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
