@@ -14,6 +14,7 @@
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
                    onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png',
+                   tumblr : 'http://www.theruleoflead.com/images/tumblr.png',
                    twitter : 'https://g.twimg.com/twitter-bird-16x16.png'
       };
 
@@ -84,6 +85,7 @@
                                  google='https://photos.google.com/u/0/album/',
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
+                                 tumblr='http://maurogv.tumblr.com/post/',
                                  padding0px='padding:0px;';
                                  
                              if (social.google) {
@@ -111,6 +113,11 @@
                               if (social.blogger) {
                                 var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
                                 div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right;" />' + '</a>'));
+                                div.append(' ')
+                              };
+                              if (social.tumblr) {
+                                var domain= social.tumblr.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+                                div.append($('<a href="' + tumblr + domain + '.html">' + '<img src="' + icons.tumblr + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
