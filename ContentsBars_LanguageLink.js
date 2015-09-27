@@ -85,7 +85,6 @@
                                  google='https://photos.google.com/u/0/album/',
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
-                                 tumblr='http://maurogv.tumblr.com/post/',
                                  padding0px='padding:0px;';
                                  
                              if (social.google) {
@@ -117,7 +116,7 @@
                               };
                               if (social.tumblr) {
                                 var domain= toUrlFormat(social.tumblr);
-                                div.append($('<a href="' + tumblr + domain + '.html">' + '<img src="' + icons.tumblr + '" style="' + padding0px + ' float:right;" />' + '</a>'));
+                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.tumblr + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
