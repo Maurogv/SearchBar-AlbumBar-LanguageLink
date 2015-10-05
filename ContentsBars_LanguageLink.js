@@ -80,7 +80,7 @@
                                 div.append(' ')
                              };
                              if (social.twitter_search) {
-                                socialKeyword= social.twitter_search==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.twitter_search; 
+                                socialKeyword= social.twitter_search==true ? window.keyword : social.twitter_search; 
                                 socialKeyword+='&src=typd';
                                 div.append($('<a href="https://twitter.com/search?q=' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
                                 div.append(' ')
