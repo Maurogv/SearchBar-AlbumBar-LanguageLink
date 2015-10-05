@@ -56,6 +56,11 @@
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
+                             if (social.instagram) {
+                                socialKeyword= social.instagram==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.instagram; 
+                                div.append($('<a href="https://www.instagram.com/' + socialKeyword +'">' + '<img src="' + icons.instagram + '"/>' + '</a>' ));
+                                div.append(' ')
+                             }
                              if (social.instagram_tags) {
                                 socialKeyword= social.instagram_tags==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
