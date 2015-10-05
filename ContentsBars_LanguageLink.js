@@ -39,13 +39,19 @@
                                 div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
                              };
+                             if (social.facebook) {
+                                socialKeyword= social.facebook==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.facebook; 
+                                socialKeyword+='?fref=ts';
+                                div.append($('<a href="https://www.facebook.com/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
+                                div.append(' ')
+                             }
                              if (social.facebook_search) {
                                 socialKeyword= social.facebook_search==true ? window.keyword : social.facebook_search; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.facebook_pages) {
-                                socialKeyword= social.facebook==true ? window.keyword : social.facebook_pages; 
+                                socialKeyword= social.facebook_pages==true ? window.keyword : social.facebook_pages; 
                                 socialKeyword+='?fref=ts';
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
