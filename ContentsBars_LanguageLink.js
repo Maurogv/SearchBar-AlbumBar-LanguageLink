@@ -75,7 +75,7 @@
                                 div.append(' ')
                              };
                              if (social.twitter) {
-                                socialKeyword= social.twitter==true ? window.keyword : social.twitter; 
+                                socialKeyword= social.twitter==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.twitter; 
                                 div.append($('<a href="https://twitter.com/' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
