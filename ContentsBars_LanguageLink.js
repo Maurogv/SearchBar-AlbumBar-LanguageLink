@@ -100,12 +100,17 @@
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
                                  flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
                                  google='https://photos.google.com/u/0/album/',
+                                 google_plus='https://plus.google.com/u/0/photos/113727750810625155496/albums/'
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
                                  padding0px='padding:0px;';
                                  
                              if (social.google) {
                                 div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append(' ')
+                             };
+                             if (social.google_plus) {
+                                div.append($('<a href="' + google + social.google_plus + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.flickr_sets) {
