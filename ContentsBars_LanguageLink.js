@@ -110,7 +110,7 @@
                                 div.append(' ')
                              };
                              if (social.google_plus) {
-                                div.append($('<a href="' + google + social.google_plus + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append($('<a href="' + google_plus + social.google_plus + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.flickr_sets) {
