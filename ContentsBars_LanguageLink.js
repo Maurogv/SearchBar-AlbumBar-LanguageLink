@@ -146,7 +146,7 @@
               };
                   
 
-        var languageLink=  function (blog, lang, post) { 
+        var languageLink=  function (lang, blog, post) { 
                              if (lang) {
                                  var language;
                                  if (lang=='it') {language="Italiano"};
