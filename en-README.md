@@ -7,7 +7,7 @@ A third type of content that enriches the text is a link to my photos albums pub
 
 In my page layout I set the first bar at the top and the second bar at the bottom.
 
-Raw file for TestoBars is  https://raw.githubusercontent.com/Maurogv/SearchBar-AlbumBar-LanguageLink/master/SearchAlbumLanguage.js or https://rawgit.com/Maurogv/SearchBar-AlbumBar-LanguageLink/master/SearchAlbumLanguage.js
+Raw file for TestoBars is https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js or https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js
 
 
 

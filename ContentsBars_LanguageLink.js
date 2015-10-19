@@ -10,10 +10,11 @@
                    facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
-                   googlePlus : 'http://ssl.gstatic.com/images/icons/gplus-16.png',
+                   googlePlus : 'https://www.google.com/work/apps/business/img/footer_googleplus.jpg',
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
                    onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png',
+                   tumblr : 'http://www.theruleoflead.com/images/tumblr.png',
                    twitter : 'https://g.twimg.com/twitter-bird-16x16.png'
       };
 
@@ -38,17 +39,28 @@
                                 div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
                              };
+                             if (social.facebook) {
+                                socialKeyword= social.facebook==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.facebook; 
+                                socialKeyword+='?fref=ts';
+                                div.append($('<a href="https://www.facebook.com/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
+                                div.append(' ')
+                             }
                              if (social.facebook_search) {
                                 socialKeyword= social.facebook_search==true ? window.keyword : social.facebook_search; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.facebook_pages) {
-                                socialKeyword= social.facebook==true ? window.keyword : social.facebook_pages; 
+                                socialKeyword= social.facebook_pages==true ? window.keyword : social.facebook_pages; 
                                 socialKeyword+='?fref=ts';
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
+                             if (social.instagram) {
+                                socialKeyword= social.instagram==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.instagram; 
+                                div.append($('<a href="https://www.instagram.com/' + socialKeyword +'">' + '<img src="' + icons.instagram + '"/>' + '</a>' ));
+                                div.append(' ')
+                             }
                              if (social.instagram_tags) {
                                 socialKeyword= social.instagram_tags==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
@@ -63,8 +75,14 @@
                                 div.append(' ')
                              };
                              if (social.twitter) {
-                                socialKeyword= social.twitter==true ? window.keyword : social.twitter; 
+                                socialKeyword= social.twitter==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.twitter; 
                                 div.append($('<a href="https://twitter.com/' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
+                                div.append(' ')
+                             };
+                             if (social.twitter_search) {
+                                socialKeyword= social.twitter_search==true ? window.keyword : social.twitter_search; 
+                                socialKeyword+='&src=typd';
+                                div.append($('<a href="https://twitter.com/search?q=' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              return div
@@ -72,7 +90,7 @@
                 };            
                       
       
-         var albumBar = function (social) {
+         var myContentBar = function (social) {
                              var div= bar();
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
@@ -82,12 +100,17 @@
                                  flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
                                  flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
                                  google='https://photos.google.com/u/0/album/',
+                                 google_plus='https://plus.google.com/u/0/photos/113727750810625155496/albums/'
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
                                  padding0px='padding:0px;';
                                  
                              if (social.google) {
                                 div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append(' ')
+                             };
+                             if (social.google_plus) {
+                                div.append($('<a href="' + google_plus + social.google_plus + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.flickr_sets) {
@@ -106,9 +129,16 @@
                                 div.append($('<a href="' + onedrive + social.onedrive + onedrive_end + '">' + '<img src="' + icons.onedrive + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                               };
+                              // if div is empty float no space up then background no color
+                              div.append($('<a href="" style="color:' + color + ';">&bnsp;</a>'));
                               if (social.blogger) {
-                                var domain= social.blogger.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+                                var domain= toUrlFormat(social.blogger);
                                 div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.blogger + '" style="' + padding0px + ' float:right;" />' + '</a>'));
+                                div.append(' ')
+                              };
+                              if (social.tumblr) {
+                                var domain= toUrlFormat(social.tumblr);
+                                div.append($('<a href="' + domain + '.html">' + '<img src="' + icons.tumblr + '" style="' + padding0px + ' float:right;" />' + '</a>'));
                                 div.append(' ')
                               };
                              
@@ -116,7 +146,7 @@
               };
                   
 
-        var languageLink=  function (blog, lang, post) { 
+        var languageLink=  function (lang, blog, post) { 
                              if (lang) {
                                  var language;
                                  if (lang=='it') {language="Italiano"};
@@ -126,9 +156,13 @@
                              }
                              else return;
                     };
+                    
+        var toUrlFormat =function (fragment) {
+               return fragment.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
+        };
                   
         window.searchBar=searchBar;
-        window.albumBar=albumBar;
+        window.myContentBar=myContentBar;
         window.languageLink=languageLink;
     
 })(window);
