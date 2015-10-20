@@ -95,34 +95,34 @@
                              // to override .post-body in blogspot
                              div.attr('font-size', '100%');
                              div.attr('line-height', '1.1'); 
-                             var facebook='https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.',
+                             var facebook_set='https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.',
                                  facebook_end='.100000433081467&type=3',
-                                 flickr_set='https://www.flickr.com/photos/95893200@N07/sets/',
-                                 flickr_gallery='https://www.flickr.com/photos/95893200@N07/galleries/',
-                                 google='https://photos.google.com/u/0/album/',
-                                 google_plus='https://plus.google.com/u/0/photos/113727750810625155496/albums/'
+                                 flickr_sets='https://www.flickr.com/photos/95893200@N07/sets/',
+                                 flickr_galleries='https://www.flickr.com/photos/95893200@N07/galleries/',
+                                 photos_google='https://photos.google.com/u/0/album/',
+                                 plus_google='https://plus.google.com/u/0/photos/113727750810625155496/albums/'
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
                                  padding0px='padding:0px;';
                                  
-                             if (social.google) {
-                                div.append($('<a href="' + google + social.google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                             if (social.photos_google) {
+                                div.append($('<a href="' + photos_google + social.photos_google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
-                             if (social.google_plus) {
-                                div.append($('<a href="' + google_plus + social.google_plus + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                             if (social.plus_google) {
+                                div.append($('<a href="' + plus_google + social.plus_google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.flickr_sets) {
-                                div.append($('<a href="' + flickr_set + social.flickr_sets + '">' + '<img src="' + icons.flickr + '" style="' + padding0px + '" />' + '</a>' ));
+                                div.append($('<a href="' + flickr_sets + social.flickr_sets + '">' + '<img src="' + icons.flickr + '" style="' + padding0px + '" />' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.flickr_galleries) {
-                                div.append($('<a href="' + flickr_gallery + social.flickr_galleries + '">' + '<img src="' + icons.flickr + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append($('<a href="' + flickr_galleries + social.flickr_galleries + '">' + '<img src="' + icons.flickr + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                               };
-                              if (social.facebook) {
-                                div.append($('<a href="' + facebook + social.facebook + facebook_end + '">' + '<img src="' + icons.facebook + '" style="' + padding0px + '" />' + '</a>'));
+                              if (social.facebook_set) {
+                                div.append($('<a href="' + facebook_set + social.facebook_set + facebook_end + '">' + '<img src="' + icons.facebook + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                               };
                               if (social.onedrive) {
