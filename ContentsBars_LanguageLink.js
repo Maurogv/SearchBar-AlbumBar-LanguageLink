@@ -30,39 +30,39 @@
                                     return div;
                              }
                              if (social.google) {
-                                socialKeyword= social.google==true ? window.keyword.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
+                                socialKeyword= social.google==true ? window.title.replace(/\s/g, '+').toLowerCase() : social.google.replace(/\s/g, '+').toLowerCase();
                                 div.append($('<a href="https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=' + socialKeyword + '">' + '<img src="' + icons.google + '"/>' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.google_maps) {
-                                socialKeyword= social.google_maps==true ? window.keyword.replace(/\s/g, '+') : social.google_maps.replace(/\s/g, '+');
+                                socialKeyword= social.google_maps==true ? window.title.replace(/\s/g, '+') : social.google_maps.replace(/\s/g, '+');
                                 div.append($('<a href="https://www.google.it/maps/place/' + socialKeyword + '">' + '<img src="' + icons.googleMaps + '"/>' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.facebook) {
-                                socialKeyword= social.facebook==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.facebook; 
+                                socialKeyword= social.facebook==true ? window.title.replace(/\s/g,'').toLowerCase() : social.facebook; 
                                 socialKeyword+='?fref=ts';
                                 div.append($('<a href="https://www.facebook.com/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              }
                              if (social.facebook_search) {
-                                socialKeyword= social.facebook_search==true ? window.keyword : social.facebook_search; 
+                                socialKeyword= social.facebook_search==true ? window.title : social.facebook_search; 
                                 div.append($('<a href="https://www.facebook.com/search/str/' + socialKeyword +'/keywords_top">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.facebook_pages) {
-                                socialKeyword= social.facebook_pages==true ? window.keyword : social.facebook_pages; 
+                                socialKeyword= social.facebook_pages==true ? window.title : social.facebook_pages; 
                                 socialKeyword+='?fref=ts';
                                 div.append($('<a href="https://www.facebook.com/pages/' + socialKeyword +'">' + '<img src="' + icons.facebook + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.instagram) {
-                                socialKeyword= social.instagram==true ? window.keyword.replace(/\s/g,'').toLowerCase() : social.instagram; 
+                                socialKeyword= social.instagram==true ? window.title.replace(/\s/g,'').toLowerCase() : social.instagram; 
                                 div.append($('<a href="https://www.instagram.com/' + socialKeyword +'">' + '<img src="' + icons.instagram + '"/>' + '</a>' ));
                                 div.append(' ')
                              }
                              if (social.instagram_tags) {
-                                socialKeyword= social.instagram_tags==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
+                                socialKeyword= social.instagram_tags==true ? window.title.replace(/\s/g, '').toLowerCase() : social.instagram_tags.toLowerCase();
                                 div.append($('<a href="https://instagram.com/explore/tags/' + socialKeyword  + '/">' + '<img src="' + icons.instagram + '"/>' + '</a>'));
                                 div.append(' ') 
                              };
@@ -71,16 +71,16 @@
                                 div.append(' ')
                              };
                              if (social.flickr) {
-                                div.append($('<a href="https://www.flickr.com/search/?text=' + window.keyword +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
+                                div.append($('<a href="https://www.flickr.com/search/?text=' + window.title +'">' + '<img src="' + icons.flickr + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.twitter) {
-                                socialKeyword= social.twitter==true ? window.keyword.replace(/\s/g, '').toLowerCase() : social.twitter; 
+                                socialKeyword= social.twitter==true ? window.title.replace(/\s/g, '').toLowerCase() : social.twitter; 
                                 div.append($('<a href="https://twitter.com/' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
                                 div.append(' ')
                              };
                              if (social.twitter_search) {
-                                socialKeyword= social.twitter_search==true ? window.keyword : social.twitter_search; 
+                                socialKeyword= social.twitter_search==true ? window.title : social.twitter_search; 
                                 socialKeyword+='&src=typd';
                                 div.append($('<a href="https://twitter.com/search?q=' + socialKeyword +'">' + '<img src="' + icons.twitter + '"/>' + '</a>' ));
                                 div.append(' ')
@@ -151,7 +151,7 @@
                                  var language;
                                  if (lang=='it') {language="Italiano"};
                                  if (lang=='en') {language="English"};
-                                 var endDomain= post ? post :  window.keyword.replace(/-\s/g,'').replace(/\s/g,'-').toLowerCase();
+                                 var endDomain= post ? post :  window.title.replace(/-\s/g,'').replace(/\s/g,'-').toLowerCase();
                                  return $('<a style="float:right;" href="' + blog + endDomain +'.html">' + language + '</a>')
                              }
                              else return;
