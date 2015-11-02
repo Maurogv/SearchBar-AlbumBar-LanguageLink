@@ -1,3 +1,4 @@
-(function () {
-alert('hello');
+(function (window) {
+  alert(window.wr['blog']);
+  alert('hello');
 })();
