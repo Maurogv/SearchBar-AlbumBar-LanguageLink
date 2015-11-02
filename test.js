@@ -1,4 +1,4 @@
 (function (window) {
-   alert(window['wr'].apply(null, arguments));
+   alert(window['wr'].l);
    alert('hello');
 })(window);
