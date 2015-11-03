@@ -10,6 +10,6 @@
     	alert (window.writing);
     	$.getJSON("/json/album.json")
                 .done(function (album) {                   
-                                     
+                    alert (album);         
                 });  
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js'])
