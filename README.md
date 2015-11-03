@@ -1,4 +1,4 @@
-Ho scritto del codice in javascript per aggiungere contenuto ai [miei scritti](http://maurogv.github.io/SearchBar-AlbumBar-LanguageLink/I miei scritti.html) in forma di collegamento in due barre, due strisce dello stesso colore.  
+Ho scritto del codice in javascript per aggiungere contenuto ai [miei scritti](http://maurogv.github.io/SearchBar-MyContentBar-LanguageLink/I miei scritti.html) in forma di collegamento in due barre, due strisce dello stesso colore.  
 I contenuti aggiuntivi si riferiscono al titolo del testo o a sue piccole modifiche e sono di tre tipi.
 
 Il primo tipo di contenuto aggiuntivo è un collegamento a Google Italia per una ricerca su internet con il suo motore di ricerca, a Google Map, a un collegamento ai social network, Facebook, Flickr, Instagram, Twitter, eseguendo una ricerca secondo la parola chiave come luogo o tag, a volte entrambi. Questo contenuto, una sua parte, viene inserito a sinistra della prima barra.  
