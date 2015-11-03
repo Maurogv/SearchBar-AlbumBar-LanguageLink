@@ -1,3 +1,3 @@
 (function (window) {
-   alert( window.site);
+   alert( window.writing);
 })(window);
