@@ -1,5 +1,4 @@
 (function(window,document,script, urls){
-      alert('ciao');
       urls.forEach(function(url) {
          newScript=document.createElement(script);
          newScript.async=1;
