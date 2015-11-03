@@ -3,6 +3,5 @@
    for(i=0; i< a.length; i++){
         alert("parameter " + i + " = " + a[i]); 
     }
-   alert( );
-   alert('hello');
+   alert( window.par);
 })(window);
