@@ -7,7 +7,7 @@
        'agriturismo Brunino' : { 'photos_google': 'AF1QipObkSWY2-tMGvcjdM71DmoAr3LhfymZLtwbCLNs', 
                                  'plus_google': 6164040280865064465, 
                                  'flickr_sets': 72157652653491493, 
-                                 'flickr_galleries: 72157656348361735
+                                 'flickr_galleries': 72157656348361735
        }
    }
 }
