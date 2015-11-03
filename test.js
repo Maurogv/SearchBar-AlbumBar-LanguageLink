@@ -1,3 +1,3 @@
 (function (window) {
-   alert( window.par);
+   alert( window.site);
 })(window);
