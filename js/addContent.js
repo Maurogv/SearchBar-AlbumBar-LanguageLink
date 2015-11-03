@@ -22,13 +22,14 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-     	$.getJSON("/json/album.json")
-                .done(function (album) {                   
-                    alert (album);         
-                })
-                .fail(function( jqxhr, textStatus, error ) {
-                      var err = textStatus + ", " + error;
-                      alert( "Request Failed: " + err );
-                });
+       	$.getJSON("/json/album.json")
+                  .done(function (album) {                   
+                      alert (album);         
+                  })
+                  .fail(function( jqxhr, textStatus, error ) {
+                        var err = textStatus + ", " + error;
+                        alert( "Request Failed: " + err );
+                  });
+     })
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js'])
