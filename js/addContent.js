@@ -23,4 +23,4 @@
        	albumsUrl();
      }) 
      
-   })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/ContentsBars_LanguageLink.js'])
+   })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albumsUrl.js'])
