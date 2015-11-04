@@ -2,7 +2,7 @@ function albumsUrl() {
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (albumsCodes) {                   
-                              
+                      alert (JSON.stringify(albumsCodes['grignone'].acquafredda));  
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
@@ -18,7 +18,7 @@ function albumsUrl() {
                         alert( "Request Failed: " + err );
                   });   
                   
-   alert (JSON.stringify(albumsCodes['grignone'].acquafredda));              
+              
                   
 }
     
