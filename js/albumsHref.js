@@ -1,9 +1,8 @@
 function albumsHref() {
-  var albumsCodes, albumsFixedPart;
+
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
-                  .done(function (albums) {                   
-                      albumsCodes=albums;
-                      alert (JSON.stringify(albums['grignone'].acquafredda));         
+                  .done(function (albumsCodes) {                   
+                              
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
@@ -11,13 +10,15 @@ function albumsHref() {
                   });
                   
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsFixedPart.json")
-                  .done(function (albums) {                   
-                      albumsFixedPart=albums;
+                  .done(function (albumsFixedPart) {                   
+                      
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
                         alert( "Request Failed: " + err );
-                  });                 
+                  });   
+                  
+   alert (JSON.stringify(albumsCodes['grignone'].acquafredda));              
                   
 }
     
