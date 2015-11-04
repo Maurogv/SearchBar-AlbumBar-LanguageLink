@@ -20,7 +20,8 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-       	albumsUrl();
+        alert('ciao');
+        albumsUrl();
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albumsUrl.js'])
