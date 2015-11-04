@@ -1,4 +1,4 @@
-function albumsHref() {
+function albumsUrl() {
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (albumsCodes) {                   
