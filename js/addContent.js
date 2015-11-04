@@ -22,7 +22,7 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-       	$.getJSON("/json/album.json")
+       	$.getJSON("../json/album.json")
                   .done(function (album) {                   
                       alert (album);         
                   })
