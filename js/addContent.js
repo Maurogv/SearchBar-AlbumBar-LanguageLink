@@ -5,7 +5,6 @@
          newScript.src=url;
          scriptTag=document.getElementsByTagName(script)[0];
          scriptTag.parentNode.insertBefore(newScript,scriptTag);
-         alert(url);
       })
     	
     	// Poll for jQuery to come into existance
