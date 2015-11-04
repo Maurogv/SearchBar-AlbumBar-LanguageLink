@@ -20,7 +20,7 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-       	$.getJSON("https://github.com/Maurogv/SearchBar-MyContentBar-LanguageLink/blob/master/json/album.json")
+       	$.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/album.json")
                   .done(function (album) {                   
                       alert (album);         
                   })
