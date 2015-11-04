@@ -7,7 +7,6 @@
          scriptTag.parentNode.insertBefore(newScript,scriptTag);
          alert(url);
       })
-      alert (window.writing);
     	
     	// Poll for jQuery to come into existance
        var checkReady = function (callback) {
@@ -22,7 +21,7 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-       	$.getJSON("json/album.json")
+       	$.getJSON("../json/album.json")
                   .done(function (album) {                   
                       alert (album);         
                   })
