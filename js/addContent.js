@@ -22,7 +22,7 @@
         // Use $ here...
        	$.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/album.json")
                   .done(function (album) {                   
-                      alert (album);         
+                      alert (JSON.stringify(album));         
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
