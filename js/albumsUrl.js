@@ -4,8 +4,16 @@ window.albumsUrl= function (writing) {
       title=writing[2];
   
   var albumsCodes, albumsFixedPart;
+  
+  var firstPromise = $.get("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
+  var secondPromise = $.get("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
 
-  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
+  $.when(firstPromise, secondPromise).done(function(firstData, secondData) {
+    // do something
+     alert(firstdata);
+  });
+
+/*  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (data) {
                       albumsCodes(data);
                   })
@@ -24,7 +32,7 @@ window.albumsUrl= function (writing) {
                   });   
                   
  var albumsCodes=function albumCodes(data) {return data;}
- alert(albumsCodes);
+ alert(albumsCodes); */
                   
 }
     
