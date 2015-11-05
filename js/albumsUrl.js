@@ -7,7 +7,7 @@ window.albumsUrl= function (writing) {
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (data) {
-                      albumsCodes=data;
+                      albumsCodes(data);
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
@@ -23,7 +23,7 @@ window.albumsUrl= function (writing) {
                         alert( "Request Failed: " + err );
                   });   
                   
-  alert (albumsCodes);
+ var albumsCodes=function albumCodes(data) {return data;}
                   
 }
     
