@@ -1,8 +1,8 @@
-window.albumsUrl= function () {
+window.albumsUrl= function (writing) {
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (albumsCodes) {                   
-                      alert (JSON.stringify(albumsCodes['grignone'].acquafredda));  
+                      alert (JSON.stringify(albumsCodes['grignone']['acquafredda']));  
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
