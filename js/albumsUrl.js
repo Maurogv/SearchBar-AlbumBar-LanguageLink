@@ -5,8 +5,8 @@ window.albumsUrl= function (writing) {
   
   var albumsCodes, albumsFixedPart;
   
-  var firstPromise = $.get("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
-  var secondPromise = $.get("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
+  var firstPromise = $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
+  var secondPromise = $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
 
   $.when(firstPromise, secondPromise).done(function(firstData, secondData) {
     // do something
