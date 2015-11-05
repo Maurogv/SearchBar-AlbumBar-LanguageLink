@@ -1,7 +1,7 @@
 window.albumsUrl= function (writing) {
   
   topic=writing[1];
-  title=writing[2]
+  title=writing[2];
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (albumsCodes) {                   
