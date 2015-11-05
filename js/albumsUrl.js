@@ -10,7 +10,7 @@ window.albumsUrl= function (writing) {
 
   $.when(firstPromise, secondPromise).done(function(firstData, secondData) {
     // do something
-     alert(firstdata);
+     alert(firstData);
   });
 
 /*  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
