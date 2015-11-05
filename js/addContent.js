@@ -21,6 +21,7 @@
      checkReady(function ($) {
         // Use $ here...
         alert('ciao');
+        alert(window.writing);
         albumsUrl(window.writing);
      }) 
      
