@@ -1,4 +1,7 @@
 window.albumsUrl= function (writing) {
+  
+  topic=writing[1];
+  title=writing[2]
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (albumsCodes) {                   
@@ -18,7 +21,7 @@ window.albumsUrl= function (writing) {
                         alert( "Request Failed: " + err );
                   });   
                   
-  alert (JSON.stringify(albumsCodes['grignone']['acquafredda']));             
+  alert (JSON.stringify(albumsCodes[topic][title]));             
                   
 }
     
