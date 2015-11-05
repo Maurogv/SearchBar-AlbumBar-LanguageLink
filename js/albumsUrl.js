@@ -10,7 +10,7 @@ window.albumsUrl= function (writing) {
 
   $.when(firstPromise, secondPromise).done(function(firstData, secondData) {
     // do something
-     alert(firstData);
+     alert(firstData['grignone']['acquafredda']);
   });
   
   return null;
