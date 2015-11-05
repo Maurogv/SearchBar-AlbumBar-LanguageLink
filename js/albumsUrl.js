@@ -12,6 +12,8 @@ window.albumsUrl= function (writing) {
     // do something
      alert(firstData);
   });
+  
+  return null;
 
 /*  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (data) {
