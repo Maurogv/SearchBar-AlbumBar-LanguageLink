@@ -24,6 +24,7 @@ window.albumsUrl= function (writing) {
                   });   
                   
  var albumsCodes=function albumCodes(data) {return data;}
+ alert(albumsCodes);
                   
 }
     
