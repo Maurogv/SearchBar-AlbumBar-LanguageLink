@@ -1,12 +1,13 @@
 window.albumsUrl= function (writing) {
   
-  topic=writing[1];
-  title=writing[2];
-  alert(topic);
+  var topic=writing[1],
+      title=writing[2];
+  
+  var albumsCodes, albumsFixedPart;
 
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
-                  .done(function (albumsCodes) {                   
-                      alert (JSON.stringify(albumsCodes[topic][title])); 
+                  .done(function (data) {
+                      albumsCodes=data;
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
@@ -14,15 +15,15 @@ window.albumsUrl= function (writing) {
                   });
                   
   $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsFixedPart.json")
-                  .done(function (albumsFixedPart) {                   
-                      
+                  .done(function (data) {                   
+                      albumsFixedPart=data;
                   })
                   .fail(function( jqxhr, textStatus, error ) {
                         var err = textStatus + ", " + error;
                         alert( "Request Failed: " + err );
                   });   
                   
-              
+  alert (albumsCodes);
                   
 }
     
