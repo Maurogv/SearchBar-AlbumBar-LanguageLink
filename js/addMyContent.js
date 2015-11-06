@@ -1,4 +1,4 @@
-window.addMyContent = function () {    
+window.addMyContent = function (script) {    
     albumsUrl(window.writing);
     var bar=new window.bar();
     bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
