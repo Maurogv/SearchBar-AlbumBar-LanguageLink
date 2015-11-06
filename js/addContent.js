@@ -21,7 +21,7 @@
      checkReady(function ($) {
         // Use $ here...
         albumsUrl(window.writing);
-        var bar=new bar();
+        var bar=new window.bar();
         alert (bar);
      }) 
      
