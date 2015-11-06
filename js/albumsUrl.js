@@ -15,7 +15,7 @@ window.albumsUrl= function (writing) {
         prefixAlbum=albumsFixedPart[0][key];  
         url=prefixAlbum+ currentAlbumCodes[key];
         url+= albumsFixedPart[0][key+'_end'] ? albumsFixedPart[0][key+'_end'] : '';
-        urls.push({key,url});
+        urls.push({key:url});
      });
      alert(urls);
      return urls;
