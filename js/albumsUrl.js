@@ -17,7 +17,6 @@ window.albumsUrl= function (writing) {
         url+= albumsFixedPart[0][key+'_end'] ? albumsFixedPart[0][key+'_end'] : '';
         urls.push({key:url});
      });
-     alert(urls);
      return urls;
   });
   
