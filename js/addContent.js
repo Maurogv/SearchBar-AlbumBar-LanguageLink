@@ -23,4 +23,6 @@
         albumsUrl(window.writing);
      }) 
      
-   })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albumsUrl.js'])
+   })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albumsUrl.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js'])
