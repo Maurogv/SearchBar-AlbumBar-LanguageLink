@@ -20,12 +20,10 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-        albumsUrl(window.writing);
-        var bar=new window.bar();
-        bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
-        bar.insertBefore(document.getElementsByTagName(script)[0].parentNode);
+        addMyContent();
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
                                 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albumsUrl.js',
-                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js'])
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addMyContent.js'])
