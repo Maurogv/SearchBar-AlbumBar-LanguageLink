@@ -3,4 +3,5 @@ window.addMyContent = function (script) {
     var bar=new window.bar();
     bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
     bar.insertBefore(document.getElementsByTagName(script)[0].parentNode);
+    return null;
 };
