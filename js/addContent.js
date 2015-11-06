@@ -21,6 +21,8 @@
      checkReady(function ($) {
         // Use $ here...
         albumsUrl(window.writing);
+        var bar=new bar();
+        alert (bar);
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
