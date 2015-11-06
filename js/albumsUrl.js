@@ -9,17 +9,17 @@ window.albumsUrl= function (writing) {
   $.when(firstPromise, secondPromise).done(function(albumsCodes, albumsFixedPart) {
      // [0] value, [1] success
      currentAlbumCodes=albumsCodes[0][topic][title];
-     albumsUrl=[];
+     urls=[];
      Object.keys(currentAlbumCodes).forEach(function (key) {
         // do something with obj[key]
         prefixAlbum=albumsFixedPart[0][key];  
         url=prefixAlbum+ currentAlbumCodes[key];
         url+= albumsFixedPart[0][key+'_end'] ? albumsFixedPart[0][key+'_end'] : '';
-        albumsUrl.push({key,url});
+        urls.push({key,url});
      });
   });
-  alert(albumsUrl);
-  return albumsUrl;
+  alert(urls);
+  return urls;
 
 /*  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (data) {
