@@ -22,7 +22,7 @@
         // Use $ here...
         albumsUrl(window.writing);
         var bar=new window.bar();
-        bar.insertBefore(document.getElementsByTagName(script)[0].parentNode);
+        "<div>Ciao</div>".insertBefore(document.getElementsByTagName(script)[0].parentNode);
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
