@@ -20,7 +20,7 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-        addMyContent();
+        window.addMyContent();
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
