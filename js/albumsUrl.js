@@ -17,10 +17,11 @@ window.albumsUrl= function (writing) {
         url+= albumsFixedPart[0][key+'_end'] ? albumsFixedPart[0][key+'_end'] : '';
         urls.push({key,url});
      });
+     alert(urls);
+     return urls;
   });
-  alert(urls);
-  return urls;
-
+  
+  return null;
 /*  $.getJSON("https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json")
                   .done(function (data) {
                       albumsCodes(data);
