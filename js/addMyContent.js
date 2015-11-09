@@ -9,7 +9,7 @@ window.addMyContent = function (script) {
             padding0px='padding:0px;';
             Object.keys(urls).forEach(function (key) {
                 url = urls[key];
-                if (!(window.on!='desktop' & (key=='plus.google' | key=='facebook_set'))) { 
+                if (!(window.on!='local' & (key=='plus.google' | key=='facebook_set'))) { 
                     // for exit from forEach loop is better some
                     Object.keys(icons).some(function (iconKey) {
                         repo = icons[iconKey];                  
