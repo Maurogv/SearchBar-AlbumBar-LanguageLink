@@ -30,6 +30,38 @@ window.createBar = function (source, writing, callback) {
          }); 
         callback(source, urls);   
        });                                         
-}
+};
+
+window.callbackCreate =function (source, urls) {
+        $.getJSON( "https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json")
+          .done(function(icons) {
+            var bar=new window.bar();
+            if (source=='search') { bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)}
+            else if (source=='albums') { bar.appendTo(document.getElementsByTagName('script')[0].parentNode)};
+            padding0px='padding:0px;';
+
+            Object.keys(urls).forEach(function (key) {
+                url = urls[key];               
+                if (!(window.on!='local' & (key=='plus.google' | key=='facebook_set'))) { 
+                    // for exit from forEach loop is better some
+                    Object.keys(icons).some(function (iconKey) {
+                        repo = icons[iconKey];
+
+                        if ($.inArray(key, repo)!=-1) 
+                        {
+                          // " style="' + padding0px + '"
+                          bar.append($('<a href="' + url + '">' + '<img src="' + iconKey + '" />' + '</a>'));
+                          bar.append(' '); 
+                          return true;
+                        }
+                    })  
+               }                  
+            })
+            if ( bar.children().length == 0 ) { 
+              bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
+            }           
+          })                 
+      
+};
     
     
