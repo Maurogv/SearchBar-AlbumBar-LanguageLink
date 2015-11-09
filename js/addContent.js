@@ -20,7 +20,8 @@
       // Start polling...
      checkReady(function ($) {
         // Use $ here...
-        window.addMyContent(script);
+        window.createBar('search', window.writing, window.callbackCreate);
+        window.createBar('albums', window.writing, window.callbackCreate);
      }) 
      
    })(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
