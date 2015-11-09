@@ -1,10 +1,16 @@
 {
-  "facebook_set":     "https://www.facebook.com/mauro.vezzoli.77/media_set?set=a.",
-  "facebook_set_end": ".100000433081467&type=3",
-  "flickr_sets":      "https://www.flickr.com/photos/95893200@N07/sets/",
-  "flickr_galleries": "https://www.flickr.com/photos/95893200@N07/galleries/",
-  "photos.google":    "https://photos.google.com/u/0/album/",
-  "plus.google":      "https://plus.google.com/u/0/photos/113727750810625155496/albums/",
-  "onedrive":         "https://onedrive.live.com/?id=B65050E4B8CE1B76!",
-  "onedrive_end":     "&cid=B65050E4B8CE1B76&group=0"
+  "facebook":        "https://www.facebook.com/",
+  "facebook_end":    "?fref=ts",
+  "facebook_search": "https://www.facebook.com/search/str/",
+  "facebook_pages":  "https://www.facebook.com/pages/",
+  "facebook_pages_end": "?fref=ts",
+  "flickr":          "https://www.flickr.com/search/?text=",
+  "google":          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q=",
+  "google_maps":     "https://www.google.it/maps/place/",
+  "instagram":       "https://www.instagram.com/",
+  "instagram_tags":  "https://instagram.com/explore/tags/",
+  "instagram_locations": "https://instagram.com/explore/locations/",
+  "twitter":         "https://twitter.com/",
+  "twitter_search":  "https://twitter.com/search?q=",
+  "twitter_search_end": "&src=typd"
 }
