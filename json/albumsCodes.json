@@ -18,6 +18,15 @@
        "Cappella della Madonna del Rosario (Pasturo)" : { "photos.google": "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
                                                           "plus.google": "6165511616727803217", 
                                                           "flickr_sets": "72157652858591004"
+       },
+       "Chiesetta degli Alpini a Cornisella" : { "photos.google": "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
+                                                          "plus.google": "6029523433466263393"
+       },
+       "Cornisella" : { "photos.google": "AF1QipNZfpOucHNb5xpeCql0pAdFd1tVx9dsxi9G3MqQ", 
+                       "plus.google": "6029519885522985873", 
+                       "flickr_sets": "72157644979637808", 
+                       "flickr_galleries": "72157654006193363",
+                       "facebook_set": "811711872186575.1073741886"
        }
    }
 }
