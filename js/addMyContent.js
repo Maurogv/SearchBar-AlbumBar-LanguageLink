@@ -9,16 +9,18 @@ window.addMyContent = function (script) {
             padding0px='padding:0px;';
             Object.keys(urls).forEach(function (key) {
                 url = urls[key];
-                // for exit from forEach loop is better some
-                Object.keys(icons).some(function (iconKey) {
-                    repo = icons[iconKey];                  
-                    if ($.inArray(key, repo)!=-1) 
-                    {
-                      bar.append($('<a href="' + url + '">' + '<img src="' + iconKey + '" style="' + padding0px + '" />' + '</a>'));
-                      bar.append(' '); 
-                      return true;
-                    }
-                })                    
+                if (!(window.on!='desktop' & (key=='plus.google' | key=='facebook_set'))) { 
+                    // for exit from forEach loop is better some
+                    Object.keys(icons).some(function (iconKey) {
+                        repo = icons[iconKey];                  
+                        if ($.inArray(key, repo)!=-1) 
+                        {
+                          bar.append($('<a href="' + url + '">' + '<img src="' + iconKey + '" style="' + padding0px + '" />' + '</a>'));
+                          bar.append(' '); 
+                          return true;
+                        }
+                    })
+                }
             })
             if ( bar.children().length == 0 ) { 
               bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
