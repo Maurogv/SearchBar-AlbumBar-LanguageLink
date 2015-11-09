@@ -1,7 +1,7 @@
 window.addMyContent = function (script) {    
     var bar=new window.bar();  
     bar.appendTo(document.getElementsByTagName(script)[0].parentNode);
-    window.albumsUrl(window.writing, callback);
+    window.getUrls('albums', window.writing, callback);
 
     function callback(urls) {
         $.getJSON( "https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json")
