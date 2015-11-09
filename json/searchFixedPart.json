@@ -2,6 +2,7 @@
   "facebook":        "https://www.facebook.com/",
   "facebook_end":    "?fref=ts",
   "facebook_search": "https://www.facebook.com/search/str/",
+  "facebook_search_end": "/keywords_top",
   "facebook_pages":  "https://www.facebook.com/pages/",
   "facebook_pages_end": "?fref=ts",
   "flickr":          "https://www.flickr.com/search/?text=",
