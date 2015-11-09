@@ -18,7 +18,7 @@ window.createBar = function (source, writing, callback) {
               if (currentCodes[key]=='self') {
                  code=title;
                  if (key=='facebook' | key=='instagram' | key=='instagram_tags' | key=='twitter') {
-                 // code=code.replace(/\s/g, '').toLowerCase();
+                   code=code.replace(/\s/g, '').toLowerCase();
                  };
               }
               else code= currentCodes[key];
