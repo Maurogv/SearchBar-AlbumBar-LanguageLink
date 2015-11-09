@@ -10,6 +10,11 @@
                        "facebook_pages": "Alpe-Di-Cova/266655826795986",
                        "flickr": "self",
                        "instagram_tags": "self"
+       },
+       "Cornisella" : { "google": "self",
+                        "facebook_search": "self",
+                        "flickr": "self",
+                        "instagram_tags": "self"
        }
    }
 }
