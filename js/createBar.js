@@ -1,4 +1,4 @@
-window.getUrls = function (source, writing, callback) {
+window.createBar = function (source, writing, callback) {
       
      var topic=window.writing[1],
          title=window.writing[2],
@@ -13,14 +13,23 @@ window.getUrls = function (source, writing, callback) {
          
          Object.keys(currentCodes).forEach(function (key) {
             // do something with obj[key]
-            prefix=fixedPart[0][key];  
-            url=prefix + currentCodes[key];
+            prefix=fixedPart[0][key];
+            if (source=='search') {
+              if (currentCodes[key]=='self') {
+                 code=title;
+                 if (key=='facebook' | key=='instagram' | key=='instagram_tags' | key=='twitter') {
+                  code=code.replace(/\s/g, '').toLowerCase();
+                 };
+              }
+              else code= currentCodes[key];
+            }
+            else code= currentCodes[key];
+            url=prefix + code;
             url+= fixedPart[0][key+'_end'] ? fixedPart[0][key+'_end'] : '';
             urls[key]=url;
          }); 
-        callback(urls);   
-       });     
-                                      
+        callback(source, urls);   
+       });                                         
 }
     
     
