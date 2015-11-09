@@ -1,27 +1,26 @@
-window.albumsUrl= function (writing, callback) {
+window.getUrls = function (source, writing, callback) {
       
      var topic=window.writing[1],
          title=window.writing[2],
          urls={};
 
-      var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsCodes.json");
-      var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albumsFixedPart.json");
+      var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/" + source + "Codes.json");
+      var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/" + source + "FixedPart.json");
      
-      $.when(firstPromise, secondPromise).done(function(albumsCodes, albumsFixedPart) {         
+      $.when(firstPromise, secondPromise).done(function(codes, fixedPart) {         
          // [0] value, [1] success 
-         currentAlbumCodes=albumsCodes[0][topic][title];        
+         currentCodes=codes[0][topic][title];        
          
-         Object.keys(currentAlbumCodes).forEach(function (key) {
+         Object.keys(currentCodes).forEach(function (key) {
             // do something with obj[key]
-            prefixAlbum=albumsFixedPart[0][key];  
-            url=prefixAlbum+ currentAlbumCodes[key];
-            url+= albumsFixedPart[0][key+'_end'] ? albumsFixedPart[0][key+'_end'] : '';
+            prefix=fixedPart[0][key];  
+            url=prefix + currentCodes[key];
+            url+= fixedPart[0][key+'_end'] ? fixedPart[0][key+'_end'] : '';
             urls[key]=url;
-           // urls.push({key:key, url:url});
          }); 
         callback(urls);   
        });     
-                  
+                                      
 }
     
     
