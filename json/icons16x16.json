@@ -1,21 +1,41 @@
 {
-   "http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png" : [ "blogger" ],
-   "http://static.viewbook.com/images/social_icons/facebook_16.png" : [ "facebook", 
-                                                                        "facebook_set",
-                                                                        "facebook_search",
-                                                                        "facebook_pages"],
-   "http://static.viewbook.com/images/social_icons/flickr_16.png" : [ "flickr", 
-                                                                      "flickr_sets", 
-                                                                      "flickr_galleries"],
-   "http://it.yourtrainings.com/images/brands/logo_google_mini.png" : [ "google" ],
-   "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ "photos.google", 
-                                                                             "plus.google" ],
-   "https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0" : [ "google_maps" ],                 
-   "http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" : [ "instagram",  
-                                                                                                      "instagram_locations",
-                                                                                                      "instagram_tags"],
-   "http://img.informer.com/icons/png/16/3999/3999393.png" : [ "onedrive" ],
-   "http://www.theruleoflead.com/images/tumblr.png" : [ "tumblr" ],
-   "https://g.twimg.com/twitter-bird-16x16.png" : [ "twitter",
-                                                    "twitter_search"]
+   "http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png" : [ 
+      "blogger" 
+      ],
+   "http://static.viewbook.com/images/social_icons/facebook_16.png" : [ 
+      "facebook", 
+      "facebook_set",
+      "facebook_search",
+      "facebook_pages"
+      ],
+   "http://static.viewbook.com/images/social_icons/flickr_16.png" : [ 
+      "flickr", 
+      "flickr_sets", 
+      "flickr_galleries"
+      ],
+   "http://it.yourtrainings.com/images/brands/logo_google_mini.png" : [ 
+      "google"
+      ],
+   "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ 
+      "photos.google", 
+      "plus.google" 
+      ],
+   "https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0" : [ 
+      "google_maps"
+      ],                 
+   "http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" : [ 
+      "instagram",  
+      "instagram_locations",
+      "instagram_tags"
+      ],
+   "http://img.informer.com/icons/png/16/3999/3999393.png" : [ 
+      "onedrive" 
+      ],
+   "http://www.theruleoflead.com/images/tumblr.png" : [ 
+      "tumblr" 
+      ],
+   "https://g.twimg.com/twitter-bird-16x16.png" : [ 
+      "twitter",
+      "twitter_search"
+      ]
 }
