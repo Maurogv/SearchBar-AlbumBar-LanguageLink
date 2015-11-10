@@ -2,14 +2,40 @@
    "Grignone" : {
        "Acquafredda" : {
           "it"  : {
-                     "date" : "2015/07",
-                     "post" : "self"
+                     "post" : "2015/07",
                   },
           "en"  : {
-                     "date" : "2015/07",
-                     "post" : "self"
+                     "post" : "2015/07"
           }
-       }
-       
+       },
+       "Agriturismo Brunino" : {
+          "it"  : {
+                     "post" : "2015/06",
+                  },
+          "en"  : {
+                     "post" : "2015/06",
+          }
+       },
+       "Alpe Cova" : {
+          "it"  : {
+                     "post" : "2015/07",
+                  },
+          "en"  : {
+                     "post" : "2015/07",
+          }
+       },
+       "Cappella della Madonna del Rosario (Pasturo)" : {
+          "it"  : {
+                     "post" : "2015/06",
+                  }
+       },
+       "Cornisella" : {
+          "it"  : {
+                     "post" : "2015/06",
+                  },
+          "en"  : {
+                     "post" : "2015/06",
+          }
+       },
    }
 }
