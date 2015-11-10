@@ -1,14 +1,14 @@
 {
   "Grignone" : {
      "it" : {
-              "blog" : "grignone-pasturo",
-              "title" : "Grignone versante di Pasturo",
-              "on" : "blogspot.it"
+        "blog" : "grignone-pasturo",
+        "title" : "Grignone versante di Pasturo",
+        "on" : "blogspot.it"
      },
      "en" : {
-              "blog" : "en-grignone-pasturo",
-              "title" : "Grignone slope of Pasturo",
-              "on" : "blogspot.it"
+        "blog" : "en-grignone-pasturo",
+        "title" : "Grignone slope of Pasturo",
+        "on" : "blogspot.it"
      }
   }
 }
