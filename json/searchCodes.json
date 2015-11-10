@@ -2,16 +2,19 @@
    "Grignone" : {
        "Agriturismo Brunino" : { "google": "self", 
                                  "facebook_pages": "Agriturismo-Brunino-1015mt-PasturoLC/353973358012603",
+                                 "facebook_search": "self",
                                  "flickr": "self",
                                  "instagram_locations": "310125788", 
                                  "instagram_tags": "self"
        },
        "Alpe Cova" : { "google": "self", 
                        "facebook_pages": "Alpe-Di-Cova/266655826795986",
+                       "facebook_search": "self",
                        "flickr": "self",
                        "instagram_tags": "self"
        },
        "Cornisella" : { "google": "self",
+                        "facebook_pages": "Cornisella/145789688959551",
                         "facebook_search": "self",
                         "flickr": "self",
                         "instagram_tags": "self"
