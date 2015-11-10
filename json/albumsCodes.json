@@ -1,38 +1,38 @@
 {
    "Grignone" : {
-       "Acquafredda" : { 
-          "photos.google" : "AF1QipOhBtls_rJhKIuUzIjdGYegeWLv6-H72wotvfPl", 
-          "plus.google" : "6035146133779205969",
-          "flickr_sets" : "72157645232281769"
-        },
-       "Agriturismo Brunino" : { 
-          "photos.google" : "AF1QipObkSWY2-tMGvcjdM71DmoAr3LhfymZLtwbCLNs", 
-          "plus.google" : "6164040280865064465", 
-          "flickr_sets" : "72157652653491493", 
-          "flickr_galleries" : "72157656348361735"
-       },
-       "Alpe Cova" : { 
-          "photos.google" : "AF1QipNljc6XStaOJ4WYuR4ZzE9OVNNuUQYauw4b9T1h", 
-          "plus.google" : "6030069566168533537", 
-          "flickr_sets" : "72157645415333874", 
-          "flickr_galleries" : "72157655819053592",
-          "facebook_set" : "812475308776898.1073741888"
-       },
-       "Cappella della Madonna del Rosario (Pasturo)" : { 
-          "photos.google" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
-          "plus.google" : "6165511616727803217", 
-          "flickr_sets" : "72157652858591004"
-       },
-       "Chiesetta degli Alpini a Cornisella" : { 
-          "photos.google" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
-          "plus.google" : "6029523433466263393"
-       },
-       "Cornisella" : { 
-          "photos.google" : "AF1QipNZfpOucHNb5xpeCql0pAdFd1tVx9dsxi9G3MqQ", 
-          "plus.google" : "6029519885522985873", 
-          "flickr_sets" : "72157644979637808", 
-          "flickr_galleries" : "72157654006193363",
-          "facebook_set" : "811711872186575.1073741886"
-       }
+      "Acquafredda" : { 
+         "photos.google" : "AF1QipOhBtls_rJhKIuUzIjdGYegeWLv6-H72wotvfPl", 
+         "plus.google" : "6035146133779205969",
+         "flickr_sets" : "72157645232281769"
+      },
+      "Agriturismo Brunino" : { 
+         "photos.google" : "AF1QipObkSWY2-tMGvcjdM71DmoAr3LhfymZLtwbCLNs", 
+         "plus.google" : "6164040280865064465", 
+         "flickr_sets" : "72157652653491493", 
+         "flickr_galleries" : "72157656348361735"
+      },
+      "Alpe Cova" : { 
+         "photos.google" : "AF1QipNljc6XStaOJ4WYuR4ZzE9OVNNuUQYauw4b9T1h", 
+         "plus.google" : "6030069566168533537", 
+         "flickr_sets" : "72157645415333874", 
+         "flickr_galleries" : "72157655819053592",
+         "facebook_set" : "812475308776898.1073741888"
+      },
+      "Cappella della Madonna del Rosario (Pasturo)" : { 
+         "photos.google" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
+         "plus.google" : "6165511616727803217", 
+         "flickr_sets" : "72157652858591004"
+      },
+      "Chiesetta degli Alpini a Cornisella" : { 
+         "photos.google" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
+         "plus.google" : "6029523433466263393"
+      },
+      "Cornisella" : { 
+         "photos.google" : "AF1QipNZfpOucHNb5xpeCql0pAdFd1tVx9dsxi9G3MqQ", 
+         "plus.google" : "6029519885522985873", 
+         "flickr_sets" : "72157644979637808", 
+         "flickr_galleries" : "72157654006193363",
+         "facebook_set" : "811711872186575.1073741886"
+      }
    }
 }
