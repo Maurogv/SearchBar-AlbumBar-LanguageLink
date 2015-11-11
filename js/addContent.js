@@ -20,8 +20,8 @@
   // Start polling...
   checkReady(function ($) {
     // Use $ here...
-    window.createBar('search', window.writing, window.callbackCreate);
-    window.createBar('albums', window.writing, window.callbackCreate);
+    window.createBar('search', window.callbackCreate);
+    window.createBar('albums', window.callbackCreate);
   }) 
      
   
