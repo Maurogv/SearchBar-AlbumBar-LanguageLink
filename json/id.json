@@ -1,0 +1,8 @@
+{
+  "https://www.facebook.com/{id}/media_set?set=a{album}" 
+  "https://www.flickr.com/photos/{id}/sets/{album}" 
+  "https://www.flickr.com/photos/{id}/galleries/{album}" 
+  "https://photos.google.com/u/0/album/{album}" 
+  "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
+  "https://onedrive.live.com/?{album}!" 
+}
