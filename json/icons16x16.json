@@ -3,7 +3,7 @@
       "blogger" 
       ],
    "http://static.viewbook.com/images/social_icons/facebook_16.png" : [ 
-      "facebook", 
+      "https://www.facebook.com/{search}?fref=ts", 
       "https://www.facebook.com/search/str/{search}/keywords_top",
       "https://www.facebook.com/pages/{search}?fref=ts",
       "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3",
@@ -21,10 +21,10 @@
       "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
       ],
    "https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0" : [ 
-      "google_maps"
+      "https://www.google.it/maps/place/{search}"
       ],                 
    "http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" : [ 
-      "instagram",  
+      "https://www.instagram.com/{search}",  
       "https://www.instagram.com/explore/locations/{search}",
       "https://www.instagram.com/explore/tags/{search}"
       ],
@@ -35,7 +35,7 @@
       "tumblr" 
       ],
    "https://g.twimg.com/twitter-bird-16x16.png" : [ 
-      "twitter",
-      "twitter_search"
+      "https://twitter.com/{search}",
+      "https://twitter.com/search?q={search}"
       ]
 }
