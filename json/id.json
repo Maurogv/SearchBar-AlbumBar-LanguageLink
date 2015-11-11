@@ -1,8 +1,7 @@
 {
-  "https://www.facebook.com/{id}/media_set?set=a{album}" 
-  "https://www.flickr.com/photos/{id}/sets/{album}" 
-  "https://www.flickr.com/photos/{id}/galleries/{album}" 
-  "https://photos.google.com/u/0/album/{album}" 
-  "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
-  "https://onedrive.live.com/?{album}!" 
+  "https://www.facebook.com/{id}/media_set?set=a.{album}" : "mauro.vezzoli.77",
+  "https://www.flickr.com/photos/{id}/sets/{album}" : "95893200@N07",
+  "https://www.flickr.com/photos/{id}/galleries/{album}" : "95893200@N07",
+  "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "113727750810625155496",
+  "https://onedrive.live.com/?{album}!" : "B65050E4B8CE1B76"
 }
