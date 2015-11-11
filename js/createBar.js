@@ -1,8 +1,8 @@
-window.createBar = function (source, writing, callback) {
+window.createBar = function (source, callback) {
     
-  var topic = window.writing[1],
-  title = window.writing[2],
-  urls = {};
+  var title = window.writing[0],
+      topic = window.writing[1],   
+      urls = {};
 
   var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/" + source + "Codes.json");
   var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/" + source + "FixedPart.json");
@@ -35,6 +35,7 @@ window.createBar = function (source, writing, callback) {
 window.callbackCreate = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json")
     .done(function(icons) {
+      var on=window.writing[3];
       var bar = new window.bar();
       if (source == 'search') {
        bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
@@ -45,7 +46,7 @@ window.callbackCreate = function (source, urls) {
 
       Object.keys(urls).forEach(function (key) {
         url = urls[key];               
-        if ( !(window.on != 'local' & (key == 'plus.google' | key == 'facebook_set')) ) { 
+        if ( !( on != 'local' & (key == 'plus.google' | key == 'facebook_set') ) ) { 
         // for exit from forEach loop is better some
           Object.keys(icons).some(function (iconKey) {
             repo = icons[iconKey];
