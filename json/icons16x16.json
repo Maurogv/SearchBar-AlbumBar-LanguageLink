@@ -4,21 +4,21 @@
       ],
    "http://static.viewbook.com/images/social_icons/facebook_16.png" : [ 
       "facebook", 
-      "facebook_set",
       "facebook_search",
-      "facebook_pages"
+      "facebook_pages",
+      "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3",
       ],
    "http://static.viewbook.com/images/social_icons/flickr_16.png" : [ 
       "flickr", 
-      "flickr_sets", 
-      "flickr_galleries"
+      "https://www.flickr.com/photos/{id}/sets/{album}", 
+      "https://www.flickr.com/photos/{id}/galleries/{album}"
       ],
    "http://it.yourtrainings.com/images/brands/logo_google_mini.png" : [ 
-      "google"
+      "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q="
       ],
    "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ 
-      "photos.google", 
-      "plus.google" 
+      "https://photos.google.com/u/0/album/{album}", 
+      "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
       ],
    "https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0" : [ 
       "google_maps"
@@ -29,7 +29,7 @@
       "instagram_tags"
       ],
    "http://img.informer.com/icons/png/16/3999/3999393.png" : [ 
-      "onedrive" 
+      "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" 
       ],
    "http://www.theruleoflead.com/images/tumblr.png" : [ 
       "tumblr" 
