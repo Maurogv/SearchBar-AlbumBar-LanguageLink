@@ -25,8 +25,8 @@
       ],                 
    "http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" : [ 
       "instagram",  
-      "https://instagram.com/explore/locations/{search}",
-      "https://instagram.com/explore/tags/{search}"
+      "https://www.instagram.com/explore/locations/{search}",
+      "https://www.instagram.com/explore/tags/{search}"
       ],
    "http://img.informer.com/icons/png/16/3999/3999393.png" : [ 
       "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" 
