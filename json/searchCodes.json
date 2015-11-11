@@ -5,22 +5,22 @@
          "https://www.facebook.com/search/str/{search}/keywords_top" : "self",
          "https://www.facebook.com/pages/{search}?fref=ts" : "Agriturismo-Brunino-1015mt-PasturoLC/353973358012603",
          "https://www.flickr.com/search/?text={search}" : "self",
-         "https://instagram.com/explore/locations/{search}" : "310125788", 
-         "https://instagram.com/explore/tags/{search}" : "self"
+         "https://www.instagram.com/explore/locations/{search}" : "310125788", 
+         "https://www.instagram.com/explore/tags/{search}" : "self"
       },
       "Alpe Cova" : { 
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "self",
          "https://www.facebook.com/search/str/{search}/keywords_top" : "self",
          "https://www.facebook.com/pages/{search}?fref=ts" : "Alpe-Di-Cova/266655826795986",
          "https://www.flickr.com/search/?text={search}" : "self",
-         "https://instagram.com/explore/tags/{search}" : "self"
+         "https://www.instagram.com/explore/tags/{search}" : "self"
       },
       "Cornisella" : { 
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "self",
          "https://www.facebook.com/search/str/{search}/keywords_top" : "self",
          "https://www.facebook.com/pages/{search}?fref=ts" : "Cornisella/145789688959551",
          "https://www.flickr.com/search/?text={search}" : "self",
-         "https://instagram.com/explore/tags/{search}" : "self"
+         "https://www.instagram.com/explore/tags/{search}" : "self"
       }
    }
 }
