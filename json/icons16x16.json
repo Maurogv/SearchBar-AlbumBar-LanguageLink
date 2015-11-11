@@ -6,7 +6,7 @@
       "https://www.facebook.com/{search}?fref=ts", 
       "https://www.facebook.com/search/str/{search}/keywords_top",
       "https://www.facebook.com/pages/{search}?fref=ts",
-      "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3",
+      "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3"
       ],
    "http://static.viewbook.com/images/social_icons/flickr_16.png" : [ 
       "https://www.flickr.com/search/?text={search}", 
