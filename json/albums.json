@@ -16,7 +16,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6030069566168533537", 
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645415333874", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655819053592",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}" : "812475308776898.1073741888"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888"
       },
       "Cappella della Madonna del Rosario (Pasturo)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
@@ -32,7 +32,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029519885522985873", 
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644979637808", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654006193363",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}" : "811711872186575.1073741886"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "811711872186575.1073741886"
       }
    }
 }
