@@ -35,7 +35,18 @@ window.search = function (callback) {
     currentSearch = search[topic][title];                
     Object.keys(currentSearch).forEach(function (key) {
       // do something with obj[key]
-      url = key.replace('{search}', currentSearch[key] == 'self' ? title : currentSearch[key]);
+      if (currentSearch[key] == 'self') {
+        if ( key == 'https://www.facebook.com/{search}?fref=ts' |
+             key == 'https://www.instagram.com/{search}' |
+             key == 'https://www.instagram.com/explore/tags/{search}' |
+             key == 'https://twitter.com/{search}' ) {
+          valueSearch = title.replace(/\s/g, '').toLowerCase();
+        }
+        else valueSearch = title;
+      }
+      else valueSearch=currentSearch[key];
+
+      url = key.replace('{search}', valueSearch);
       urls[key] = url;
     }); 
     callback("search", urls);
@@ -50,7 +61,9 @@ window.createBar = function (source, urls) {
     
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
-      if ( !( on != 'local' & (key == 'https://plus.google.com/u/0/photos/{id}/albums/{album}' | key == 'https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3') ) ) { 
+      if ( !( on != 'local' & 
+              (key == 'https://plus.google.com/u/0/photos/{id}/albums/{album}' |
+              key == 'https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3')) ) {  
         // for exit from forEach loop is better some
         Object.keys(icons).some(function (iconKey) {
           repo = icons[iconKey];
