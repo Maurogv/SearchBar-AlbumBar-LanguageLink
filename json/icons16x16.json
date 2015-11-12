@@ -21,7 +21,8 @@
       "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
       ],
    "https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0" : [ 
-      "https://www.google.it/maps/place/{search}"
+      "https://www.google.it/maps/place/{search}",
+      "https://www.google.it/maps/@{search}m/data=!3m1!1e3"
       ],                 
    "http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png" : [ 
       "https://www.instagram.com/{search}",  
