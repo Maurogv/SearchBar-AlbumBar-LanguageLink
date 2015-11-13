@@ -33,7 +33,8 @@
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.945579,9.4318309,624"
       },
       "Monteno" : { 
-         "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self} Pasturo"
+         "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self} Pasturo",
+         "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.944763,9.4400466,679"
       } 
    }
 }
