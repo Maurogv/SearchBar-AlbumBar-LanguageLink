@@ -1,7 +1,7 @@
 window.albums = function (callback) {
   
-  window.redirect(albums);
-  function albums () {
+  window.redirect(albumsJob);
+  function albumsJob () {
     var title = window.writing[0],
         topic = window.writing[1],   
         urls = {};
@@ -29,8 +29,8 @@ window.albums = function (callback) {
 
 window.search = function (callback) {
     
-  window.redirect(search);
-  function search () {
+  window.redirect(searchJob);
+  function searchJob () {
     var title = window.writing[0],
         topic = window.writing[1],   
         urls = {};
