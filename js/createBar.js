@@ -1,57 +1,63 @@
 window.albums = function (callback) {
-      
-  var title = window.writing[0],
-      topic = window.writing[1],   
-      urls = {};
-
-  var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albums.json");
-  var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/ids.json");
-   
-  $.when(firstPromise, secondPromise).done(function(albums, ids) {         
-    // [0] value, [1] success 
-    currentAlbums = albums[0][topic][title];                
-    Object.keys(currentAlbums).forEach(function (key) {
-      // do something with obj[key]
-      url = key.replace('{album}',currentAlbums[key]);
-      id = ids[0][key];     
-      if ( id ) {
-        url = url.replace('{id}',id);
-      }       
-      urls[key] = url;
-    }); 
-    callback("albums", urls);   
-  });
+  
+  window.redirect(albums);
+  function albums () {
+    var title = window.writing[0],
+        topic = window.writing[1],   
+        urls = {};
+  
+    var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albums.json");
+    var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/ids.json");
+     
+    $.when(firstPromise, secondPromise).done(function(albums, ids) {         
+      // [0] value, [1] success 
+      currentAlbums = albums[0][topic][title];                
+      Object.keys(currentAlbums).forEach(function (key) {
+        // do something with obj[key]
+        url = key.replace('{album}',currentAlbums[key]);
+        id = ids[0][key];     
+        if ( id ) {
+          url = url.replace('{id}',id);
+        }       
+        urls[key] = url;
+      }); 
+      callback("albums", urls);   
+    });
+  }
 
 };
 
 window.search = function (callback) {
     
-  var title = window.writing[0],
-      topic = window.writing[1],   
-      urls = {};
-
-  $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/search.json").done(function(search) {         
-    // [0] value, [1] success 
-    currentSearch = search[topic][title];                
-    Object.keys(currentSearch).forEach(function (key) {
-      // do something with obj[key]
-      if (currentSearch[key].includes('{self}')) {
-        currentTitle=title;
-        if ( key == 'https://www.facebook.com/{search}?fref=ts' |
-             key == 'https://www.instagram.com/{search}' |
-             key == 'https://www.instagram.com/explore/tags/{search}' |
-             key == 'https://twitter.com/{search}' ) {
-          currentTitle = currentTitle.replace(/\s/g, '').toLowerCase();
+  window.redirect(search);
+  function search () {
+    var title = window.writing[0],
+        topic = window.writing[1],   
+        urls = {};
+  
+    $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/search.json").done(function(search) {         
+      // [0] value, [1] success 
+      currentSearch = search[topic][title];                
+      Object.keys(currentSearch).forEach(function (key) {
+        // do something with obj[key]
+        if (currentSearch[key].includes('{self}')) {
+          currentTitle=title;
+          if ( key == 'https://www.facebook.com/{search}?fref=ts' |
+               key == 'https://www.instagram.com/{search}' |
+               key == 'https://www.instagram.com/explore/tags/{search}' |
+               key == 'https://twitter.com/{search}' ) {
+            currentTitle = currentTitle.replace(/\s/g, '').toLowerCase();
+          }
+          valueSearch=currentSearch[key].replace('{self}', currentTitle);
         }
-        valueSearch=currentSearch[key].replace('{self}', currentTitle);
-      }
-      else valueSearch=currentSearch[key];
-
-      url = key.replace('{search}', valueSearch);
-      urls[key] = url;
-    }); 
-    callback("search", urls);
-  });  
+        else valueSearch=currentSearch[key];
+  
+        url = key.replace('{search}', valueSearch);
+        urls[key] = url;
+      }); 
+      callback("search", urls);
+    });  
+  }
 
 };
 
@@ -89,3 +95,15 @@ window.createBar = function (source, urls) {
     }           
   })                 
 };
+
+window.redirect = function (callback) {
+  var title = window.writing[0],
+      topic = window.writing[1]; 
+
+  $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/redirect.json").done(function(titles) {
+    if (titles[topic][title]) {
+      window.writing[0]=titles[topic][title];
+    }
+    callback();
+  })
+}
