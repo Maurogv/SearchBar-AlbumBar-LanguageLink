@@ -18,7 +18,10 @@
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655819053592",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888"
       },
-      "Cappella della Madonna del Rosario (Pasturo)" : { 
+      [
+         "Cappella della Madonna del Rosario (Pasturo)",
+         "Chapel of Our Lady of the Rosary (Pasturo)"
+      ] : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6165511616727803217", 
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652858591004"
