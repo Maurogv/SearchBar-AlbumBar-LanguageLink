@@ -35,14 +35,15 @@ window.search = function (callback) {
     currentSearch = search[topic][title];                
     Object.keys(currentSearch).forEach(function (key) {
       // do something with obj[key]
-      if (currentSearch[key] == 'self') {
+      if (currentSearch[key].includes('{self}')) {
+        currentTitle=title;
         if ( key == 'https://www.facebook.com/{search}?fref=ts' |
              key == 'https://www.instagram.com/{search}' |
              key == 'https://www.instagram.com/explore/tags/{search}' |
              key == 'https://twitter.com/{search}' ) {
-          valueSearch = title.replace(/\s/g, '').toLowerCase();
+          currentTitle = currentTitle.replace(/\s/g, '').toLowerCase();
         }
-        else valueSearch = title;
+        valueSearch=currentSearch[key].replace('{self}', currentTitle);
       }
       else valueSearch=currentSearch[key];
 
