@@ -33,6 +33,10 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644979637808", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654006193363",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "811711872186575.1073741886"
+      },
+      "Nomi dei caduti nella Chiesetta degli Alpini a Cornisella" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393", 
       }
    }
 }
