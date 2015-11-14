@@ -43,7 +43,7 @@
       "Monteno" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipN2Ys5c_YoICceWn4c8WGcb9lt8UD_ltIc9kPgV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031495744589252785",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}02",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655174536422"
       }, 
       "Nomi dei caduti nella Chiesetta degli Alpini a Cornisella" : {
