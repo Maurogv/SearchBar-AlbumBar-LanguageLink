@@ -16,7 +16,11 @@ window.albums = function (callback) {
         // do something with obj[key]
         valueAlbum = currentAlbums[key];
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
-          valueAlbum = valueAlbum.replace('{self}', title.replace(/\s/g, ''));
+          currentTitle = title.replace(/\w\S*/g, function(txt) {
+             return txt.charAt(0).toUpperCase() + txt.substr(1);
+          });
+          currentTitle = currentTitle.replace('(','').replace(')','').replace('-','');
+          valueAlbum = valueAlbum.replace('{self}', currentTitle.replace(/\s/g, ''));
         }
         url = key.replace('{album}',valueAlbum);
         id = ids[0][key];     
@@ -73,8 +77,9 @@ window.createBar = function (source, urls) {
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
       if ( !( on != 'local' & 
-              (key == 'https://plus.google.com/u/0/photos/{id}/albums/{album}' |
-              key == 'https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3')) ) {  
+            ( key == 'https://plus.google.com/u/0/photos/{id}/albums/{album}' |
+              key == 'https://picasaweb.google.com/{id}/{album}' |
+              key == 'https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3' )) ) { 
         // for exit from forEach loop is better some
         Object.keys(icons).some(function (iconKey) {
           repo = icons[iconKey];
