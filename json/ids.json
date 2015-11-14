@@ -3,6 +3,6 @@
   "https://www.flickr.com/photos/{id}/sets/{album}" : "95893200@N07",
   "https://www.flickr.com/photos/{id}/galleries/{album}" : "95893200@N07",
   "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "113727750810625155496",
-  "https://picasaweb.google.com/{id}/{album}" : "113727750810625155496,"
+  "https://picasaweb.google.com/{id}/{album}" : "113727750810625155496",
   "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" : "B65050E4B8CE1B76"
 }
