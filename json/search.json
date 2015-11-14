@@ -35,6 +35,9 @@
       "Monteno" : { 
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self} Pasturo",
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.944763,9.4400466,679"
-      } 
+      },
+      "Percorso Pedalando nel Parco 3 Cornisella - Brunino" : {
+         "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9415269,9.4332067,1304"
+      }
    }
 }
