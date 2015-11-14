@@ -57,6 +57,12 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645499798095", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656310335242",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "815223708502058.1073741890"
+      },
+      "Rifugio Antonietta al Pialeral" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOuYCutqQS-QooRFZb5qEV84KQ3cucs8O8B52i4", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6058245457286238049", 
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157647135170720", 
+         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650"
       }
    }
 }
