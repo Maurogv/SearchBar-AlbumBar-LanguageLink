@@ -14,7 +14,7 @@ window.albums = function (callback) {
       currentAlbums = albums[0][topic][title];                
       Object.keys(currentAlbums).forEach(function (key) {
         // do something with obj[key]
-        valueAlbum= currentAlbums[key];
+        valueAlbum = currentAlbums[key];
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
           valueAlbum = valueAlbum.replace('{self}', title.replace(/\s/g, ''));
         }
