@@ -14,7 +14,11 @@ window.albums = function (callback) {
       currentAlbums = albums[0][topic][title];                
       Object.keys(currentAlbums).forEach(function (key) {
         // do something with obj[key]
-        url = key.replace('{album}',currentAlbums[key]);
+        valueAlbum= currentAlbums[key];
+        if ( valueAlbum.indexOf('{self}') !=-1 ) {
+          valueAlbum = valueAlbum.replace('{self}', title.replace(/\s/g, ''));
+        }
+        url = key.replace('{album}',valueAlbum);
         id = ids[0][key];     
         if ( id ) {
           url = url.replace('{id}',id);
@@ -41,16 +45,16 @@ window.search = function (callback) {
       Object.keys(currentSearch).forEach(function (key) {
         // do something with obj[key]
         if ( currentSearch[key].indexOf('{self}') !=-1 ) {
-          currentTitle=title;
+          currentTitle = title;
           if ( key == 'https://www.facebook.com/{search}?fref=ts' |
                key == 'https://www.instagram.com/{search}' |
                key == 'https://www.instagram.com/explore/tags/{search}' |
                key == 'https://twitter.com/{search}' ) {
             currentTitle = currentTitle.replace(/\s/g, '').toLowerCase();
           }
-          valueSearch=currentSearch[key].replace('{self}', currentTitle);
+          valueSearch = currentSearch[key].replace('{self}', currentTitle);
         }
-        else valueSearch=currentSearch[key];
+        else valueSearch = currentSearch[key];
   
         url = key.replace('{search}', valueSearch);
         urls[key] = url;
@@ -63,7 +67,7 @@ window.search = function (callback) {
 
 window.createBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
-    var on=window.writing[3];
+    var on = window.writing[3];
     var bar = new window.bar();
     
     Object.keys(urls).forEach(function (key) {
