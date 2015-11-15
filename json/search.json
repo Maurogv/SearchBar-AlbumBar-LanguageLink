@@ -50,7 +50,7 @@
       "Piani di Brunino" : { 
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "Brunino",
          "https://www.facebook.com/pages/{search}?fref=ts" : "Brunino/260797517364131",
-         "https://www.flickr.com/search/?text={search}" : "Brunino",
+         "https://www.flickr.com/search/?text={search}" : "{self}",
          "https://www.instagram.com/explore/locations/{search}" : "94441683"
       },
       "Rifugio Antonietta al Pialeral" : { 
