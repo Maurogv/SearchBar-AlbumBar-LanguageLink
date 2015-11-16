@@ -4,7 +4,8 @@ window.albums = function (callback) {
   function albumsJob () {
     var title = window.writing[0],
         topic = window.writing[1],   
-        urls = {};
+        urls = {},
+        id;
   
     var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albums.json");
     var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/ids.json");
@@ -23,7 +24,16 @@ window.albums = function (callback) {
           valueAlbum = valueAlbum.replace('{self}', currentTitle.replace(/\s/g, ''));
         }
         url = key.replace('{album}',valueAlbum);
-        id = ids[0][key];     
+        
+        currentIds=ids[0];
+        Object.keys(currentIds).some(function (idKey) {
+          repo = currentIds[idKey];
+          if ( $.inArray(key, repo) != -1 ) 
+          {
+            id = idKey; 
+          }
+          return id === idKey;
+        })  
         if ( id ) {
           url = url.replace('{id}',id);
         }       
@@ -81,14 +91,16 @@ window.createBar = function (source, urls) {
               key == 'https://picasaweb.google.com/{id}/{album}' |
               key == 'https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3' )) ) { 
         // for exit from forEach loop is better some
+        var found;
         Object.keys(icons).some(function (iconKey) {
           repo = icons[iconKey];
           if ( $.inArray(key, repo) != -1 ) 
           {
             bar.append($('<a href="' + url + '">' + '<img src="' + iconKey + '" />' + '</a>'));
             bar.append(' '); 
-            return true;
+            found = true;
           }
+          return found;
         })  
       }                  
     })
