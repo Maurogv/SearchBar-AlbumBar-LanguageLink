@@ -15,6 +15,7 @@ window.albums = function (callback) {
       currentAlbums = albums[0][topic][title];                
       Object.keys(currentAlbums).forEach(function (key) {
         // do something with obj[key]
+        var id;
         valueAlbum = currentAlbums[key];
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
           currentTitle = title.replace(/\w\S*/g, function(txt) {
