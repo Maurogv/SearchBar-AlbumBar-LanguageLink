@@ -79,6 +79,13 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157647135170720", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650"
+      },
+      "Sentiero 33 Pasturo - Cornisella" : { 
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMjAUD0uFVZbiPt0OFDXJz56e_VNKhpMjOGOVWl", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644896715919", 
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "810788438945585.1073741885"
       }
    }
 }
