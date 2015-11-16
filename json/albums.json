@@ -21,6 +21,14 @@
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655819053592",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888"
       },
+      "Brunino" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMRWG9W3jxbOuE6geJViIvPaAkOStekTV-jAyzP", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6028867800576451473",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645067964140", 
+         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656264499026",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "814540775237018.1073741889"
+      },
       "Cappella della Madonna del Rosario (Pasturo)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6165511616727803217", 
@@ -64,14 +72,6 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645499798095", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656310335242",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "815223708502058.1073741890"
-      },
-      "Piani di Brunino" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMRWG9W3jxbOuE6geJViIvPaAkOStekTV-jAyzP", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6028867800576451473",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645067964140", 
-         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656264499026",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "814540775237018.1073741889"
       },
       "Rifugio Antonietta al Pialeral" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOuYCutqQS-QooRFZb5qEV84KQ3cucs8O8B52i4", 
