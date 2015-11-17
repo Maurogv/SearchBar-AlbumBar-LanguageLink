@@ -2,9 +2,7 @@ window.albums = function (callback) {
   
   window.redirect(albumsJob);
   function albumsJob () {
-    var title = window.writing[0],
-        topic = window.writing[1],   
-        urls = {},
+    var urls = {},
         id;
   
     var firstPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/albums.json");
@@ -50,9 +48,7 @@ window.search = function (callback) {
     
   window.redirect(searchJob);
   function searchJob () {
-    var title = window.writing[0],
-        topic = window.writing[1],   
-        urls = {};
+    var urls = {};
   
     $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/search.json").done(function(search) {         
       // [0] value, [1] success 
@@ -119,12 +115,12 @@ window.createBar = function (source, urls) {
 };
 
 window.redirect = function (callback) {
-  var title = window.writing[0],
-      topic = window.writing[1]; 
+  title = window.writing[0];
+  topic = window.writing[1]; 
 
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/redirect.json").done(function(titles) {
     if (titles[topic][title]) {
-      window.writing[0]=titles[topic][title];
+      title=titles[topic][title];
     }
     callback();
   })
