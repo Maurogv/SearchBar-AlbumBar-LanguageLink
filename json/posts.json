@@ -1,16 +1,28 @@
 {
-   "Grignone" : {
-      "Acquafredda" : { 
-         "it" : "http://grignone-pasturo.blogspot.it/2015/07/{self}.html",
-         "en" : "http://en-grignone-pasturo.blogspot.it/2015/07/{self}.html"
+  "Grignone" : {
+    "Acquafredda" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
       },
-      "Agriturismo Brunino" : { 
-         "it" : "http://grignone-pasturo.blogspot.it/2015/06/{self}.html",
-         "en" : "http://en-grignone-pasturo.blogspot.it/2015/06/{self}.html"
-      },
-      "Alpe Cova" : { 
-         "it" : "http://grignone-pasturo.blogspot.it/2015/07/{self}.html",
-         "en" : "http://en-grignone-pasturo.blogspot.it/2015/07/{self}.html"
+      "en" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
       }
-   }
+    },
+    "Agriturismo Brunino" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
+      }
+    },
+    "Alpe Cova" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    }
+  }
 }
