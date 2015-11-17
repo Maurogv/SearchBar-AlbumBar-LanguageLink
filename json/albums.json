@@ -93,6 +93,12 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665"
       },
+      "Sentiero 33 Pialeral - Pasturo" : { 
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipNCHmUu9uZngOe6klwJpcKvcLqijnehlhb1OJhn", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6177032743619288481",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157656113098030"
+      },
       "Sentiero 33 Ponte dell'Acqua Fredda - Alpe Cova" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO4aLd4yxADCC3dZKfLB7Z_gbo3kgd0q--lT6VG", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029921951652957265",
