@@ -1,42 +1,16 @@
 {
    "Grignone" : {
-      "Acquafredda" : {
-         "it" : {
-            "post" : "2015/07",
-         },
-         "en" : {
-            "post" : "2015/07"
-          }
+      "Acquafredda" : { 
+         "it" : "http://grignone-pasturo.blogspot.it/2015/07/{self}.html",
+         "en" : "http://en-grignone-pasturo.blogspot.it/2015/07/{self}.html"
       },
-      "Agriturismo Brunino" : {
-         "it" : {
-            "post" : "2015/06",
-         },
-         "en" : {
-            "post" : "2015/06",
-         }
+      "Agriturismo Brunino" : { 
+         "it" : "http://grignone-pasturo.blogspot.it/2015/06/{self}.html",
+         "en" : "http://en-grignone-pasturo.blogspot.it/2015/06/{self}.html"
       },
-      "Alpe Cova" : {
-         "it" : {
-            "post" : "2015/07",
-         },
-         "en" : {
-            "post" : "2015/07",
-         }
-      },
-      "Cappella della Madonna del Rosario (Pasturo)" : {
-         "it" : {
-            "post" : "2015/06",
-            "en" : "Chapel of Our Lady of the Rosary (Pasturo)"
-         }
-      },
-      "Cornisella" : {
-         "it" : {
-            "post" : "2015/06",
-         },
-         "en" : {
-            "post" : "2015/06",
-         }
+      "Alpe Cova" : { 
+         "it" : "http://grignone-pasturo.blogspot.it/2015/07/{self}.html",
+         "en" : "http://en-grignone-pasturo.blogspot.it/2015/07/{self}.html"
       }
    }
 }
