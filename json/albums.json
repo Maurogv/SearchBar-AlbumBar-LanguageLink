@@ -11,7 +11,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449"
-      },
+      }
    },
    "Grignone" : {
       "Acquafredda" : { 
