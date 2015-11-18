@@ -5,7 +5,13 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5914848841575681121",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401"
-      }
+      },
+      "Mercato all'aperto del venerdì di Barzio" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipNMC_QX_PXtwJpJwkm0aQ5F8EVPr6bZDHSsTSjB", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449"
+      },
    },
    "Grignone" : {
       "Acquafredda" : { 
