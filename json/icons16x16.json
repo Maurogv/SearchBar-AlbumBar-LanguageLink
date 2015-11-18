@@ -1,6 +1,7 @@
 {
    "http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png" : [ 
-      "blogspot.it" 
+      "http://grignone-pasturo.blogspot.it",
+      "http://en-grignone-pasturo.blogspot.it"
       ],
    "http://static.viewbook.com/images/social_icons/facebook_16.png" : [ 
       "https://www.facebook.com/{search}?fref=ts", 
