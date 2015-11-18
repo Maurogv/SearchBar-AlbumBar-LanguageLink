@@ -19,7 +19,7 @@ window.albums = function (callback) {
           currentTitle = title.replace(/\w\S*/g, function(txt) {
              return txt.charAt(0).toUpperCase() + txt.substr(1);
           });
-          currentTitle.replace(/[()-]/g,'').replace(/'/g,'');
+          currentTitle = currentTitle.replace(/[()-]/g,'').replace(/'/g,'');
           valueAlbum = valueAlbum.replace('{self}', currentTitle.replace(/\s/g, ''));
         }
         url = key.replace('{album}',valueAlbum);
