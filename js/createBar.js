@@ -80,6 +80,9 @@ window.createBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var on = window.writing[3];
     var bar = new window.bar();
+    if ( source == 'search' | source == 'album' ) {
+      bar['id'] = source + 'Bar';
+    };
     
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
