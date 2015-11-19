@@ -26,7 +26,7 @@ window.posts = function (callback) {
   }
 }
   
-window.addPostToBars = function (urls) {
+window.addPostToBar = function (urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var lang= window.writing[2],
         otherLang = lang == 'it' ? 'en' : 'it',
