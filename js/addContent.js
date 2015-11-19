@@ -22,6 +22,7 @@
     // Use $ here...
     window.search(window.createBar);
     window.albums(window.createBar);
+    window.posts(window.addPostToBars);
   }) 
      
   
