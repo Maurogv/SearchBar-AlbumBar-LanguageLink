@@ -80,9 +80,6 @@ window.createBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var on = window.writing[3];
     var bar = new window.bar();
-    if ( source == 'search' | source == 'album' ) {
-      bar['id'] = source + 'Bar';
-    };
     
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
@@ -106,6 +103,7 @@ window.createBar = function (source, urls) {
     })
 
     if ( bar.children().length > 0 ) {
+      bar[0]['id'] = source + 'Bar';
       if (source == 'search') {
        bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
       }
