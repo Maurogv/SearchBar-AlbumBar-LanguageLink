@@ -30,6 +30,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5894226866610062625",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634878166616"
+      },
+      "Parcheggio P3 (Tensostruttura)" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPji2-PAPnWwnLLKtrlprS1xkkFg0mW_Xa7n5EH", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5894231020971021233",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634462343327"
       }
    },
    "Grignone" : {
