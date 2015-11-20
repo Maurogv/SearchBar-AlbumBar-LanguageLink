@@ -36,6 +36,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5894231020971021233",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634462343327"
+      },
+      "Piazza Garibaldi" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipNHtYsfj34NCPfCCnnUZ-JmaTnHDVt3ZxozxHCi", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5895232825553767825",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080"
       }
    },
    "Grignone" : {
