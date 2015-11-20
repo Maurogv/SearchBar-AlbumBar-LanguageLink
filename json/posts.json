@@ -48,7 +48,7 @@
         "http://en-grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
       }
     },
-    "Monteno" : { 
+    "Cornisella" : { 
         "it" : { 
         "http://grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
       },
@@ -56,5 +56,13 @@
         "http://en-grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
       }
     },
+    "Monteno" : { 
+        "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/06/{post}.html" : "{self}"
+      }
+    }
   }
 }
