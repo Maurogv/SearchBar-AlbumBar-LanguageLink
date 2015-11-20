@@ -13,10 +13,10 @@ window.posts = function (callback) {
         Object.keys(currentPosts[keyLang]).forEach(function (key) {           
           if ( currentPosts[keyLang][key].indexOf('{self}') !=-1 ) {
             if ( keyLang == 'en' ) {
-              currentTitle = enTitle
+              currentTitle = enTitle;
             };
             if ( keyLang == 'it' ) {
-              currentTitle = title
+              currentTitle = title;
             };  
             currentTitle = currentTitle.toUrl();           
             valueSearch = currentPosts[keyLang][key].replace('{self}', currentTitle);
