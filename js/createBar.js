@@ -116,13 +116,18 @@ window.createBar = function (source, urls) {
 };
 
 window.redirect = function (callback) {
-  title = window.writing[0];
+  title = window.writing[0],
+  enTitle = window.writing[0],
   topic = window.writing[1]; 
 
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/redirect.json").done(function(titles) {
-    if (titles[topic][title]) {
-      title=titles[topic][title];
-    }
+    Object.keys(titles[topic]).forEach(function (key) {
+      if ( titles[topic][key] == title ) {
+        enTitle = key;
+        return true;
+      };
+    })  
+    title = titles[topic][title] || title;            
     callback();
   })
 }
