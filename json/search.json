@@ -11,6 +11,9 @@
       },
       "Parcheggio P2 (Piazza del Mercato)" : {
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9446391,9.4677417,337"
+      },
+      "Parcheggio P3 (Tensostruttura)" : {
+         "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9438786,9.4667563,344"
       }
    },
    "Grignone" : {
