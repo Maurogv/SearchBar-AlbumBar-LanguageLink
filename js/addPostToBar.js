@@ -12,7 +12,12 @@ window.posts = function (callback) {
       Object.keys(currentPosts).forEach(function (keyLang) {
         Object.keys(currentPosts[keyLang]).forEach(function (key) {           
           if ( currentPosts[keyLang][key].indexOf('{self}') !=-1 ) {
-            currentTitle = keyLang == 'it' ? title : window.writing[0];
+            if ( keyLang == 'en' ) {
+              currentTitle = enTitle
+            };
+            if ( keyLang == 'it' ) {
+              currentTitle = title
+            };  
             currentTitle = currentTitle.toUrl();           
             valueSearch = currentPosts[keyLang][key].replace('{self}', currentTitle);
           }          
