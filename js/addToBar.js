@@ -75,8 +75,8 @@ window.search = function (callback) {
 
 window.addToBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
-    var on = window.writing[3];
-    var bar = new window.bar();
+    var on = window.writing[3],
+          links = [];
     
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
@@ -90,8 +90,7 @@ window.addToBar = function (source, urls) {
           repo = icons[iconKey];
           if ( $.inArray(key, repo) != -1 ) 
           {
-            bar.append($('<a href="' + url + '">' + '<img src="' + iconKey + '" />' + '</a>'));
-            bar.append(' '); 
+            links.push($('<a href="' + url + '">' + '<img src="' + iconKey + '" />' + '</a>'));
             found = true;
           }
           return found;
@@ -99,16 +98,9 @@ window.addToBar = function (source, urls) {
       }                  
     })
 
-    if ( bar.children().length > 0 ) {
-      bar[0]['id'] = source + 'Bar';
-      if (source == 'search') {
-       bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
-      }
-      else if ( source == 'albums' ) { 
-        bar.appendTo(document.getElementsByTagName('script')[0].parentNode)
-      };
-      //bar.append($('<a href="" style="color:' + '#E0E0E0' + ';">&bnsp;</a>'));
-    }           
+    if ( links ) {
+        window.toBar(source, links);
+    }; 
   })                 
 };
 
