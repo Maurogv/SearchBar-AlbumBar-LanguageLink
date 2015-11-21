@@ -26,7 +26,7 @@
   }) 
      
   
-})(window,document,'script',['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js',
-                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
-                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/createBar.js',
-                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addPostToBar.js'])
+})(window,document,'script',['https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
+                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/createBar.js',
+                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addPostToBar.js',
+                             'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'])
