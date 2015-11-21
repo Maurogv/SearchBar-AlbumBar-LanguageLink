@@ -76,7 +76,7 @@ window.search = function (callback) {
 window.addToBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var on = window.writing[3],
-          links = [];
+        links = [];
     
     Object.keys(urls).forEach(function (key) {
       url = urls[key];               
