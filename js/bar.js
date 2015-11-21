@@ -9,20 +9,21 @@
   window.toBar = function (source, links) {
     bar = $('#' + source + 'Bar');
     if ( bar.length == 0 ) {
+      bar = new window.bar();
       bar[0]['id'] = source + 'Bar';
       if (source == 'search') {
-        bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
-       }
+       bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
+      }
       else if ( source == 'albums' ) { 
-         bar.appendTo(document.getElementsByTagName('script')[0].parentNode)
+        bar.appendTo(document.getElementsByTagName('script')[0].parentNode)
       };
     };
-     
+   
     links.forEach(function (link) {
-      bar.append(link);
-      if (link != links[links.length-1] ) {
-            bar.append(' '); 
-      };
+        bar.append(link);
+        if (link != links[links.length-1] ) {
+          bar.append(' '); 
+        }; 
     })
   }
   
