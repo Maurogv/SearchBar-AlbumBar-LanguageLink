@@ -73,7 +73,7 @@ window.search = function (callback) {
 
 };
 
-window.createBar = function (source, urls) {
+window.addToBar = function (source, urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var on = window.writing[3];
     var bar = new window.bar();
