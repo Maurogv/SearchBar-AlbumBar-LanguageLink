@@ -44,11 +44,13 @@ window.addPostToBar = function (urls) {
         if ( urls[lang].slice(0,currentRepo.length) == currentRepo ) 
         {
           if ( on == "local" ) {
-            $('#albumsBar').append($('<a href="' + urls[lang] + '">' + '<img src="' + iconKey + '" style="float:right;"/>' + '</a>'));               
+            links = [$('<a href="' + urls[lang] + '">' + '<img src="' + iconKey + '" style="float:right;"/>' + '</a>')];
+            window.toBar('albums', links);              
           }
-          language =  lang == 'it' ? 'English' : 'Italiano'; 
-          $('#searchBar').append($('<a href="' + urls[otherLang] + '" style="float:right;">' + language + '</a>'));
-          found=true;
+          language =  lang == 'it' ? 'English' : 'Italiano';
+          links = [$('<a href="' + urls[otherLang] + '" style="float:right;">' + language + '</a>')];
+          window.toBar('search', links);
+          found = true;
         }
       });
       return found;
