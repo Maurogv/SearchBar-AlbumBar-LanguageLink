@@ -46,7 +46,7 @@
       "Tensostruttura" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOGPIyChALA-gm2KiZ9Yc8BodrTn1b8bUFTXgGH", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162741851042675905",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "{self} di Barzio",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654863877235"
       }
    },
