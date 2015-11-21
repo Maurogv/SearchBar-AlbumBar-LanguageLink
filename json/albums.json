@@ -42,6 +42,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5895232825553767825",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080"
+      },
+      "Tensostruttura" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOGPIyChALA-gm2KiZ9Yc8BodrTn1b8bUFTXgGH", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162741851042675905",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654863877235"
       }
    },
    "Grignone" : {
