@@ -7,8 +7,8 @@
   window.bar = bar;
   
   window.toBar = function (source, links) {
-    if ( !(document.getElementById('#' + source + 'Bar')) ) {
-      var bar = new window.bar();
+    bar = $('#' + source + 'Bar');
+    if ( bar.length == 0 ) {
       bar[0]['id'] = source + 'Bar';
       if (source == 'search') {
         bar.insertBefore(document.getElementsByTagName('script')[0].parentNode)
@@ -20,7 +20,9 @@
      
     links.forEach(function (link) {
       bar.append(link);
-      bar.append(' '); 
+      if (link != links[links.length-1] ) {
+            bar.append(' '); 
+      };
     })
   }
   
