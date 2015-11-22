@@ -55,7 +55,9 @@
          "https://www.flickr.com/search/?text={search}" : "{self}",
          "https://www.instagram.com/explore/tags/{search}" : "{self}"
       },
-      
+      "Cappella della Madonna del Rosario (Pasturo)" : {
+         "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9483529,9.4390388,632"
+      },
       "Chiesetta degli Alpini a Cornisella" : { 
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.945579,9.4318309,624"
       },
