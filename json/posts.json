@@ -103,6 +103,46 @@
       "en" : { 
         "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
       }
+    },
+    "Sentiero 33 Pasturo - Cornisella" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Sentiero 33 Pasturo - Pialeral" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Sentiero 33 Pialeral - Pasturo" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Sentiero 33 Ponte dell'Acqua Fredda - Alpe Cova" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Spinarolo" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
     }
   }
 }
