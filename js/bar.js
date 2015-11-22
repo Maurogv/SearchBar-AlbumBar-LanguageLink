@@ -19,6 +19,12 @@
       };
     };
    
+    // if div is empty float no space above then background no color
+    if ( bar.children().length == 0 & 
+      ( links[0].css('float') == 'right' |
+      links[0].children('img[style="float:right;"]').length > 0 )) {
+      links.unshift($('<a href="" style="color:' + bar.css("background-color") + ';">&nbsp;</a>'));
+    };
     links.forEach(function (link) {
         bar.append(link);
         if (link != links[links.length-1] ) {
