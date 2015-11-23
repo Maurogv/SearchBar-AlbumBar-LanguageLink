@@ -41,6 +41,7 @@
       ],
    "https://g.twimg.com/twitter-bird-16x16.png" : [ 
       "https://twitter.com/{search}",
-      "https://twitter.com/search?q={search}"
+      "https://twitter.com/search?q={search}",
+      "https://twitter.com/search?q={search}&src=sprv"
       ]
 }
