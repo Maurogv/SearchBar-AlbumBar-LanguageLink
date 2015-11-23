@@ -4,12 +4,12 @@
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.944913,9.4666936,336"
       },
       "Barzio (Paese)" : { 
-         "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self}", 
-         "https://www.facebook.com/search/str/{search}/keywords_top" : "{self}",
-         "https://www.flickr.com/search/?text={search}" : "{self}",
+         "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "Barzio", 
+         "https://www.facebook.com/search/str/{search}/keywords_top" : "Barzio",
+         "https://www.flickr.com/search/?text={search}" : "Barzio",
          "https://www.instagram.com/explore/locations/{search}" : "348657164",
          "https://www.instagram.com/explore/locations/{search}" : "287900606",
-         "https://www.instagram.com/explore/tags/{search}" : "{self}"
+         "https://www.instagram.com/explore/tags/{search}" : "Barzio"
       },
       "Mercato all'aperto del venerdì di Barzio" : {
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9446391,9.4677417,337"
