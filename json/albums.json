@@ -53,8 +53,16 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNfThbP89VKBvMee1W-6Sd99QaFZFUBgRRbG7yF", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6041468093658706513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
-      }
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081"
+      },
+       "Vie e Piazze di Barzio" : {
+         "https://photos.google.com/u/0/album/{album}" : "Vie e Piazze di Barzio", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5907630320146568737",
+         "https://picasaweb.google.com/{id}/{album}" : "{self} minori",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635226412186",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "645735292117568.1073741838"
+      },
+      
    },
    "Grignone" : {
       "Acquafredda" : { 
