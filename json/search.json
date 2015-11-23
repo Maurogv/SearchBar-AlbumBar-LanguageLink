@@ -8,7 +8,6 @@
          "https://www.facebook.com/search/str/{search}/keywords_top" : "Barzio",
          "https://www.flickr.com/search/?text={search}" : "Barzio",
          "https://www.instagram.com/explore/locations/{search}" : "348657164",
-         "https://www.instagram.com/explore/locations/{search}" : "287900606",
          "https://www.instagram.com/explore/tags/{search}" : "Barzio",
          "https://twitter.com/search?q={search}&src=sprv" : "Barzio"
       },
