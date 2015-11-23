@@ -1,4 +1,22 @@
 {
+  "Barzio" : {
+    "Area Pedonale lungo la Valle Fiumetta" : { 
+      "it" : { 
+        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+      }
+    },
+    "Mercato all'aperto del venerdì di Barzio" : { 
+      "it" : { 
+        "http://barzio.blogspot.it/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-barzio.blogspot.it/2015/07/{post}.html" : "{self}"
+      }
+    }
+  },
   "Grignone" : {
     "Acquafredda" : { 
       "it" : { 
