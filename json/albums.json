@@ -6,6 +6,13 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401"
       },
+      "Barzio (Paese)" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipP8TXXZMG4ZCPuUVYHY5ZE1BiRaHynoB2U5uPxo", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5907630320146568737",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635226412186",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "645735292117568.1073741838"
+      },
       "Mercato all'aperto del venerdì di Barzio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNMC_QX_PXtwJpJwkm0aQ5F8EVPr6bZDHSsTSjB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
@@ -54,15 +61,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6041468093658706513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081"
-      },
-       "Vie e Piazze di Barzio" : {
-         "https://photos.google.com/u/0/album/{album}" : "Vie e Piazze di Barzio", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5907630320146568737",
-         "https://picasaweb.google.com/{id}/{album}" : "{self} minori",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635226412186",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "645735292117568.1073741838"
-      },
-      
+      }
    },
    "Grignone" : {
       "Acquafredda" : { 
