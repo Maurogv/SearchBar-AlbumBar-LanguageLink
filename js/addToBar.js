@@ -125,8 +125,8 @@ String.prototype.deleteUnWantedChars = function() {
   current = this.replace(/\w\S*/g, function(txt) {
               return txt.charAt(0).toUpperCase() + txt.substr(1);
             });
-  current = current.replace(/'/g, function(txt) {
-              return txt.charAt(0).toUpperCase() + txt.substr(1);
+  current = current.replace(/'\w/g, function(txt) {
+              return txt.charAt(0) + txt.charAt(1).toUpperCase() + txt.substr(2);
             });
   current = current.replace(/[()]/g,'').replace(/'/g,'');
   return current.replace(/\s/g, '');
