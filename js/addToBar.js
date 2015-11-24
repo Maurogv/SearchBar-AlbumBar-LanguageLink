@@ -18,6 +18,7 @@ window.albums = function (callback) {
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
           valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars());
         }
+        valueAlbum = valueAlbum.deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
         
         currentIds=ids[0];
@@ -122,6 +123,9 @@ window.redirect = function (callback) {
 
 String.prototype.deleteUnWantedChars = function() {
   current = this.replace(/\w\S*/g, function(txt) {
+              return txt.charAt(0).toUpperCase() + txt.substr(1);
+            });
+  current = current.replace(/'/g, function(txt) {
               return txt.charAt(0).toUpperCase() + txt.substr(1);
             });
   current = current.replace(/[()-]/g,'').replace(/'/g,'');
