@@ -16,7 +16,7 @@ window.albums = function (callback) {
         var id;
         valueAlbum = currentAlbums[key]; 
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
-          valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars());
+          valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g,''));
         }
         valueAlbum = valueAlbum.deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
@@ -128,6 +128,6 @@ String.prototype.deleteUnWantedChars = function() {
   current = current.replace(/'/g, function(txt) {
               return txt.charAt(0).toUpperCase() + txt.substr(1);
             });
-  current = current.replace(/[()-]/g,'').replace(/'/g,'');
+  current = current.replace(/[()]/g,'').replace(/'/g,'');
   return current.replace(/\s/g, '');
 }
