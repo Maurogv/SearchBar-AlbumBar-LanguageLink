@@ -1,4 +1,12 @@
 {
+   "A, Da" : {
+      "Ai centri commerciali, outlet, negozi" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipM9uL0fo_5lX7BuWR2rDIYZfje-dQk21o5GHFxV", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5982933132688757681",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "743515689006194.1073741868"
+      }
+   }
    "Barzio" : {
       "Area Pedonale lungo la Valle Fiumetta" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO88RsQ-zeyhu6tug0hfBvPkl0SMQv1hXsuyxo_", 
