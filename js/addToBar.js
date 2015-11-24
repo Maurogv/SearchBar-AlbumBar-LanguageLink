@@ -1,6 +1,12 @@
 window.albums = function (callback) {
+  lang = window.writing[2];     
+  if ( lang == 'it') {
+    albumsJob ();
+  }
+  else if ( lang == 'en') {
+     window.redirect(albumsJob);
+  }
   
-  window.redirect(albumsJob);
   function albumsJob () {
     var urls = {},
         id;
@@ -42,8 +48,14 @@ window.albums = function (callback) {
 };
 
 window.search = function (callback) {
-    
-  window.redirect(searchJob);
+  lang = window.writing[2];
+  if ( lang == 'it') {
+    searchJob ();
+  }
+  else if ( lang == 'en') {
+     window.redirect(searchJob);
+  }
+  
   function searchJob () {
     var urls = {};
   
@@ -109,12 +121,7 @@ window.redirect = function (callback) {
   topic = window.writing[1],
   lang = window.writing[2],
   enTitle = window.writing[0];
-  
-  if ( lang == 'it') {
-    callback();
-    return;
-  };
-  
+ 
   var topPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/redirectTop.json");
   var secondPromise = $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/redirect.json");
      
