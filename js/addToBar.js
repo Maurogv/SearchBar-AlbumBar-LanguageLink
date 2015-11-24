@@ -18,7 +18,7 @@ window.albums = function (callback) {
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
           valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars());
         }
-        valueAlbum = valueAlbum. deleteUnWantedChars();
+       // valueAlbum = valueAlbum. deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
         
         currentIds=ids[0];
