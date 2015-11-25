@@ -6,6 +6,12 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "731173710240392.1073741867"
       },
+      "Al cimitero in visita ai familiari" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipP5UKzAIQez2urddUhKOwrf6_FXBzoDfMun5Cs9", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5945832912585535793",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "689176191106811.1073741856"
+      },
       "Allo shopping per l'abbigliamento" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipM9uL0fo_5lX7BuWR2rDIYZfje-dQk21o5GHFxV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5982933132688757681",
