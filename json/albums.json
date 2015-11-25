@@ -1,5 +1,11 @@
 {
    "A, Da" : {
+      "Ai convegni filatelici" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMrn0lIy9aC8T8JBf_7c2_NMLOSGZ3fIAslv4uo", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5973302759361413153",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "731173710240392.1073741867"
+      },
       "Allo shopping per l'abbigliamento" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipM9uL0fo_5lX7BuWR2rDIYZfje-dQk21o5GHFxV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5982933132688757681",
