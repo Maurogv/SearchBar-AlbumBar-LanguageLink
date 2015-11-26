@@ -29,6 +29,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5946210905868222337",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "689838531040577.1073741858"
+      },
+      "Da Piero Drocchi e Elena Vezzoli" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOfdoJ2Rds9XxChRUaIK2RcRM_JGdwdsJ0-x3vy", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5946588657958928113",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "703362629688167.1073741859"
       }
    },
    "Barzio" : {
