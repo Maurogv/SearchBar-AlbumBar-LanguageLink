@@ -35,6 +35,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5946588657958928113",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "703362629688167.1073741859"
+      },
+      "Da Roberto e Daniela Drocchi" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMcD0S34nKGmqONHM4tsEQF48gIrrYr0rQxOjRG", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5956203358559515969",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "705636259460804.1073741861"
       }
    },
    "Barzio" : {
