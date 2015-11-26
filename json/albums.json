@@ -23,6 +23,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5945849250001890577",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "689824657708631.1073741857"
+      },
+      "Da Parenti" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMf5B-bpQHalhnhOxChrU6TvWQgN5qKd4oS0yB9", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5946210905868222337",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "689838531040577.1073741858"
       }
    },
    "Barzio" : {
