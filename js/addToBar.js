@@ -154,6 +154,6 @@ String.prototype.deleteUnWantedChars = function() {
   current = current.replace(/'\w/g, function(txt) {
               return txt.charAt(0) + txt.charAt(1).toUpperCase() + txt.substr(2);
             });
-  current = current.replace(/[()]/g,'').replace(/'/g,'');
+  current = current.replace(/[().]/g,'').replace(/'/g,'');
   return current.replace(/\s/g, '');
 }
