@@ -41,6 +41,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5956203358559515969",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "705636259460804.1073741861"
+      },
+      "In gita a..." : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOXHkaTtIQSRdouTu4RtRtP-lqbxTxtVfhSPRfJ", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5972015951244356113",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "728818387142591.1073741866"
       }
    },
    "Barzio" : {
