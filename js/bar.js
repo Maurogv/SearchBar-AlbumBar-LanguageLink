@@ -34,4 +34,13 @@
     })
   }
   
+  window.addBottom = function() {
+    body = document.getElementsByTagName('script')[0].parentNode;
+    div = $('#bottom');
+    if ( div.length == 0 ) { 
+      div = $('<div id="bottom" />');
+      div.appendTo(body);
+    };
+  }
+  
 })(window);
