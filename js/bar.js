@@ -11,12 +11,13 @@
     if ( bar.length == 0 ) {
       bar = new window.bar();
       bar[0]['id'] = source + 'Bar';
-      body = document.getElementsByTagName('script')[0].parentNode;
       if (source == 'search') {
-       body.insertBefore(bar[0], body.firstChild);
+        body = document.getElementsByTagName('script')[0].parentNode;
+        body.insertBefore(bar[0], body.firstChild);
       }
       else if ( source == 'albums' ) { 
-        bar.appendTo(body);
+        window.addBottom();
+        div.prepend(bar);
       };
     };
    
