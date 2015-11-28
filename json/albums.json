@@ -50,10 +50,15 @@
       }
    },
    "Altro" : {
-      "Caricamenti su Google Places" : {
+      "Foto caricate su Google Places" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMyWs4RXeuIiX8GvtP79anNh5NgfG7CmhVV9z_U", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
          "https://picasaweb.google.com/{id}/{album}" : "GooglePlacesUploads"
+      },
+      "Foto caricate su Wikimedia Commons" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
+         "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
       }
    },
    "Barzio" : {
