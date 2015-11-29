@@ -9,7 +9,7 @@
     	
 	// Poll for jQuery to come into existance
   var checkReady = function (callback) {
-    if (window.jQuery & window.albums) {
+    if (window.jQuery) {
       callback(jQuery);
     }
     else {
