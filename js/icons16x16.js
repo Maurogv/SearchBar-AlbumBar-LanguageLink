@@ -29,7 +29,7 @@ window.icons = function (source, urls) {
   })                 
 };
 
-window.postIcons = function (urls) {
+window.iconLanguagePost = function (urls) {
   $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
     var lang= window.writing[2],
         otherLang = lang == 'it' ? 'en' : 'it',
