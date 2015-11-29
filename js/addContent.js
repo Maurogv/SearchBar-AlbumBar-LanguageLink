@@ -20,9 +20,9 @@
   // Start polling...
   checkReady(function ($) { 
     // Use $ here...
-    window.search(window.addToBar);
-    window.albums(window.addToBar);
-    window.posts(window.addPostToBar);
+    window.search(window.icons);
+    window.albums(window.icons);
+    window.posts(window.iconLanguagePost);
   }) 
      
   
