@@ -1,7 +1,7 @@
 (function(window,document,script, urls){
   urls.forEach(function(url) {
      newScript = document.createElement(script);
-     newScript.async =1 ;
+     newScript.async = 1;
      newScript.src = url;
      scriptTag = document.getElementsByTagName(script)[0];
      scriptTag.parentNode.insertBefore(newScript, scriptTag);
