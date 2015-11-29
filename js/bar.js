@@ -6,7 +6,7 @@
   };
   window.bar = bar;
   
-  window.toBar = function (source, links) {
+  window.addToBar = function (source, links) {
     bar = $('#' + source + 'Bar');
     if ( bar.length == 0 ) {
       bar = new window.bar();
