@@ -24,7 +24,7 @@ window.icons = function (source, urls) {
     })
 
     if ( links ) {
-        window.toBar(source, links);
+        window.addToBar(source, links);
     }; 
   })                 
 };
@@ -43,11 +43,11 @@ window.iconLanguagePost = function (urls) {
         {
           if ( on == "local" ) {
             links = [$('<a href="' + urls[lang] + '">' + '<img src="' + iconKey + '" style="float:right;"/>' + '</a>')];
-            window.toBar('albums', links);              
+            window.addToBar('albums', links);              
           }
           language =  lang == 'it' ? 'English' : 'Italiano';
           links = [$('<a href="' + urls[otherLang] + '" style="float:right;">' + language + '</a>')];
-          window.toBar('search', links);
+          window.addToBar('search', links);
           found = true;
         }
       });
