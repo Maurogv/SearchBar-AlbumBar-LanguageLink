@@ -28,3 +28,31 @@ window.icons = function (source, urls) {
     }; 
   })                 
 };
+
+window.postIcons = function (urls) {
+  $.getJSON("https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/json/icons16x16.json").done(function(icons) {
+    var lang= window.writing[2],
+        otherLang = lang == 'it' ? 'en' : 'it',
+        on = window.writing[3],
+        found;
+           
+    Object.keys(icons).some(function (iconKey) {
+      repo = icons[iconKey];
+      repo.forEach(function(currentRepo) {
+        if ( urls[lang].slice(0,currentRepo.length) == currentRepo ) 
+        {
+          if ( on == "local" ) {
+            links = [$('<a href="' + urls[lang] + '">' + '<img src="' + iconKey + '" style="float:right;"/>' + '</a>')];
+            window.toBar('albums', links);              
+          }
+          language =  lang == 'it' ? 'English' : 'Italiano';
+          links = [$('<a href="' + urls[otherLang] + '" style="float:right;">' + language + '</a>')];
+          window.toBar('search', links);
+          found = true;
+        }
+      });
+      return found;
+    })        
+
+  })
+}
