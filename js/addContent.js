@@ -4,12 +4,12 @@
      newScript.async =1 ;
      newScript.src = url;
      scriptTag = document.getElementsByTagName(script)[0];
-     scriptTag.parentNode.insertBefore(newScript,scriptTag);
+     scriptTag.parentNode.insertBefore(newScript, scriptTag);
   })
     	
 	// Poll for jQuery to come into existance
   var checkReady = function (callback) {
-    if (window.jQuery & window.bar & window.search & window.albums & window.posts) {
+    if (window.jQuery & window.bar) {
       callback(jQuery);
     }
     else {
