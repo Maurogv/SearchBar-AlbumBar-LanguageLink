@@ -59,6 +59,13 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
          "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
+      },
+      "Documenti medici" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPKd2CHhSpx1HxbX42PDQulTtpEVHhzgAgsHTfh", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6073396272371815809",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "873766982647730.1073741906",
+         "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" : "3165"
       }
    },
    "Barzio" : {
