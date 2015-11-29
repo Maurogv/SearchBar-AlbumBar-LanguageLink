@@ -22,7 +22,7 @@ window.albums = function (callback) {
         var id;
         valueAlbum = currentAlbums[key]; 
         if ( valueAlbum.indexOf('{self}') !=-1 ) {
-          valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g,''));
+          valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, ''));
         }
         valueAlbum = valueAlbum.deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
@@ -37,7 +37,7 @@ window.albums = function (callback) {
           return id === idKey;
         })  
         if ( id ) {
-          url = url.replace('{id}',id);
+          url = url.replace(/({id})/g, id);
         }       
         urls[key] = url;
       }); 
@@ -154,6 +154,6 @@ String.prototype.deleteUnWantedChars = function() {
   current = current.replace(/'\w/g, function(txt) {
               return txt.charAt(0) + txt.charAt(1).toUpperCase() + txt.substr(2);
             });
-  current = current.replace(/[()]/g,'').replace(/'/g,'');
+  current = current.replace(/[()]/g, '').replace(/'/g, '');
   return current.replace(/\s/g, '');
 }
