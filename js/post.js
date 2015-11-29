@@ -1,4 +1,4 @@
-window.posts = function (callback) {
+window.post = function (callback) {
     
   window.redirect(postsJob);
   function postsJob () {
