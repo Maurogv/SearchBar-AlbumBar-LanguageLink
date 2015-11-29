@@ -1,7 +1,7 @@
 window.post = function (callback) {
     
-  window.redirect(postsJob);
-  function postsJob () {
+  window.redirect(postJob);
+  function postJob () {
     var lang = window.writing[2],
         urls = {};
 
