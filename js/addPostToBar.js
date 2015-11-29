@@ -60,5 +60,5 @@ window.addPostToBar = function (urls) {
 }
   
 String.prototype.toUrl = function() {
-  return this.replace(/[()-]/g,'').replace(/'/g,'').replace(/\s+/g, '-').toLowerCase();
+  return this.replace(/[()-]/g, '').replace(/'/g, '').replace(/\s+/g, '-').toLowerCase();
 }
