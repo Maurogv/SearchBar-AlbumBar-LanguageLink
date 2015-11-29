@@ -8,7 +8,7 @@
   })
     	
 	// Poll for jQuery to come into existance
-  var checkReady = function (callback) {
+  /* var checkReady = function (callback) {
     if (window.jQuery) {
       callback(jQuery);
     }
@@ -18,12 +18,12 @@
   };
 
   // Start polling...
-  checkReady(function ($) {
+  checkReady(function ($) { */
     // Use $ here...
     window.search(window.addToBar);
     window.albums(window.addToBar);
     window.posts(window.addPostToBar);
-  }) 
+ // }) 
      
   
 })(window,document,'script',['https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
