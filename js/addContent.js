@@ -27,10 +27,10 @@
      
  // 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addToBar.js',
  // 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addPostToBar.js',
-})(window,document,'script',['https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
-                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albums.js',
-                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/search.js',
-                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/post.js',
-                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/icons16x16.js',
-                             'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/redirect.js',
-                             'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'])
+})(window, document, 'script', ['https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/bar.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/albums.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/search.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/post.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/icons16x16.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/redirect.js',
+                                'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'])
