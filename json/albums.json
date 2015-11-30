@@ -66,6 +66,12 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "873766982647730.1073741906",
          "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" : "3165"
+      },
+      "Foto di famiglia digitalizzate" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOmkrZEvq6s-UfZ2an_bQNX82DH2B5ljiL8ahFh", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887932283369149793",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
       }
    },
    "Barzio" : {
