@@ -73,7 +73,7 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
       },
-      "Foto di Google Contacts" : {
+      "Foto dei contatti di Google Contacts prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}03"
