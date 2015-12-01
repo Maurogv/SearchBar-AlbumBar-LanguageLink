@@ -74,8 +74,8 @@
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
       },
       "Foto di Google Contacts" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMPxOetrRitC_134aeq8BCL6MjgBdFEISxxA7M1", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5884560485019461841",
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       }
    },
