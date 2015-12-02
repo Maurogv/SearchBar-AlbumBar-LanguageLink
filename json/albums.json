@@ -259,8 +259,8 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       },
       "Foto dei profili degli account prima del ritaglio" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipM3g45ruWO4mxCLUvgyIHNymWNMgzg4XtuX8N3e", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223629687367050513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       }
    }
