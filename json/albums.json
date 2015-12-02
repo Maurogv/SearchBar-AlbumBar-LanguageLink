@@ -49,36 +49,6 @@
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "728818387142591.1073741866"
       }
    },
-   "Altro" : {
-      "Foto caricate su Google Places" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMyWs4RXeuIiX8GvtP79anNh5NgfG7CmhVV9z_U", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
-         "https://picasaweb.google.com/{id}/{album}" : "GooglePlacesUploads"
-      },
-      "Foto caricate su Wikimedia Commons" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
-         "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
-      },
-      "Documenti medici" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipPKd2CHhSpx1HxbX42PDQulTtpEVHhzgAgsHTfh", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6073396272371815809",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "873766982647730.1073741906",
-         "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" : "3165"
-      },
-      "Foto di famiglia digitalizzate" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipOmkrZEvq6s-UfZ2an_bQNX82DH2B5ljiL8ahFh", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887932283369149793",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
-      },
-      "Foto dei contatti di Google Contacts prima del ritaglio" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}"
-      }
-   },
    "Barzio" : {
       "Area Pedonale lungo la Valle Fiumetta" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO88RsQ-zeyhu6tug0hfBvPkl0SMQv1hXsuyxo_", 
@@ -141,6 +111,21 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6041468093658706513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081"
+      }
+   },
+   "Digitalizzate" : {
+      "Documenti medici" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPKd2CHhSpx1HxbX42PDQulTtpEVHhzgAgsHTfh", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6073396272371815809",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "873766982647730.1073741906",
+         "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" : "3165"
+      },
+      "Foto di famiglia digitalizzate" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOmkrZEvq6s-UfZ2an_bQNX82DH2B5ljiL8ahFh", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887932283369149793",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
       }
    },
    "Grignone" : {
@@ -256,5 +241,22 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
       } 
+   },
+   "Uploads e Profili" : {
+      "Foto caricate su Google Places" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMyWs4RXeuIiX8GvtP79anNh5NgfG7CmhVV9z_U", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
+         "https://picasaweb.google.com/{id}/{album}" : "GooglePlacesUploads"
+      },
+      "Foto caricate su Wikimedia Commons" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
+         "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
+      },
+      "Foto dei contatti di Google Contacts prima del ritaglio" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}"
+      }
    }
 }
