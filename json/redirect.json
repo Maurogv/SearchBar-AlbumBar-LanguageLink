@@ -9,13 +9,6 @@
     "To shopping for clothing" : "Allo shopping per l'abbigliamento",
     "Trip to..." : "In gita a..."
   },
-  "Altro" : {
-    "Family Photos digitized" : "Foto di famiglia digitalizzate",
-    "Contacts Photos of Google Contacts before cropping" : "Foto dei contatti di Google Contacts prima del ritaglio",
-    "Google Places Uploads" : "Foto caricate su Google Places",
-    "Medical documents" : "Documenti medici",
-    "Wikimedia Commoms Uploads" : "Foto caricate su Wikimedia Commons"
-  },
   "Barzio" : {
     "Fallen names in War Memorial of Barzio" : "Nomi dei caduti del Monumento ai caduti di Barzio",
     "Outdoor Market on Fridays at Barzio" : "Mercato all'aperto del venerdì di Barzio",
@@ -25,11 +18,20 @@
     "Tensostructure" : "Tensostruttura",
     "War Memorial of Barzio" : "Monumento ai caduti di Barzio"
   },
-  "Grignone" : {
+  "Digitalizzate" : {
+    "Family Photos digitized" : "Foto di famiglia digitalizzate",
+    "Medical documents" : "Documenti medici"
+  },
+  "Grignone" : 
     "Chapel of Our Lady of the Rosary (Pasturo)" : "Cappella della Madonna del Rosario (Pasturo)",
     "Church of the Alpini at Cornisella" : "Chiesetta degli Alpini a Cornisella",
     "Fallen names in the Church of the Alpini at Cornisella" : "Nomi dei caduti nella Chiesetta degli Alpini a Cornisella",
     "Route Pedaling in the Park 3 Cornisella - Brunino" : "Percorso Pedalando nel Parco 3 Cornisella - Brunino",
     "Sentiero 33 Cold Water Bridge - Alpe Cova" : "Sentiero 33 Ponte dell'Acqua Fredda - Alpe Cova"
+  },
+  "Uploads e Profili" : {
+    "Contacts Photos of Google Contacts before cropping" : "Foto dei contatti di Google Contacts prima del ritaglio",
+    "Google Places Uploads" : "Foto caricate su Google Places",
+    "Wikimedia Commoms Uploads" : "Foto caricate su Wikimedia Commons"
   }
 }
