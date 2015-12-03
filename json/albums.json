@@ -264,7 +264,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       },
-      "Foto dei profili prima del ritaglio" : {
+      "Foto dei Profili prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPtLVZwMj_wfTsH7Ucy-LRAxBYnJm3EhJfhBJ96", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223629687367050513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
