@@ -243,7 +243,7 @@
       } 
    },
    "Uploads, Profili, Sfondi" : {
-      "Copertine dei profili e intestazioni dei blog" : {
+      "Copertine dei profili" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNTa_2SMJAW51L6H_G2nK0gXHhNxzFdJ9SZAGP-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
@@ -264,7 +264,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       },
-      "Foto dei profili degli account prima del ritaglio" : {
+      "Foto dei profili prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPtLVZwMj_wfTsH7Ucy-LRAxBYnJm3EhJfhBJ96", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223629687367050513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
