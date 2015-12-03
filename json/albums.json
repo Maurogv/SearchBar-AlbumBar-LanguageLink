@@ -270,7 +270,7 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086439024713857.1073741932"
       },
-      "Intestazione dei blog" : {
+      "Intestazioni dei blog" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNRSpWRD_9x7rPuJjP-m0s80tfAVlZ_EtLmoEEV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
