@@ -243,6 +243,12 @@
       } 
    },
    "Uploads e Profili" : {
+      "Copertine dei profili e intestazioni dei blog" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipNTa_2SMJAW51L6H_G2nK0gXHhNxzFdJ9SZAGP-", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}", 
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086793418011751.1073741933"
+      },
       "Foto caricate su Google Places" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMyWs4RXeuIiX8GvtP79anNh5NgfG7CmhVV9z_U", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
