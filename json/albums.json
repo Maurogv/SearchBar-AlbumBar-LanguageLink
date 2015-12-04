@@ -275,6 +275,9 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224150131894210513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086948897996203.1073741934"
+      },
+      "Suggerisci una foto dei Profili su facebook" : {
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "599281213429643.1073741827"
       }
    }
 }
