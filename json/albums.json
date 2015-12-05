@@ -242,27 +242,25 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
       } 
    },
-   "Uploads, Profili, Sfondi" : {
+   "Profili" : {
       "Copertine dei Profili" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNTa_2SMJAW51L6H_G2nK0gXHhNxzFdJ9SZAGP-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086793418011751.1073741933"
       },
-      "Foto caricate su Google Places" : {
+      "Foto dei Profili di Google Places" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMyWs4RXeuIiX8GvtP79anNh5NgfG7CmhVV9z_U", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
          "https://picasaweb.google.com/{id}/{album}" : "GooglePlacesUploads"
       },
-      "Foto caricate su Wikimedia Commons" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
-         "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
-      },
-      "Foto dei contatti di Google Contacts prima del ritaglio" : {
+      "Foto dei Contatti di Google Contacts prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
+      },
+      "Foto dei Profili delle Pagine non ufficiali di facebook" : {
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "599281213429643.1073741827"
       },
       "Foto dei Profili prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPtLVZwMj_wfTsH7Ucy-LRAxBYnJm3EhJfhBJ96", 
@@ -275,9 +273,13 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224150131894210513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086948897996203.1073741934"
-      },
-      "Suggerisci una foto dei Profili su facebook" : {
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "599281213429643.1073741827"
+      }
+   },
+   "Varie" : {
+      "Foto caricate su Wikimedia Commons" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPwLbn-Kx7h1MP-Cg4Q09tk3GjGQBy7P2Lzc2Ro", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887181017712579985",
+         "https://picasaweb.google.com/{id}/{album}" : "WikimediaCommonsUploads"
       }
    }
 }
