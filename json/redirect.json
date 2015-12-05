@@ -29,13 +29,15 @@
     "Route Pedaling in the Park 3 Cornisella - Brunino" : "Percorso Pedalando nel Parco 3 Cornisella - Brunino",
     "Sentiero 33 Cold Water Bridge - Alpe Cova" : "Sentiero 33 Ponte dell'Acqua Fredda - Alpe Cova"
   },
-  "Uploads, Profili, Sfondi" : {
+  "Profili" : {
     "Profiles Photos before cropping" : "Foto dei Profili prima del ritaglio",
-    "Contacts Photos of Google Contacts before cropping" : "Foto dei contatti di Google Contacts prima del ritaglio",
+    "Contacts Photos of Google Contacts before cropping" : "Foto dei Contatti di Google Contacts prima del ritaglio",
     "Covers Profiles": "Copertine dei Profili",
-    "Facebook Profiles Suggest a Photo" : "Suggerisci una foto dei Profili su facebook",
+    "Facebook Unofficial Pages Profiles Suggest a Photo" : "Foto dei Profili delle Pagine non ufficiali di facebook",
     "Headers Blogs" : "Intestazioni dei Blog",
-    "Google Places Uploads" : "Foto caricate su Google Places",
+    "Google Places Profiles Uploads" : "Foto dei Profili di Google Places",
+  },
+  "Varie" : {
     "Wikimedia Commoms Uploads" : "Foto caricate su Wikimedia Commons"
   }
 }
