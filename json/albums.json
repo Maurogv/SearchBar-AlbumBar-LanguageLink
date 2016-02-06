@@ -254,7 +254,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
          "https://picasaweb.google.com/{id}/{album}" : "GooglePlacesProfilesUploads"
       },
-      "Foto dei Contatti di Google Contacts prima del ritaglio" : {
+      "Foto dei Contatti di Google prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
