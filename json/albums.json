@@ -259,7 +259,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       },
-      "Foto dei Profili delle Pagine non ufficiali di facebook" : {
+      "Foto dei Profili delle Pagine non ufficiali di Facebook" : {
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "599281213429643.1073741827"
       },
       "Foto dei Profili prima del ritaglio" : {
