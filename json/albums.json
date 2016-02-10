@@ -243,7 +243,7 @@
       } 
    },
    "Profili" : {
-      "Copertine dei Profili" : {
+      "Copertine" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNTa_2SMJAW51L6H_G2nK0gXHhNxzFdJ9SZAGP-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
