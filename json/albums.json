@@ -127,7 +127,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5889054131523489649",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
       }
-   }
+   },
    "Digitalizzate" : {
       "Documenti medici" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPKd2CHhSpx1HxbX42PDQulTtpEVHhzgAgsHTfh", 
