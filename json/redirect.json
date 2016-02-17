@@ -18,6 +18,11 @@
     "Tensostructure" : "Tensostruttura",
     "War Memorial of Barzio" : "Monumento ai caduti di Barzio"
   },
+  "Caricamenti e Suggerimenti" : {
+    "Suggested Photos as Facebook Unofficial Pages Profiles" : "Foto suggerite come Profili delle pagine non ufficiali di Facebook",
+    "Suggested Photos as Google Places Profiles" : "Foto suggerite come Profili di Google Places",
+    "Wikimedia Commoms Uploads" : "Foto caricate su Wikimedia Commons"
+  }
   "Digitalizzate" : {
     "Family Photos digitized" : "Foto di famiglia digitalizzate",
     "Medical documents" : "Documenti medici"
@@ -32,12 +37,7 @@
   "Profili" : {
     "Photos of Google Contacts before cropping" : "Foto dei Contatti di Google prima del ritaglio",
     "Covers": "Copertine",
-    "Facebook Unofficial Pages Profiles" : "Foto dei Profili delle Pagine non ufficiali di Facebook",
-    "Google Places Profiles Uploads" : "Foto dei Profili di Google Places", 
     "Headers Blogs" : "Intestazioni dei Blog",
     "Profiles Photos before cropping" : "Foto dei Profili prima del ritaglio"
-  },
-  "Varie" : {
-    "Wikimedia Commoms Uploads" : "Foto caricate su Wikimedia Commons"
   }
 }
