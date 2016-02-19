@@ -257,7 +257,7 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
       } 
    },
-   "Profili" : {
+   "Profili, Copertine e intestazioni" : {
       "Copertine" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNTa_2SMJAW51L6H_G2nK0gXHhNxzFdJ9SZAGP-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
@@ -275,11 +275,16 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086439024713857.1073741932"
       },
-      "Intestazioni dei Blog" : {
+      "Immagini dlle Intestazioni dei Blog" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNRSpWRD_9x7rPuJjP-m0s80tfAVlZ_EtLmoEEV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224150131894210513",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086948897996203.1073741934"
+      },
+      "Sfondo del desktop di Windows" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipM-OJ82FdtZb6KGEX0OcyPUibH9OdXdXZTXIKmO", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6253113184357847041",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}"
       }
    }
 }
