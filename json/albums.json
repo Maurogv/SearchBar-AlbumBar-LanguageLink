@@ -141,6 +141,12 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887932283369149793",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
+      },
+      "Retro delle foto di famiglia digitalizzate" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOoL04yocyKDeN5iy50H9PretNYPG-nrXGzabeb", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5887958666456805857",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "610797235611374.1073741831"
       }
    },
    "Grignone" : {
