@@ -287,7 +287,7 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086948897996203.1073741934"
       },
-      "Sfondo del desktop di Windows" : {
+      "Sfondi del desktop di Windows" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipM-OJ82FdtZb6KGEX0OcyPUibH9OdXdXZTXIKmO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6253113184357847041",
          "https://picasaweb.google.com/{id}/{album}" : "{self}"
