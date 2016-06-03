@@ -209,7 +209,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
          "https://picasaweb.google.com/{id}/{album}" : "ChiesettaDegliAlpiniACornisella"
       },
-      "Percorso Pedalando nel Parco 3 Cornisella - Brunino" : {
+      "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO4TeTVpznpVof-1UGZQt7nryq7ALhSp99vbGHO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6166926691548743585",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
@@ -230,7 +230,7 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157647135170720", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650"
       },
-      "Sentiero 33 Pasturo - Cornisella" : { 
+      "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMjAUD0uFVZbiPt0OFDXJz56e_VNKhpMjOGOVWl", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
@@ -243,13 +243,13 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665"
       },
-      "Sentiero 33 Pialeral - Pasturo" : { 
+      "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNCHmUu9uZngOe6klwJpcKvcLqijnehlhb1OJhn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6177032743619288481",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157656113098030"
       },
-      "Sentiero 33 Ponte dell'Acqua Fredda - Alpe Cova" : { 
+      "Sentiero 33 Pasturo - Pialeral (da Ponte dell'Acqua Fredda ad Alpe Cova)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO4aLd4yxADCC3dZKfLB7Z_gbo3kgd0q--lT6VG", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029921951652957265",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
