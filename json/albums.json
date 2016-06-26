@@ -259,7 +259,7 @@
       "Sentiero secondario Brunino - Spinarolo" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPVZ4hg2tv4AQqUQrM_u7mwZ1OsK0XxCVzCnRat",
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6300545047052500961",
-         "https://picasaweb.google.com/{id}/{album}" : "113727750810625155496/6300545047052500961",
+         "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961"
       },
       "Spinarolo" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPamOVmXGfHoxvH7ij-Q4RjR3UnR1KFVaJnpUUW", 
