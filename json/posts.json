@@ -178,6 +178,14 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
+    "Segnaletica dei sentieri" : {
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
+      }
+    },
     "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
