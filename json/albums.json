@@ -230,6 +230,12 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157647135170720", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650"
       },
+      "Segnaletica dei sentieri del Grignone versante di Pasturo" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipMxvY5_JX7yT_jJoXdzIWnGLAiNDUR665gCIQDT", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6306350512835784481",
+         "https://picasaweb.google.com/{id}/{album}" : "6306350512835784481",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157669906981650", 
+      },
       "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMjAUD0uFVZbiPt0OFDXJz56e_VNKhpMjOGOVWl", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
