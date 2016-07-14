@@ -204,7 +204,7 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}02",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655174536422"
       }, 
-      "Nomi dei caduti nella Chiesetta degli Alpini a Cornisella" : {
+      "Nomi dei caduti della Chiesetta degli Alpini a Cornisella" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
          "https://picasaweb.google.com/{id}/{album}" : "ChiesettaDegliAlpiniACornisella"
