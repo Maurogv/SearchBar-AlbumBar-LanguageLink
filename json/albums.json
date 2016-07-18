@@ -272,10 +272,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031567786969462305",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
-      },
-      "Sul Grignone anche questa estate" : { 
-         "https://www.flickr.com/search/?user_id={id}&text={album}&view_all=1" : "grignone"
-      } 
+      }
    },
    "Profili, Copertine e Intestazioni" : {
       "Copertine" : {
