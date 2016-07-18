@@ -5,8 +5,7 @@
     ],
   "95893200@N07" : [
     "https://www.flickr.com/photos/{id}/sets/{album}",
-    "https://www.flickr.com/photos/{id}/galleries/{album}",
-    "https://www.flickr.com/search/?user_id={id}&text={album}&view_all=1"
+    "https://www.flickr.com/photos/{id}/galleries/{album}"
     ],
   "mauro.vezzoli.77" : [
     "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3"
