@@ -153,7 +153,7 @@
       "Acquafredda" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOhBtls_rJhKIuUzIjdGYegeWLv6-H72wotvfPl", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6035146133779205969",
-         "https://picasaweb.google.com/{id}/{album}" : "{self} (Grignone)",
+         "https://picasaweb.google.com/{id}/{album}" : "6035146133779205969",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645232281769"
       },
       "Agriturismo Brunino" : { 
