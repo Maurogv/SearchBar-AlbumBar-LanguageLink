@@ -2,74 +2,74 @@
   "Barzio" : {
     "Area Pedonale lungo la Valle Fiumetta" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Mercato all'aperto del venerdì di Barzio" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/07/{post}.html" : "mercato-allaperto-del-venerdi-di-barzio"
+        "http://barzio.blogspot.com/2015/07/{post}.html" : "mercato-allaperto-del-venerdi-di-barzio"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/07/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
     "Monumento ai caduti di Barzio" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Nomi dei caduti del Monumento ai caduti di Barzio" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Parcheggio P2 (Piazza del Mercato)" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Parcheggio P3 (Tensostruttura)" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Piazza Garibaldi" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Tensostruttura" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
     "Torrente Fiumetta" : { 
       "it" : { 
-        "http://barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-barzio.blogspot.it/2015/06/{post}.html" : "{self}"
+        "http://en-barzio.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     }
   },
