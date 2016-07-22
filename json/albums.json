@@ -85,7 +85,7 @@
       "Parcheggio P2 (Piazza del Mercato)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOKu7NDF3pzV6j8QxuXplAfmXjKLdJBM1U1xr6q", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5894226866610062625",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "5894226866610062625",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634878166616"
       },
       "Parcheggio P3 (Tensostruttura)" : {
