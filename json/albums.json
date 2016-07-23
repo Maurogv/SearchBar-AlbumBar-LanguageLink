@@ -109,7 +109,7 @@
       "Torrente Fiumetta" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNfThbP89VKBvMee1W-6Sd99QaFZFUBgRRbG7yF", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6041468093658706513",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6041468093658706513",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081"
       }
    },
@@ -159,14 +159,14 @@
       "Agriturismo Brunino" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipObkSWY2-tMGvcjdM71DmoAr3LhfymZLtwbCLNs", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6164040280865064465",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6164040280865064465",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652653491493", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656348361735"
       },
       "Alpe Cova" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNljc6XStaOJ4WYuR4ZzE9OVNNuUQYauw4b9T1h", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6030069566168533537",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6030069566168533537",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645415333874", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655819053592",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888"
@@ -174,7 +174,7 @@
       "Brunino" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMRWG9W3jxbOuE6geJViIvPaAkOStekTV-jAyzP", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6028867800576451473",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6028867800576451473",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645067964140", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656264499026",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "814540775237018.1073741889"
@@ -182,19 +182,19 @@
       "Cappella della Madonna del Rosario (Pasturo)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6165511616727803217", 
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6165511616727803217",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652858591004"
       },
       "Chiesetta degli Alpini a Cornisella" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157670233145200"
       },
       "Cornisella" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNZfpOucHNb5xpeCql0pAdFd1tVx9dsxi9G3MqQ", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029519885522985873",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6029519885522985873",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644979637808", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654006193363",
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "811711872186575.1073741886"
@@ -202,13 +202,13 @@
       "Monteno" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipN2Ys5c_YoICceWn4c8WGcb9lt8UD_ltIc9kPgV", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031495744589252785",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}02",
+         "https://picasaweb.google.com/{id}/{album}" : "6031495744589252785",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655174536422"
       }, 
       "Nomi dei caduti della Chiesetta degli Alpini a Cornisella" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
-         "https://picasaweb.google.com/{id}/{album}" : "ChiesettaDegliAlpiniACornisella"
+         "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393"
       },
       "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMY_gJpNGFj880GSLlY45MhMF-fZvjtMe71Ho-I", 
@@ -240,7 +240,7 @@
       "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMjAUD0uFVZbiPt0OFDXJz56e_VNKhpMjOGOVWl", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6027857502474398753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644896715919", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "810788438945585.1073741885"
       },
@@ -271,7 +271,7 @@
       "Spinarolo" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPamOVmXGfHoxvH7ij-Q4RjR3UnR1KFVaJnpUUW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031567786969462305",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6031567786969462305",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
       }
    },
