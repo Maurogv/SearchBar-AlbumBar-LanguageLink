@@ -247,7 +247,7 @@
       "Sentiero 33 Pasturo - Pialeral" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNZzU5QhvWwNWmYbkG5Zdrzjoz_swUCqiYiljfG", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6121633314824410753",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6121633314824410753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665"
       },
       "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
