@@ -72,14 +72,14 @@
       "Monumento ai caduti di Barzio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654635085886"
       },
       "Nomi dei caduti del Monumento ai caduti di Barzio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
-         "https://picasaweb.google.com/{id}/{album}" : "MonumentoAiCadutiDiBarzio",
+         "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937"
       },
       "Parcheggio P2 (Piazza del Mercato)" : {
