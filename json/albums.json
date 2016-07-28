@@ -253,7 +253,7 @@
       "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNCHmUu9uZngOe6klwJpcKvcLqijnehlhb1OJhn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6177032743619288481",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "6177032743619288481",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157656113098030"
       },
       "Sentiero 33 Pasturo - Pialeral (da Ponte dell'Acqua Fredda ad Alpe Cova)" : { 
