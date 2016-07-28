@@ -97,7 +97,7 @@
       "Piazza Garibaldi" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNHtYsfj34NCPfCCnnUZ-JmaTnHDVt3ZxozxHCi", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5895232825553767825",
-         "https://picasaweb.google.com/{id}/{album}" : "{self}",
+         "https://picasaweb.google.com/{id}/{album}" : "5895232825553767825",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080"
       },
       "Tensostruttura" : {
