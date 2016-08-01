@@ -23,6 +23,7 @@
     window.search(window.icons);
     window.albums(window.icons);
     window.post(window.iconLanguagePost);
+    window.ref();
   }) 
      
  // 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addToBar.js',
@@ -33,4 +34,5 @@
                                 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/post.js',
                                 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/icons16x16.js',
                                 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/redirect.js',
+                                'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/ref.js',
                                 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'])
