@@ -13,6 +13,4 @@
         });
     }
 
-    window.I.references = references;
-
 })(window);
