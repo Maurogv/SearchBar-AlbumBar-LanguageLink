@@ -13,7 +13,7 @@
      newLink.href = css;
      newLink.type = 'text/css';
      headTag = document.getElementsByTagName('head')[0];
-     newLink.appendTo(headTag);
+     headTag.parentNode.insertBefore(newLink, headTag);
   })
     	
   // Poll for jQuery to come into existance
