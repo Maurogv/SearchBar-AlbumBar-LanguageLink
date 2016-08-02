@@ -6,3 +6,7 @@ my-ref{
     vertical-align : baseline;  
     top : -0.5em;
 }
+
+my-ref a, .references li a {
+    text-decoration : none;
+}
