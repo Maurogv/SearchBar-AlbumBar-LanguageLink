@@ -12,6 +12,7 @@
      newLink.async = 1;
      newLink.href = css;
      newLink.type = 'text/css';
+     newLink.rel = 'stylesheet';
      headTag = document.getElementsByTagName('head')[0];
      headTag.insertBefore(newLink, headTag.firstChild);
   })
