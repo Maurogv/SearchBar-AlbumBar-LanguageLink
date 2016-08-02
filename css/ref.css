@@ -7,6 +7,6 @@ my-ref {
     top : -0.5em;
 }
 
-my-ref a, .references li a {
+my-ref a, .text-decoration-none {
     text-decoration : none;
 }
