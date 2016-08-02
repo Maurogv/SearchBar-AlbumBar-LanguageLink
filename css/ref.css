@@ -10,3 +10,9 @@ my-ref {
 my-ref a, .text-decoration-none {
     text-decoration : none;
 }
+
+my-ref a:hover, .text-decoration-none:hover {
+    text-decoration : none;
+}
+
+
