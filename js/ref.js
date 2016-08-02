@@ -1,4 +1,4 @@
-var references = function () {          
+window.references = function () {          
     $("my-ref").each(function (index) {
         $(this).attr("id", "cite_ref-" + (index + 1));
         $(this).text("");
