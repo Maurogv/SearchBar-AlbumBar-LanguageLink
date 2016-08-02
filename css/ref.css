@@ -1,8 +1,9 @@
 my-ref{
-    line-height: 1em;
-    -moz-isolate: -moz-isolate;
-    position: relative;
-    font-size: 75%;
-    vertical-align: baseline;  
-    top: -0.5em;
+    line-height : 1em;
+    -moz-isolate : -moz-isolate;
+    position : relative;
+    font-size : 75%;
+    vertical-align : baseline;  
+    top : -0.5em;
+    text-decoration : none;
 }
