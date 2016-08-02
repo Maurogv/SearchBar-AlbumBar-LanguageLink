@@ -20,10 +20,11 @@
   // Start polling...
   checkReady(function ($) { 
     // Use $ here...
+     window.references();
     window.search(window.icons);
     window.albums(window.icons);
     window.post(window.iconLanguagePost);
-    window.references();
+   
   }) 
      
  // 'https://rawgit.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/js/addToBar.js',
