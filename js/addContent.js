@@ -20,7 +20,7 @@
   // Start polling...
   checkReady(function ($) { 
     // Use $ here...
-     window.references();
+    window.references();
     window.search(window.icons);
     window.albums(window.icons);
     window.post(window.iconLanguagePost);
