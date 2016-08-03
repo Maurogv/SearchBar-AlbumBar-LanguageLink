@@ -15,4 +15,8 @@ my-ref a:hover, .text-decoration-none:hover {
     text-decoration : underline;
 }
 
+.references {
+    margin-top: 5px;
+}
+
 
