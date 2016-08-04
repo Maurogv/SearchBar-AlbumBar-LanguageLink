@@ -23,7 +23,7 @@ window.albums = function (callback) {
         valueAlbum = currentAlbums[key]; 
         if ( valueAlbum.indexOf('{self}') != -1 ) 
            valueAlbum = key != 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' ?
-              valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, '')) : valueAlbum.replace('{self}', title};
+              valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, '')) : valueAlbum.replace('{self}', title);
         }
         valueAlbum = valueAlbum.deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
