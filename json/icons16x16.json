@@ -36,7 +36,8 @@
       "https://www.instagram.com/explore/tags/{search}"
       ],
    "http://img.informer.com/icons/png/16/3999/3999393.png" : [ 
-      "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0" 
+      "https://onedrive.live.com/?id={id}!{album}&cid={id}&group=0",
+      "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}"
       ],
    "http://www.theruleoflead.com/images/tumblr.png" : [ 
       "tumblr" 
