@@ -48,7 +48,7 @@ window.albums = function (callback) {
 };
 
 String.prototype.deleteUnWantedChars = function() {
-  if ( this == 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' )
+  if ( key == 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' )
     return this;
   current = this.replace(/\w\S*/g, function(txt) {
               return txt.charAt(0).toUpperCase() + txt.substr(1);
