@@ -162,7 +162,8 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6164040280865064465",
          "https://picasaweb.google.com/{id}/{album}" : "6164040280865064465",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652653491493", 
-         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656348361735"
+         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656348361735",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Alpe Cova" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNljc6XStaOJ4WYuR4ZzE9OVNNuUQYauw4b9T1h", 
