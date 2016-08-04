@@ -21,9 +21,9 @@ window.albums = function (callback) {
         // do something with obj[key]
         var id;
         valueAlbum = currentAlbums[key]; 
-        if ( valueAlbum.indexOf('{self}') != -1 & 
-             key != 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' ) {
-          valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, ''));
+        if ( valueAlbum.indexOf('{self}') != -1 ) 
+           valueAlbum = key != 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' ?
+              valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, '')) : valueAlbum.replace('{self}', title};
         }
         valueAlbum = valueAlbum.deleteUnWantedChars();
         url = key.replace('{album}',valueAlbum);
