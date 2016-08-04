@@ -21,7 +21,8 @@ window.albums = function (callback) {
         // do something with obj[key]
         var id;
         valueAlbum = currentAlbums[key]; 
-        if ( valueAlbum.indexOf('{self}') !=-1 ) {
+        if ( valueAlbum.indexOf('{self}') != -1 & 
+             key != 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' ) {
           valueAlbum = valueAlbum.replace('{self}', title.deleteUnWantedChars().replace(/-/g, ''));
         }
         valueAlbum = valueAlbum.deleteUnWantedChars();
@@ -48,8 +49,6 @@ window.albums = function (callback) {
 };
 
 String.prototype.deleteUnWantedChars = function() {
-  if ( key == 'https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}' )
-    return this;
   current = this.replace(/\w\S*/g, function(txt) {
               return txt.charAt(0).toUpperCase() + txt.substr(1);
             });
