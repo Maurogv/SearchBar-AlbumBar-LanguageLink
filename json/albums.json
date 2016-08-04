@@ -154,7 +154,8 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOhBtls_rJhKIuUzIjdGYegeWLv6-H72wotvfPl", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6035146133779205969",
          "https://picasaweb.google.com/{id}/{album}" : "6035146133779205969",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645232281769"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645232281769",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Agriturismo Brunino" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipObkSWY2-tMGvcjdM71DmoAr3LhfymZLtwbCLNs", 
