@@ -232,14 +232,16 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645499798095", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656310335242",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "815223708502058.1073741890"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "815223708502058.1073741890",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Rifugio Antonietta al Pialeral" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOuYCutqQS-QooRFZb5qEV84KQ3cucs8O8B52i4", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6058245457286238049",
          "https://picasaweb.google.com/{id}/{album}" : "{self}",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157647135170720", 
-         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650"
+         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655928816650",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Segnaletica dei sentieri" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMxvY5_JX7yT_jJoXdzIWnGLAiNDUR665gCIQDT", 
@@ -252,7 +254,8 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
          "https://picasaweb.google.com/{id}/{album}" : "6027857502474398753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644896715919", 
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "810788438945585.1073741885"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "810788438945585.1073741885",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Pasturo a Cornisella"
       },
       "Sentiero 33 Pasturo - Pialeral" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNZzU5QhvWwNWmYbkG5Zdrzjoz_swUCqiYiljfG", 
