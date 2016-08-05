@@ -195,7 +195,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
          "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157670233145200",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "chiesetta degìi alpini maria regina pacis"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Chiesetta degli Alpini Maria Regina Pacis"
       },
       "Cornisella" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNZfpOucHNb5xpeCql0pAdFd1tVx9dsxi9G3MqQ", 
@@ -217,14 +217,14 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
          "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "chiesetta degìi alpini maria regina pacis"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Chiesetta degli Alpini Maria Regina Pacis"
       },
       "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMY_gJpNGFj880GSLlY45MhMF-fZvjtMe71Ho-I", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6309106302306958337",
          "https://picasaweb.google.com/{id}/{album}" : "6309106302306958337",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654977974288",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "da cornisella a brunino"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Cornisella a Brunino"
       },
       "Pialeral" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipN1DmOYrhV1F-b_plO5i9eDrJ15itbKFzFvdkTm", 
