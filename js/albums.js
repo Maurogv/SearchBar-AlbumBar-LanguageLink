@@ -29,7 +29,7 @@ window.albums = function (callback) {
           }
           valueAlbum = valueAlbum.deleteUnWantedChars()
         }
-        else if  if ( valueAlbum.indexOf('{self}') != -1 ) 
+        else if ( valueAlbum.indexOf('{self}') != -1 ) 
         {
           valueAlbum = valueAlbum.replace('{self}', title);
         }
