@@ -261,7 +261,8 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNZzU5QhvWwNWmYbkG5Zdrzjoz_swUCqiYiljfG", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6121633314824410753",
          "https://picasaweb.google.com/{id}/{album}" : "6121633314824410753",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNCHmUu9uZngOe6klwJpcKvcLqijnehlhb1OJhn", 
@@ -274,18 +275,21 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029921951652957265",
          "https://picasaweb.google.com/{id}/{album}" : "6029921951652957265",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645450639973", 
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812222072135555.1073741887"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812222072135555.1073741887",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Ponte dell'Acqua Fredda ad Alpe Cova"
       },
       "Sentiero Brunino - Cornisella" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPVZ4hg2tv4AQqUQrM_u7mwZ1OsK0XxCVzCnRat",
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6300545047052500961",
-         "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961"
+         "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Brunino a Cornisella"
       },
       "Spinarolo" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPamOVmXGfHoxvH7ij-Q4RjR3UnR1KFVaJnpUUW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031567786969462305",
          "https://picasaweb.google.com/{id}/{album}" : "6031567786969462305",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       }
    },
    "Profili, Copertine e Intestazioni" : {
