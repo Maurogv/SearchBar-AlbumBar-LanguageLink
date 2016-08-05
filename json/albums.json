@@ -171,7 +171,8 @@
          "https://picasaweb.google.com/{id}/{album}" : "6030069566168533537",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645415333874", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157655819053592",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812475308776898.1073741888",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Brunino" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMRWG9W3jxbOuE6geJViIvPaAkOStekTV-jAyzP", 
@@ -179,13 +180,15 @@
          "https://picasaweb.google.com/{id}/{album}" : "6028867800576451473",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645067964140", 
          "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157656264499026",
-         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "814540775237018.1073741889"
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "814540775237018.1073741889",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Cappella della Madonna del Rosario (Pasturo)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6165511616727803217", 
          "https://picasaweb.google.com/{id}/{album}" : "6165511616727803217",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652858591004"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652858591004",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Cappella della Madonna del Rosario"
       },
       "Chiesetta degli Alpini a Cornisella" : { 
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
