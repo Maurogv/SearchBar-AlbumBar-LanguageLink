@@ -5,7 +5,7 @@
                     var div= $('<div style="background-color:' + color + '; margin-top:10px"></div>');
                     return div
                  },
-          references = function () {          
+           references = function () {          
                       $("my-ref").each(function (index) {
                           $(this).attr("id", "cite_ref-" + (index + 1));
                           $(this).text("");
@@ -31,6 +31,7 @@
        };
       
        var searchBar= function (social) {
+                             references();
                              this.id = 'searchBar';
                              var socialKeyword;
        
@@ -167,8 +168,6 @@
                              }
                              else return;
                     };
-       
-       references();
                     
         var toUrlFormat =function (fragment) {
                return fragment.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
