@@ -6,7 +6,7 @@
                     return div
                  };
                  
-      var icons ={ blogger : 'http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png',
+       var icons ={ blogger : 'http://icons.iconarchive.com/icons/marcus-roberto/google-play/16/Blogger-icon.png',
                    facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
@@ -16,8 +16,9 @@
                    onedrive : 'http://img.informer.com/icons/png/16/3999/3999393.png',
                    tumblr : 'http://www.theruleoflead.com/images/tumblr.png',
                    twitter : 'https://g.twimg.com/twitter-bird-16x16.png'
-      };
-
+       };
+      
+       references();
 
        var searchBar= function (social) {
                              this.id = 'searchBar';
@@ -168,7 +169,7 @@
                                  $(this).attr("id", "cite_note-" + (index + 1));
                                  $(this).prepend("<a href=#cite_ref-" + (index + 1) + " class='text-decoration-none'><b>^</b></a> ");
                              });
-       }
+       };
                     
         var toUrlFormat =function (fragment) {
                return fragment.replace(/-\s/g,'').replace(/\s/g,'-').replace("'",'').toLowerCase();
@@ -177,6 +178,5 @@
         window.searchBar=searchBar;
         window.myContentBar=myContentBar;
         window.languageLink=languageLink;
-        window.references=references;
     
 })(window);
