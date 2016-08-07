@@ -22,6 +22,7 @@
                    facebook : 'http://static.viewbook.com/images/social_icons/facebook_16.png',
                    flickr : 'http://static.viewbook.com/images/social_icons/flickr_16.png',
                    google : 'http://it.yourtrainings.com/images/brands/logo_google_mini.png',
+                   googlePhotos : 'https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/images/Google_Photos_icon.jpg',
                    googlePlus : 'https://www.google.com/work/apps/business/img/footer_googleplus.jpg',
                    googleMaps : 'https://storage.googleapis.com/support-kms-prod/SNP_489C87FDD8924CA736B4C15B1CC4B0F60D92_3640734_en_v0',
                    instagram : 'http://icons.iconarchive.com/icons/designbolts/free-instagram/16/Active-Instagram-2-icon.png',
@@ -112,13 +113,18 @@
                                  flickr_sets='https://www.flickr.com/photos/95893200@N07/sets/',
                                  flickr_galleries='https://www.flickr.com/photos/95893200@N07/galleries/',
                                  photos_google='https://photos.google.com/u/0/album/',
+                                 photos_google_share='https://photos.google.com/u/0/share/',
                                  plus_google='https://plus.google.com/u/0/photos/113727750810625155496/albums/'
                                  onedrive='https://onedrive.live.com/?id=B65050E4B8CE1B76!',
                                  onedrive_end='&cid=B65050E4B8CE1B76&group=0',
                                  padding0px='padding:0px;';
                                  
                              if (social.photos_google) {
-                                div.append($('<a href="' + photos_google + social.photos_google + '">' + '<img src="' + icons.googlePlus + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append($('<a href="' + photos_google + social.photos_google + '">' + '<img src="' + icons.googlePhotos + '" style="' + padding0px + '" />' + '</a>'));
+                                div.append(' ')
+                             };
+                             if (social.photos_google_share) {
+                                div.append($('<a href="' + photos_google_share + social.photos_google_share + '">' + '<img src="' + icons.googlePhotos + '" style="' + padding0px + '" />' + '</a>'));
                                 div.append(' ')
                              };
                              if (social.plus_google) {
