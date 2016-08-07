@@ -21,6 +21,7 @@
       ],
    "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ 
       "https://photos.google.com/u/0/album/{album}", 
+       "https://photos.google.com/u/0/share/{album}",
       "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
       ],
    "http://google-latlong.blogspot.co.uk/favicon.ico" : [ 
