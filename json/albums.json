@@ -175,7 +175,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Brunino" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMRWG9W3jxbOuE6geJViIvPaAkOStekTV-jAyzP", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipOs5pC4lIH60LEHbgJ9OEVcGehkqRCcAOBFHV4fkaOxD-Ea6SC1wYe_aDm5eHNlCQ?key=VFZuWDdOdVhpbExSSFA2SXp5NWNvSFRITHZuMnB3", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6028867800576451473",
          "https://picasaweb.google.com/{id}/{album}" : "6028867800576451473",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645067964140", 
