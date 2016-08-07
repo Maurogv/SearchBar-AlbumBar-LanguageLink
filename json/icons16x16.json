@@ -19,9 +19,11 @@
    "http://it.yourtrainings.com/images/brands/logo_google_mini.png" : [ 
       "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}"
       ],
-   "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ 
+   "https://raw.githubusercontent.com/Maurogv/SearchBar-MyContentBar-LanguageLink/master/images/Google_Photos_icon.jpg" : [
       "https://photos.google.com/u/0/album/{album}", 
-       "https://photos.google.com/u/0/share/{album}",
+      "https://photos.google.com/u/0/share/{album}",
+      ],
+   "https://www.google.com/work/apps/business/img/footer_googleplus.jpg" : [ 
       "https://plus.google.com/u/0/photos/{id}/albums/{album}" 
       ],
    "http://google-latlong.blogspot.co.uk/favicon.ico" : [ 
