@@ -184,7 +184,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Cappella della Madonna del Rosario (Pasturo)" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMPtukZKjJdKiKUYnKPVrKGwcuyQQKBI1My5JLW", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipP5CXxUFCTdkl7dsJDWnKgKKuifyy0utyOSx1h5k8kd3ZT3XH5hoXwyDj3NZ0QfEA?key=VVF2MVVaM3I4QjhTbktSYmhibmxvUUtnYmlFLUJn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6165511616727803217", 
          "https://picasaweb.google.com/{id}/{album}" : "6165511616727803217",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157652858591004",
