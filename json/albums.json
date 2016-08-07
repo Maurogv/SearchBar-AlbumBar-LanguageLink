@@ -166,7 +166,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Alpe Cova" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNljc6XStaOJ4WYuR4ZzE9OVNNuUQYauw4b9T1h", 
+         "https://photos.google.com/u/0/share/{album}" : "https://photos.google.com/u/0/share/AF1QipM2L7joAJa18wNkCDwAoPPsIw6oyxHIxJRDBieyPT92Iy0dJ-StRnQWs35Spb5KbQ?key=N1AwZElCdll4MDMzS3BSRVBEMHF2WUgxRmRJcVFB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6030069566168533537",
          "https://picasaweb.google.com/{id}/{album}" : "6030069566168533537",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645415333874", 
