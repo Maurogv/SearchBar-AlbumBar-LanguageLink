@@ -265,13 +265,13 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNCHmUu9uZngOe6klwJpcKvcLqijnehlhb1OJhn", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipN7Cu_BIAF2FHQGDZHUKTwAG_YpxkJgPWb7Jt4K9LYDV80V_k589kW2yYNLs9Qf0Q?key=UWp4dk51WUFkY2NiWTU1ZGh0VzZmTXdaWDI1d1pn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6177032743619288481",
          "https://picasaweb.google.com/{id}/{album}" : "6177032743619288481",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157656113098030"
       },
       "Sentiero 33 Pasturo - Pialeral (da Ponte dell'Acqua Fredda ad Alpe Cova)" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipO4aLd4yxADCC3dZKfLB7Z_gbo3kgd0q--lT6VG", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipOgglNmaco5LrYSuNU3lCAQ-g5h8AKmpBO7ug3ThbpSWKqu6dFAQos3V6eoWO1rZg?key=QUtRQzZWcXVHTmI2MXJOSDl6Q2FVWE83SGoxck9n", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029921951652957265",
          "https://picasaweb.google.com/{id}/{album}" : "6029921951652957265",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157645450639973", 
