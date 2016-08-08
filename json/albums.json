@@ -51,7 +51,7 @@
    },
    "Barzio" : {
       "Area Pedonale lungo la Valle Fiumetta" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipO88RsQ-zeyhu6tug0hfBvPkl0SMQv1hXsuyxo_", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipOU7UCnxDmoKYMD4b8-eoTpEFeDN2YEnK-oRqg4FSbD9eScHTVisPEXK4DXiJ5bFg?key=bjFQWHZlZzQxM2tLUHltR0ZmWmpNN1dpcTBDb29B", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5914848841575681121",
          "https://picasaweb.google.com/{id}/{album}" : "5914848841575681121",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401"
@@ -64,7 +64,7 @@
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "645735292117568.1073741838"
       },
       "Mercato all'aperto del venerdì di Barzio" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNMC_QX_PXtwJpJwkm0aQ5F8EVPr6bZDHSsTSjB", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipPUy9br-FeBp3dDx1Ggu3gkM0X4phnGw0TEluzvnqu9_disGgtkRT5Rbc2JEO8cSw?key=SjMwLUZBbTRWRDRISTdKYlFqd3NRUldqNjVxVUNB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
          "https://picasaweb.google.com/{id}/{album}" : "6162413621930287713",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449"
