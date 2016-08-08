@@ -279,13 +279,13 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Ponte dell'Acqua Fredda ad Alpe Cova"
       },
       "Sentiero Brunino - Cornisella" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipPVZ4hg2tv4AQqUQrM_u7mwZ1OsK0XxCVzCnRat",
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipPS-U2DiOKEpPrueW4poDoQ9vQ9VIILjVvvpv6vjQZHoJCiRg0vKAoOhLLQz82YdA?key=ZDBpcFpyVXVrdkVwNUxHYzZfS3AwZFc1TFhjRDdR",
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6300545047052500961",
          "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Sentiero Brunino - Cornisella"
       },
       "Spinarolo" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipPamOVmXGfHoxvH7ij-Q4RjR3UnR1KFVaJnpUUW", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipPy_G9MK2T8MMvsSvtgB-87ibLRlzwsl16AaSNEhymdivzQdW45Co6a4Ke5gBh1Iw?key=Ulo3eXRjSGJqbF91dEVudHpqVEFaNzhTRUdZVmpn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031567786969462305",
          "https://picasaweb.google.com/{id}/{album}" : "6031567786969462305",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157653023563724",
