@@ -250,7 +250,7 @@
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157669906981650" 
       },
       "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMjAUD0uFVZbiPt0OFDXJz56e_VNKhpMjOGOVWl", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipNdTG6EWYzxS69Rkt_NtRScKBFDhMjxa_dIrq9oHJLu3eJqfrebxnKPqEvBzp7SPA?key=cThpQ01uV3E2eHRqSktzUk9NRjZMem5jVFJTSVRR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
          "https://picasaweb.google.com/{id}/{album}" : "6027857502474398753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157644896715919", 
@@ -258,7 +258,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Pasturo a Cornisella"
       },
       "Sentiero 33 Pasturo - Pialeral" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNZzU5QhvWwNWmYbkG5Zdrzjoz_swUCqiYiljfG", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipNyNfxxYkv5BT8U6X_APGT9zlef5aNznrN-GFXtSPqwUkR5-XFfCO1eR_nj5BdNaA?key=Rm8wTEx6Qk5rb3g0S2ZybXNjazRJUVNVY2twNUJB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6121633314824410753",
          "https://picasaweb.google.com/{id}/{album}" : "6121633314824410753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665",
