@@ -220,7 +220,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Chiesetta degli Alpini Maria Regina Pacis"
       },
       "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMY_gJpNGFj880GSLlY45MhMF-fZvjtMe71Ho-I", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipNTZiS6143KqHmNpPgEwsT-jGI3UiRHs3iv8FydLrHWYMbCEIIADO0GihcHI0tk_w?key=TWR0ZlJZREdpSnVzTTVPbi1IdElRY3UzNDZkeGpB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6309106302306958337",
          "https://picasaweb.google.com/{id}/{album}" : "6309106302306958337",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654977974288",
@@ -244,7 +244,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Segnaletica dei sentieri" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipMxvY5_JX7yT_jJoXdzIWnGLAiNDUR665gCIQDT", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipPNVk5QQyq4vbZ4gZnZb3F7R3Ovo9p88Yv1Wrja6UgrRFRvuYMrV51QsKDIRlvw3g?key=Mm1BV1pGMXZjV1NjOHpTWEpOQkZpdDk2UC1LbkJ3", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6306350512835784481",
          "https://picasaweb.google.com/{id}/{album}" : "6306350512835784481",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157669906981650" 
