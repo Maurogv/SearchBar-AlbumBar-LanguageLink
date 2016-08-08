@@ -207,14 +207,14 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Monteno" : { 
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipN2Ys5c_YoICceWn4c8WGcb9lt8UD_ltIc9kPgV", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipOOhWRgrD2XSTfp94AJjYXb4gYbZlfEip-0SwBWHniETuFNklslId8FGzCGVcEhkQ?key=eWlUMXByM3AtYlctYjdwUDREcUtYT3Qtcl90WWFB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031495744589252785",
          "https://picasaweb.google.com/{id}/{album}" : "6031495744589252785",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655174536422",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       }, 
       "Nomi dei caduti della Chiesetta degli Alpini a Cornisella" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipOV8CvVPPGd1jSnp6aatzoHqGIbG-bmyvQTMzm-", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipP0eWEH1IwBT36f3AuV3teSqBSX3-HLKRMshLYabdVLu3z5FDatbeUGEEYGSXS2nA?key=M2Z4OGt4OG9ac0ZuTVJNX1YtSjhoZVNmaVJxaVVn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029523433466263393",
          "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Chiesetta degli Alpini Maria Regina Pacis"
