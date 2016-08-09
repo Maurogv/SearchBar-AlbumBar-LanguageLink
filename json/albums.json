@@ -54,7 +54,8 @@
          "https://photos.google.com/u/0/share/{album}" : "AF1QipOU7UCnxDmoKYMD4b8-eoTpEFeDN2YEnK-oRqg4FSbD9eScHTVisPEXK4DXiJ5bFg?key=bjFQWHZlZzQxM2tLUHltR0ZmWmpNN1dpcTBDb29B", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5914848841575681121",
          "https://picasaweb.google.com/{id}/{album}" : "5914848841575681121",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Arra pedonale della Valle Fiumetta"
       },
       "Barzio (Paese)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMRVYpMQDLXS9n5JPUWZfB9vPw7K6hqo_W8QHZI", 
@@ -67,20 +68,23 @@
          "https://photos.google.com/u/0/share/{album}" : "AF1QipPUy9br-FeBp3dDx1Ggu3gkM0X4phnGw0TEluzvnqu9_disGgtkRT5Rbc2JEO8cSw?key=SjMwLUZBbTRWRDRISTdKYlFqd3NRUldqNjVxVUNB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
          "https://picasaweb.google.com/{id}/{album}" : "6162413621930287713",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Mercato all'aperto del venerdì"
       },
       "Monumento ai caduti di Barzio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
          "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937", 
-         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654635085886"
+         "https://www.flickr.com/photos/{id}/galleries/{album}" : "72157654635085886",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Nomi dei caduti del Monumento ai caduti di Barzio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
          "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Monumento ai caduti di Barzio"
       },
       "Parcheggio P2 (Piazza del Mercato)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipOKu7NDF3pzV6j8QxuXplAfmXjKLdJBM1U1xr6q", 
