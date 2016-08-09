@@ -101,7 +101,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Parcheggio P3"
       },
       "Piazza Garibaldi" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNHtYsfj34NCPfCCnnUZ-JmaTnHDVt3ZxozxHCi", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipMHsuPokyxjvD89S71HQxRL4F8ZgkFsd3WSaagR7mszAoNz2kE68HCVIMG54O-sAw?key=Ymc3VnZWei1WcUpzQUJHUF9GbnhJbXV0YnpRZGVR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5895232825553767825",
          "https://picasaweb.google.com/{id}/{album}" : "5895232825553767825",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080"
