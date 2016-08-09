@@ -49,5 +49,8 @@
       "https://twitter.com/{search}",
       "https://twitter.com/search?q={search}",
       "https://twitter.com/search?q={search}&src=sprv"
+      ],
+   "https://site-images.similarcdn.com/image?url=tripadvisor.com&t=2&s=0&h=7442399474126994064" : [
+      "https://www.tripadvisor.it/{search}/Restaurant_Review-"
       ]
 }
