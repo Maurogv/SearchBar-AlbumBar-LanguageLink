@@ -55,7 +55,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5914848841575681121",
          "https://picasaweb.google.com/{id}/{album}" : "5914848841575681121",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157635177900401",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Arra pedonale della Valle Fiumetta"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Area pedonale della Valle Fiumetta"
       },
       "Barzio (Paese)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMRVYpMQDLXS9n5JPUWZfB9vPw7K6hqo_W8QHZI", 
