@@ -72,7 +72,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "'Mercato all'aperto del venerdì'"
       },
       "Monumento ai caduti di Barzio" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipMntrHBuRNfOsfMky12dpyTAifsKRVE5VWllci-oV6cAxpZkrGVkmuxI1hG-nkZkQ?key=NlRHdkJoYmpLVWFDU1BMY3ZqcF9ZTFlRSHpVN3BR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
          "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937", 
@@ -80,7 +80,7 @@
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Nomi dei caduti del Monumento ai caduti di Barzio" : {
-         "https://photos.google.com/u/0/album/{album}" : "AF1QipNJOZjnkEobmx_uDYGhxJawJD7h6_nN1EqSi1qO", 
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipMntrHBuRNfOsfMky12dpyTAifsKRVE5VWllci-oV6cAxpZkrGVkmuxI1hG-nkZkQ?key=NlRHdkJoYmpLVWFDU1BMY3ZqcF9ZTFlRSHpVN3BR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5906828875664613425",
          "https://picasaweb.google.com/{id}/{album}" : "5906828875664613425",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634871781937",
