@@ -69,7 +69,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162413621930287713",
          "https://picasaweb.google.com/{id}/{album}" : "6162413621930287713",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654973177449",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Mercato all'aperto del venerd&iacute;"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Mercato all'aperto del venerd&igrave;"
       },
       "Monumento ai caduti di Barzio" : {
          "https://photos.google.com/u/0/share/{album}" : "AF1QipMntrHBuRNfOsfMky12dpyTAifsKRVE5VWllci-oV6cAxpZkrGVkmuxI1hG-nkZkQ?key=NlRHdkJoYmpLVWFDU1BMY3ZqcF9ZTFlRSHpVN3BR", 
