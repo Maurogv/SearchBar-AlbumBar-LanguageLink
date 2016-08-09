@@ -41,7 +41,7 @@
          "https://www.flickr.com/search/?text={search}" : "{self}",
          "https://www.instagram.com/explore/locations/{search}" : "310125788", 
          "https://www.instagram.com/explore/tags/{search}" : "{self}",
-         "https://www.tripadvisor.it/{search}" : "Restaurant_Review-g3346488-d7593945-Reviews-Agriturismo_Brunino-Pasturo_Province_of_Lecco_Lombardy.html"
+         "https://www.tripadvisor.it/{search}/Restaurant_Review-" : "g3346488-d7593945-Reviews-{self}}-Pasturo_Province_of_Lecco_Lombardy.html"
       },
       "Alpe Cova" : { 
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self}",
