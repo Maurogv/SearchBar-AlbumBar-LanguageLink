@@ -104,19 +104,22 @@
          "https://photos.google.com/u/0/share/{album}" : "AF1QipMHsuPokyxjvD89S71HQxRL4F8ZgkFsd3WSaagR7mszAoNz2kE68HCVIMG54O-sAw?key=Ymc3VnZWei1WcUpzQUJHUF9GbnhJbXV0YnpRZGVR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5895232825553767825",
          "https://picasaweb.google.com/{id}/{album}" : "5895232825553767825",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157634407363080",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Tensostruttura" : {
          "https://photos.google.com/u/0/share{album}" : "AF1QipMyeEkhwsv8s_z5GumOpmJRMrakXum__ku4aK8sqHC3fePzpE2bm6mEgFtANbMlMw?key=N05QQmY1T0pjRmo5b2NOWFkxdFY4UWFLQzJvWnRB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162741851042675905",
          "https://picasaweb.google.com/{id}/{album}" : "6162741851042675905",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654863877235"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654863877235",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       },
       "Torrente Fiumetta" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPIGd68_zGbVuxS7lmVmLFQUgEGZVKL_UPffN5DUPCCMIP4KVgOV1FjvuOUOAgJrA?key=UkJLV01CVXRqbWFkQTRDTU9vVEF5cFNicnZ5RHRn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6041468093658706513",
          "https://picasaweb.google.com/{id}/{album}" : "6041468093658706513",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081"
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157655126585081",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
       }
    },
    "Caricamenti e Suggerimenti" : {
