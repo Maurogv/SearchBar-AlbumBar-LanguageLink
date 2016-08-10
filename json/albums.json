@@ -112,7 +112,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6162741851042675905",
          "https://picasaweb.google.com/{id}/{album}" : "6162741851042675905",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654863877235",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Area della {self}"
       },
       "Torrente Fiumetta" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPIGd68_zGbVuxS7lmVmLFQUgEGZVKL_UPffN5DUPCCMIP4KVgOV1FjvuOUOAgJrA?key=UkJLV01CVXRqbWFkQTRDTU9vVEF5cFNicnZ5RHRn", 
