@@ -309,7 +309,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224033854305431617",
          "https://picasaweb.google.com/{id}/{album}" : "6224033854305431617", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086793418011751.1073741933",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Copertina"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Copertina del Profilo"
       },
       "Foto dei Contatti di Google prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
