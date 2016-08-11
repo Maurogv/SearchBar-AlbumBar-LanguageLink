@@ -315,7 +315,7 @@
          "https://photos.google.com/u/0/album/{album}" : "AF1QipMUBHJQRSwGx6ufQQ3QAu0IfKxS3h7fXYEtD5r5", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6223354303401184545",
          "https://picasaweb.google.com/{id}/{album}" : "6223354303401184545",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Contatto di contatti di Google"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Foto dei Contatti di Google"
       },
       "Foto dei Profili prima del ritaglio" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipPtLVZwMj_wfTsH7Ucy-LRAxBYnJm3EhJfhBJ96", 
@@ -329,7 +329,7 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6224150131894210513",
          "https://picasaweb.google.com/{id}/{album}" : "6224150131894210513", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "1086948897996203.1073741934",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Immagine dell'ntestazione di un blog"
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Immagine dell'intestazione di un blog"
       },
       "Sfondi del desktop di Windows" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipM-OJ82FdtZb6KGEX0OcyPUibH9OdXdXZTXIKmO", 
