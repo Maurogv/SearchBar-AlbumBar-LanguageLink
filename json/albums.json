@@ -342,7 +342,7 @@
       "Appartamento (Barzio)" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipO5Yuju61KAzOOI3IRKXmFb-WVD5oePDYrYSMJh", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5945082778263992673",
-         "https://picasaweb.google.com/{id}/{album}" : "5945082778263992673", 
+         "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "688226884535075.1073741852",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Appartamento di Riccardo Vezzoli"
       }
