@@ -345,6 +345,12 @@
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "688226884535075.1073741852",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Appartamento di Riccardo Vezzoli"
+      },
+      "Balcone (Barzio)" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipPemf0IwV1UJ0meTwuaWX9-GEtKdtJAE8nT3VgE", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : 5945462568725267409?authkey=CIWYjv-HhrbHZw",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}", 
+         "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "688691034488660.1073741855"
       }
    }
 }
