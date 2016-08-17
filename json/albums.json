@@ -357,6 +357,11 @@
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5979589745196279889",
          "https://picasaweb.google.com/{id}/{album}" : "{self}", 
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "688690867822010.1073741854"
+      },
+      "Via Milano 30" : {
+         "https://photos.google.com/u/0/album/{album}" : "AF1QipOwok1v31QErFX-gXJXa2NG2-U6uq_RquRIPhHT", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "5893495993658618465",
+         "https://picasaweb.google.com/{id}/{album}" : "{self}"
       }
    }
 }
