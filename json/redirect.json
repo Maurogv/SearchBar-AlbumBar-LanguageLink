@@ -49,6 +49,7 @@
   },
   "Via Milano 30" : {
     "Apartment" : "Appartamento",
-    "Balcone" : "Balcony"
+    "Balcone" : "Balcony",
+    "Panorama dal balcone" : "View from the balcony"
   }
 }
