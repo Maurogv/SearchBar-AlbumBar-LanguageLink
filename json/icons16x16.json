@@ -43,7 +43,8 @@
       "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}"
       ],
    "http://www.theruleoflead.com/images/tumblr.png" : [ 
-      "tumblr" 
+      "http://maurogv.tumblr.com/post/{post}/al-mercatino",
+      "http://at-mercatino.tumblr.com/post/{post}/at-mercatino"
       ],
    "https://g.twimg.com/twitter-bird-16x16.png" : [ 
       "https://twitter.com/{search}",
