@@ -89,7 +89,8 @@
          "https://www.google.it/webhp?rls=ig&amp;gws_rd=ssl#q={search}" : "{self}",
          "https://www.facebook.com/pages/{search}?fref=ts" : "Rifugio-Antonietta/1414753188760885",
          "https://www.flickr.com/search/?text={search}" : "{self}",
-         "https://www.instagram.com/explore/locations/{search}" : "250445898"
+         "https://www.instagram.com/explore/locations/{search}" : "250445898",
+         "https://www.tripadvisor.it/{search}/Restaurant_Review-" : "g3346488-d4760398-Reviews-Rifugio_Antonietta-Pasturo_Province_of_Lecco_Lombardy.html"
       },
       "Rifugio Mario Tedeschi al Pialeral" : { 
          "https://www.google.it/maps/@{search}m/data=!3m1!1e3" : "45.9468276,9.4132631,341"
