@@ -196,7 +196,7 @@
         "http://en-grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
+    "Sentiero 33 Pasturo - Pialeral (da Cornisella ad Alpe Cova)" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
@@ -204,7 +204,7 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral" : { 
+    "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
@@ -220,7 +220,7 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral (da Ponte dell'Acqua Fredda ad Alpe Cova)" : { 
+    "Sentiero 33 Pasturo - Pialeral" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
