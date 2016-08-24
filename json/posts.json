@@ -228,6 +228,14 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
+    "Sentiero, definizione e nomi" : {
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      }
+    },
     "Sul Grignone anche questa estate" : {
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
