@@ -148,6 +148,14 @@
         "http://en-grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
       }
     },
+    "Grignone" : {
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      }
+    }
     "Monteno" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/06/{post}.html" : "{self}"
