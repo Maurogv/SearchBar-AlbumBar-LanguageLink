@@ -188,6 +188,14 @@
         "http://en-grignone-pasturo.blogspot.com/2015/06/{post}.html" : "{self}"
       }
     },
+    "Numerazione dei sentieri" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
+      }
+    },
     "Parco Regionale della Grigna Settentrionale" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
