@@ -307,6 +307,14 @@
       "en" : { 
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
+    },
+    "Valsassina" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      }
     }
   }
 }
