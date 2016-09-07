@@ -212,6 +212,14 @@
         "http://en-grignone-pasturo.blogspot.com/2016/08/{post}.html" : "{self}"
       }
     },
+    "Pasturo" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      }
+    },
     "Pedalando nel Parco" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
