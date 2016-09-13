@@ -236,14 +236,6 @@
         "http://en-grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
       }
     },
-    "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : { 
-      "it" : { 
-        "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
-      },
-      "en" : { 
-        "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
-      }
-    },
     "Pialeral" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
@@ -276,7 +268,15 @@
         "http://en-grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral (da Cornisella ad Alpe Cova)" : { 
+    "Sentiero Brunino -Cornisella" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
+      }
+    },
+    "Sentiero Cornisella -Brunino" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
@@ -284,7 +284,7 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
+    "Sentiero Pasturo - Pialeral (da Cornisella ad Alpe Cova)" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
@@ -292,7 +292,7 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
+    "Sentiero Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
@@ -300,7 +300,15 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sentiero 33 Pasturo - Pialeral" : { 
+    "Sentiero Pasturo - Pialeral (in discesa)" : { 
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Sentiero Pasturo - Pialeral" : { 
       "it" : { 
         "http://grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       },
