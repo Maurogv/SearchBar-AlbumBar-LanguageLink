@@ -230,13 +230,6 @@
          "https://picasaweb.google.com/{id}/{album}" : "6029523433466263393",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Chiesetta degli Alpini Maria Regina Pacis"
       },
-      "Percorso Pedalando nel Parco 3 (da Cornisella a Brunino)" : {
-         "https://photos.google.com/u/0/share/{album}" : "AF1QipNTZiS6143KqHmNpPgEwsT-jGI3UiRHs3iv8FydLrHWYMbCEIIADO0GihcHI0tk_w?key=TWR0ZlJZREdpSnVzTTVPbi1IdElRY3UzNDZkeGpB", 
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6309106302306958337",
-         "https://picasaweb.google.com/{id}/{album}" : "6309106302306958337",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654977974288",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Cornisella a Brunino"
-      },
       "Pialeral" : {
          "https://photos.google.com/u/0/album/{album}" : "AF1QipN1DmOYrhV1F-b_plO5i9eDrJ15itbKFzFvdkTm", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6031934398461638545",
@@ -260,7 +253,21 @@
          "https://picasaweb.google.com/{id}/{album}" : "6306350512835784481",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157669906981650" 
       },
-      "Sentiero 33 Pasturo - Pialeral (da Cornisella ad Alpe Cova)" : { 
+      "Sentiero Brunino - Cornisella" : {
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipPS-U2DiOKEpPrueW4poDoQ9vQ9VIILjVvvpv6vjQZHoJCiRg0vKAoOhLLQz82YdA?key=ZDBpcFpyVXVrdkVwNUxHYzZfS3AwZFc1TFhjRDdR",
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6300545047052500961",
+         "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157670210811044",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
+      },
+      "Sentiero Cornisella - Brunino" : {
+         "https://photos.google.com/u/0/share/{album}" : "AF1QipNTZiS6143KqHmNpPgEwsT-jGI3UiRHs3iv8FydLrHWYMbCEIIADO0GihcHI0tk_w?key=TWR0ZlJZREdpSnVzTTVPbi1IdElRY3UzNDZkeGpB", 
+         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6309106302306958337",
+         "https://picasaweb.google.com/{id}/{album}" : "6309106302306958337",
+         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157654977974288",
+         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
+      },
+      "Sentiero Pasturo - Pialeral (da Cornisella ad Alpe Cova)" : { 
          "https://photos.google.com/u/0/share/{album}" : "AF1QipOgglNmaco5LrYSuNU3lCAQ-g5h8AKmpBO7ug3ThbpSWKqu6dFAQos3V6eoWO1rZg?key=QUtRQzZWcXVHTmI2MXJOSDl6Q2FVWE83SGoxck9n", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6029921951652957265",
          "https://picasaweb.google.com/{id}/{album}" : "6029921951652957265",
@@ -268,7 +275,7 @@
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "812222072135555.1073741887",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Cornisella ad Alpe Cova"
       },
-      "Sentiero 33 Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
+      "Sentiero Pasturo - Pialeral (da Pasturo a Cornisella)" : { 
          "https://photos.google.com/u/0/share/{album}" : "AF1QipNdTG6EWYzxS69Rkt_NtRScKBFDhMjxa_dIrq9oHJLu3eJqfrebxnKPqEvBzp7SPA?key=cThpQ01uV3E2eHRqSktzUk9NRjZMem5jVFJTSVRR", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6027857502474398753",
          "https://picasaweb.google.com/{id}/{album}" : "6027857502474398753",
@@ -276,25 +283,18 @@
          "https://www.facebook.com/{id}/media_set?set=a.{album}.100000433081467&type=3" : "810788438945585.1073741885",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Da Pasturo a Cornisella"
       },
-      "Sentiero 33 Pasturo - Pialeral (in discesa)" : { 
+      "Sentiero Pasturo - Pialeral (in discesa)" : { 
          "https://photos.google.com/u/0/share/{album}" : "AF1QipN7Cu_BIAF2FHQGDZHUKTwAG_YpxkJgPWb7Jt4K9LYDV80V_k589kW2yYNLs9Qf0Q?key=UWp4dk51WUFkY2NiWTU1ZGh0VzZmTXdaWDI1d1pn", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6177032743619288481",
          "https://picasaweb.google.com/{id}/{album}" : "6177032743619288481",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157656113098030"
       },
-      "Sentiero 33 Pasturo - Pialeral" : { 
+      "Sentiero Pasturo - Pialeral" : { 
          "https://photos.google.com/u/0/share/{album}" : "AF1QipNyNfxxYkv5BT8U6X_APGT9zlef5aNznrN-GFXtSPqwUkR5-XFfCO1eR_nj5BdNaA?key=Rm8wTEx6Qk5rb3g0S2ZybXNjazRJUVNVY2twNUJB", 
          "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6121633314824410753",
          "https://picasaweb.google.com/{id}/{album}" : "6121633314824410753",
          "https://www.flickr.com/photos/{id}/sets/{album}" : "72157651137535665",
          "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "{self}"
-      },
-      "Sentiero Brunino - Cornisella" : {
-         "https://photos.google.com/u/0/share/{album}" : "AF1QipPS-U2DiOKEpPrueW4poDoQ9vQ9VIILjVvvpv6vjQZHoJCiRg0vKAoOhLLQz82YdA?key=ZDBpcFpyVXVrdkVwNUxHYzZfS3AwZFc1TFhjRDdR",
-         "https://plus.google.com/u/0/photos/{id}/albums/{album}" : "6300545047052500961",
-         "https://picasaweb.google.com/{id}/{album}" : "6300545047052500961",
-         "https://www.flickr.com/photos/{id}/sets/{album}" : "72157670210811044",
-         "https://onedrive.live.com/?v=photos&id=root&cid={id}&qt=allmyphotos&tagFilter={album}" : "Sentiero Brunino - Cornisella"
       },
       "Spinarolo" : { 
          "https://photos.google.com/u/0/share/{album}" : "AF1QipPy_G9MK2T8MMvsSvtgB-87ibLRlzwsl16AaSNEhymdivzQdW45Co6a4Ke5gBh1Iw?key=Ulo3eXRjSGJqbF91dEVudHpqVEFaNzhTRUdZVmpn", 
