@@ -316,12 +316,12 @@
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
       }
     },
-    "Sul Grignone anche questa estate" : {
+    "Sito di Interesse Comunitario IT2030001 Grigna Settentrionale" : { 
       "it" : { 
-        "http://grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
+        "http://grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
       },
       "en" : { 
-        "http://en-grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
+        "http://en-grignone-pasturo.blogspot.com/2016/09/{post}.html" : "{self}"
       }
     },
     "Spinarolo" : { 
@@ -330,6 +330,14 @@
       },
       "en" : { 
         "http://en-grignone-pasturo.blogspot.com/2015/07/{post}.html" : "{self}"
+      }
+    },
+    "Sul Grignone anche questa estate" : {
+      "it" : { 
+        "http://grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
+      },
+      "en" : { 
+        "http://en-grignone-pasturo.blogspot.com/2016/07/{post}.html" : "{self}"
       }
     },
     "Valsassina" : { 
